@@ -1,0 +1,10 @@
+{
+  "type": "content",
+  "modid": "deartibusrusticis",
+  "name": "De Artibus Rusticis",
+  "authors": [
+    "Marc IceBlade"
+  ],
+  "description": "Adds 19 new crops and 4 meals inspired by medieval European agriculture.",
+  "version": "0.9.0"
+}

@@ -1,0 +1,62 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 24,
+	"textureSizes": {
+		"Test2": [24,24]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 10.3, 0.0, -0.3 ],
+			"to": [ 10.3, 16.0, 15.7 ],
+			"shade": false,
+			"rotationOrigin": [ 10.3, 0.0, -0.3 ],
+			"rotationY": -22.5,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"east": { "texture": "#crop", "uv": [ 4.0, 8.0, 23.0, 24.0 ], "autoUv": false, "windMode": [0,0,2,2] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Cube3",
+			"from": [ 16.0, 0.0, 8.0 ],
+			"to": [ 16.0, 16.0, 24.0 ],
+			"shade": false,
+			"rotationOrigin": [ 16.0, 0.0, 8.0 ],
+			"rotationY": -90.0,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"east": { "texture": "#crop", "uv": [ 4.0, 8.0, 23.0, 24.0 ], "autoUv": false, "windMode": [0,0,2,2] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Cube4",
+			"from": [ 3.4, 0.0, -0.4 ],
+			"to": [ 3.4, 16.0, 15.6 ],
+			"shade": false,
+			"rotationOrigin": [ 3.4, 0.0, -0.4 ],
+			"rotationY": 22.5,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"east": { "texture": "#crop", "uv": [ 4.0, 8.0, 23.0, 24.0 ], "autoUv": false, "windMode": [0,0,2,2] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+			}
+		}
+	]}

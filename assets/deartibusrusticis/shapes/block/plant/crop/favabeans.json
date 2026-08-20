@@ -1,0 +1,57 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 48,
+	"textureSizes": {
+	},
+	"textures": {
+		
+	},
+	"elements": [
+		{
+			"name": "Cube6",
+			"from": [ -2.0E-4, 0.0, 7.9946 ],
+			"to": [ 15.9998, 32.0, 7.9946 ],
+			"shade": false,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -89.9802,
+			"faces": {
+				"north": { "texture": "#crop", "uv": [ 1.5, 7.5, 23.0, 47.5 ], "autoUv": false, "windMode": [0,0,2,2]  }
+			}
+		},
+		{
+			"name": "Cube7",
+			"from": [ 0.0, 0.0, 8.0 ],
+			"to": [ 16.0, 32.0, 8.0 ],
+			"shade": false,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -45.0,
+			"faces": {
+				"north": { "texture": "#crop", "uv": [ 1.5, 7.5, 23.0, 47.5 ], "autoUv": false, "windMode": [0,0,2,2]  }
+			}
+		},
+		{
+			"name": "Cube8",
+			"from": [ 0.0, 0.0, 8.0 ],
+			"to": [ 16.0, 32.0, 8.0 ],
+			"shade": false,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#crop", "uv": [ 1.5, 7.5, 23.0, 47.5 ], "autoUv": false, "windMode": [0,0,2,2]  }
+			}
+		},
+		{
+			"name": "Cube9",
+			"from": [ 0.0, 0.0, 8.0 ],
+			"to": [ 16.0, 32.0, 8.0 ],
+			"shade": false,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"north": { "texture": "#crop", "uv": [ 1.5, 7.5, 23.0, 47.5 ], "autoUv": false, "windMode": [0,0,2,2]  }
+			}
+		}
+	]}

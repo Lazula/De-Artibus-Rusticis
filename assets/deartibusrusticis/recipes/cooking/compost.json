@@ -1,0 +1,71 @@
+{
+	code: "compostmeal",
+	perishableProps: {
+		freshHours: { avg: 120 },
+		transitionHours: { avg: 12 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "game:rot" }
+	},
+	shape: { base: "deartibusrusticis:block/food/meal/compost" },
+	ingredients: [
+		{ 
+			code: "sweetener", 
+			validStacks: [  { type: "item", code: "game:honeyportion",  shapeElement: "bowl/sweetener", cookedStack: { type: "item", code: "game:jamhoneyportion" }, textureMapping: ["topping", "honey"] },  { type: "item", code: "game:ciderportion-*",  shapeElement: "bowl/sweetener", textureMapping: ["topping", "honey"] } ],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 0.5,
+			typeName: "sweetener"
+		},
+		{
+			code: "fruit", 
+			validStacks: [ { type: "item", code: "game:fruit-*",  shapeElement: "bowl/fruit/*" } ],
+			minQuantity: 1,
+			maxQuantity: 1,
+			typeName: "fruit"
+		},
+       {
+			code: "vegetable", 
+			validStacks: [ 
+				{ type: "item", code: "game:pickledvegetable-carrot",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "group1"]  },
+				{ type: "item", code: "game:pickledvegetable-onion",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "group6"]  },
+				{ type: "item", code: "game:pickledvegetable-turnip",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "group5"]  },
+				{ type: "item", code: "game:pickledvegetable-parsnip",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "group4"]  },
+				{ type: "item", code: "game:pickledvegetable-pumpkin",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "group8"]  },
+				{ type: "item", code: "game:pickledvegetable-bellpepper",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "group8"]  },
+				{ type: "item", code: "game:pickledvegetable-fennel",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "group28"]  },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-leek",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "leek"]  },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-garlic",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "garlic"]  },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-beetroot",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "beetroot"]  },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-cucumber",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "cucumber"]  },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-horseradish",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "horseradish"]  },
+				{ type: "item", code: "deartibusrusticis:pickledlegume-peas",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "peas"]  },
+				{ type: "item", code: "deartibusrusticis:pickledlegume-favabeans",  shapeElement: "bowl/vegetable/*", textureMapping: ["vegetable", "favabeans"]  },
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			typeName: "vegetable"
+		},
+{
+			code: "vegetable2", 
+			validStacks: [ 
+				{ type: "item", code: "game:pickledvegetable-carrot",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "group1"]  },
+				{ type: "item", code: "game:pickledvegetable-onion",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "group6"]  },
+				{ type: "item", code: "game:pickledvegetable-turnip",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "group5"]  },
+				{ type: "item", code: "game:pickledvegetable-parsnip",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "group4"]  },
+				{ type: "item", code: "game:pickledvegetable-pumpkin",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "group8"]  },
+				{ type: "item", code: "game:pickledvegetable-bellpepper",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "group8"]  },
+				{ type: "item", code: "game:pickledvegetable-fennel",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "group28"]  },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-leek",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "leek"]  },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-garlic",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "garlic"]  },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-beetroot",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "beetroot"]  },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-cucumber",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "cucumber"]  },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-horseradish",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "horseradish"]  },
+				{ type: "item", code: "deartibusrusticis:pickledlegume-peas",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "peas"]  },
+				{ type: "item", code: "deartibusrusticis:pickledlegume-favabeans",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "favabeans"]  },
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			typeName: "vegetable"
+		}
+	]
+}

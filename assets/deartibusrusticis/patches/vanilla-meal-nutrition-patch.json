@@ -1,0 +1,30 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "value": {
+      "satietyByType": {
+        "*-cabbage": 375,
+        "*-fennel": 80,
+        "*": 160
+      },
+      "foodcategory": "vegetable"
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "Server"
+  },
+    {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "value": {
+      "satietyByType": {
+        "*-flax": 120,
+        "*-rice": 280,
+        "*": 240
+      },
+      "foodcategory": "Grain"
+    },
+    "file": "game:itemtypes/food/flour.json",
+    "side": "Server"
+  }
+]

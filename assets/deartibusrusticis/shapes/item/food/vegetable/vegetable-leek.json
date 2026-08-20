@@ -1,0 +1,167 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"leek": [16,16]
+	},
+	"textures": {
+		"leek": "item/food/vegetable/leek"
+	},
+	"elements": [
+		{
+			"name": "Main",
+			"from": [ 1.0, 0.0, 7.0 ],
+			"to": [ 11.0, 1.5, 8.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 7.75 ],
+			"faces": {
+				"north": { "texture": "#leek", "uv": [ 0.0, 0.0, 10.0, 1.5 ] },
+				"east": { "texture": "#leek", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+				"south": { "texture": "#leek", "uv": [ 0.0, 1.5, 10.0, 3.0 ] },
+				"west": { "texture": "#leek", "uv": [ 10.0, 0.0, 11.5, 1.5 ] },
+				"up": { "texture": "#leek", "uv": [ 0.0, 1.5, 10.0, 3.0 ] },
+				"down": { "texture": "#leek", "uv": [ 0.0, 0.0, 10.0, 1.5 ] }
+			},
+			"children": [
+				{
+					"name": "top",
+					"from": [ 0.5, 0.8, 0.0 ],
+					"to": [ 2.5, 1.8, 1.5 ],
+					"rotationOrigin": [ 1.5, 1.3, 0.75 ],
+					"rotationZ": -11.25,
+					"faces": {
+						"north": { "texture": "#leek", "uv": [ 8.5, 0.0, 10.5, 1.0 ] },
+						"east": { "texture": "#leek", "uv": [ 7.0, 0.0, 8.5, 1.0 ] },
+						"south": { "texture": "#leek", "uv": [ 8.0, 0.0, 10.0, 1.0 ] },
+						"west": { "texture": "#leek", "uv": [ 7.5, 0.0, 9.0, 1.0 ] },
+						"up": { "texture": "#leek", "uv": [ 1.0, 1.5, 3.0, 3.0 ] },
+						"down": { "texture": "#leek", "uv": [ 9.0, 0.0, 11.0, 1.5 ] }
+					}
+				},
+				{
+					"name": "bottom",
+					"from": [ 0.5, -0.3, 0.0 ],
+					"to": [ 2.5, 0.7, 1.5 ],
+					"rotationOrigin": [ 1.5, 0.2, 0.75 ],
+					"rotationZ": 11.25,
+					"faces": {
+						"north": { "texture": "#leek", "uv": [ 8.0, 0.0, 10.0, 1.0 ] },
+						"east": { "texture": "#leek", "uv": [ 9.0, 0.0, 10.5, 1.0 ] },
+						"south": { "texture": "#leek", "uv": [ 9.0, 0.0, 11.0, 1.0 ] },
+						"west": { "texture": "#leek", "uv": [ 9.0, 0.0, 10.5, 1.0 ] },
+						"up": { "texture": "#leek", "uv": [ 5.5, 0.0, 7.5, 1.5 ] },
+						"down": { "texture": "#leek", "uv": [ 9.0, 0.0, 11.0, 1.5 ] }
+					}
+				},
+				{
+					"name": "n",
+					"from": [ 0.5, 0.2, -0.5 ],
+					"to": [ 2.5, 1.2, 1.0 ],
+					"rotationOrigin": [ 1.5, 0.7, 0.25 ],
+					"rotationX": 90.0,
+					"rotationZ": 11.25,
+					"faces": {
+						"north": { "texture": "#leek", "uv": [ 8.5, 0.5, 10.5, 1.5 ] },
+						"east": { "texture": "#leek", "uv": [ 8.5, 0.0, 10.0, 1.0 ] },
+						"south": { "texture": "#leek", "uv": [ 8.0, 0.5, 10.0, 1.5 ] },
+						"west": { "texture": "#leek", "uv": [ 9.5, 0.5, 11.0, 1.5 ] },
+						"up": { "texture": "#leek", "uv": [ 9.5, 0.0, 11.5, 1.5 ] },
+						"down": { "texture": "#leek", "uv": [ 8.5, 0.0, 10.5, 1.5 ] }
+					}
+				},
+				{
+					"name": "s",
+					"from": [ 0.5, 0.3, 0.5 ],
+					"to": [ 2.5, 1.3, 2.0 ],
+					"rotationOrigin": [ 1.5, 0.8, 1.35 ],
+					"rotationX": -90.0,
+					"rotationZ": 11.25,
+					"faces": {
+						"north": { "texture": "#leek", "uv": [ 8.5, 0.5, 10.5, 1.5 ] },
+						"east": { "texture": "#leek", "uv": [ 8.5, 0.0, 10.0, 1.0 ] },
+						"south": { "texture": "#leek", "uv": [ 8.5, 0.0, 10.5, 1.0 ] },
+						"west": { "texture": "#leek", "uv": [ 8.5, 0.5, 10.0, 1.5 ] },
+						"up": { "texture": "#leek", "uv": [ 9.0, 0.0, 11.0, 1.5 ] },
+						"down": { "texture": "#leek", "uv": [ 7.5, 0.0, 9.5, 1.5 ] }
+					}
+				},
+				{
+					"name": "leaf1",
+					"from": [ 9.0, 1.1, 0.01 ],
+					"to": [ 13.0, 1.6, 1.49 ],
+					"rotationOrigin": [ 9.5, 1.6, 0.75 ],
+					"rotationZ": 11.25,
+					"faces": {
+						"north": { "texture": "#leek", "uv": [ 1.0, 4.0, 5.0, 4.5 ] },
+						"east": { "texture": "#leek", "uv": [ 4.0, 5.0, 5.0, 5.5 ] },
+						"south": { "texture": "#leek", "uv": [ 0.0, 3.5, 4.0, 4.0 ] },
+						"west": { "texture": "#leek", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#leek", "uv": [ 0.0, 4.5, 4.0, 5.5 ] },
+						"down": { "texture": "#leek", "uv": [ 0.0, 0.0, 4.0, 1.0 ] }
+					}
+				},
+				{
+					"name": "leaf2",
+					"from": [ 9.0, -0.1, 0.01 ],
+					"to": [ 13.0, 0.4, 1.49 ],
+					"rotationOrigin": [ 9.5, 0.4, 0.75 ],
+					"rotationZ": -11.25,
+					"faces": {
+						"north": { "texture": "#leek", "uv": [ 1.0, 4.0, 5.0, 4.5 ] },
+						"east": { "texture": "#leek", "uv": [ 4.0, 3.5, 5.0, 4.0 ] },
+						"south": { "texture": "#leek", "uv": [ 0.0, 3.5, 4.0, 4.0 ] },
+						"west": { "texture": "#leek", "uv": [ 3.5, 3.5, 4.5, 4.0 ] },
+						"up": { "texture": "#leek", "uv": [ 0.0, 5.5, 4.0, 6.5 ] },
+						"down": { "texture": "#leek", "uv": [ 1.0, 5.5, 5.0, 6.5 ] }
+					}
+				},
+				{
+					"name": "leaf3",
+					"from": [ 9.0, 0.8, 0.02 ],
+					"to": [ 14.0, 1.3, 1.48 ],
+					"rotationOrigin": [ 9.5, 1.3, 0.75 ],
+					"rotationZ": 6.75,
+					"faces": {
+						"north": { "texture": "#leek", "uv": [ 0.0, 7.5, 5.0, 8.0 ] },
+						"east": { "texture": "#leek", "uv": [ 4.0, 3.5, 5.0, 4.0 ] },
+						"south": { "texture": "#leek", "uv": [ 0.0, 7.0, 5.0, 7.5 ] },
+						"west": { "texture": "#leek", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#leek", "uv": [ 0.0, 8.0, 5.0, 9.0 ] },
+						"down": { "texture": "#leek", "uv": [ 0.0, 9.0, 5.0, 10.0 ] }
+					}
+				},
+				{
+					"name": "leaf4",
+					"from": [ 9.0, 0.2, 0.02 ],
+					"to": [ 14.0, 0.7, 1.48 ],
+					"rotationOrigin": [ 9.5, 0.7, 0.75 ],
+					"rotationZ": -6.75,
+					"faces": {
+						"north": { "texture": "#leek", "uv": [ 0.0, 7.5, 5.0, 8.0 ] },
+						"east": { "texture": "#leek", "uv": [ 4.0, 3.5, 5.0, 4.0 ] },
+						"south": { "texture": "#leek", "uv": [ 0.0, 7.0, 5.0, 7.5 ] },
+						"west": { "texture": "#leek", "uv": [ 4.0, 3.5, 5.0, 4.0 ] },
+						"up": { "texture": "#leek", "uv": [ 0.0, 8.0, 5.0, 9.0 ] },
+						"down": { "texture": "#leek", "uv": [ 0.0, 9.0, 5.0, 10.0 ] }
+					}
+				},
+				{
+					"name": "tip",
+					"from": [ 9.0, 0.35, 0.35 ],
+					"to": [ 14.0, 1.1, 1.1 ],
+					"rotationOrigin": [ 9.0, 0.775, 0.775 ],
+					"faces": {
+						"north": { "texture": "#leek", "uv": [ 0.0, 11.0, 5.0, 11.5 ] },
+						"east": { "texture": "#leek", "uv": [ 4.5, 3.5, 5.0, 4.0 ] },
+						"south": { "texture": "#leek", "uv": [ 0.0, 10.5, 5.0, 11.0 ] },
+						"west": { "texture": "#leek", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#leek", "uv": [ 0.0, 11.0, 5.0, 11.5 ] },
+						"down": { "texture": "#leek", "uv": [ 0.0, 11.0, 5.0, 11.5 ] }
+					}
+				}
+			]
+		}
+	]}

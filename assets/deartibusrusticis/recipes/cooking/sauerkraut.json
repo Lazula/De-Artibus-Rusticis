@@ -1,0 +1,107 @@
+{
+	code: "sauerkrautmeal",
+	perishableProps: {
+		freshHours: { avg: 288 },
+		transitionHours: { avg: 48 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "game:rot" }
+	},
+	shape: { base: "deartibusrusticis:block/food/meal/sauerkrautmeal" },
+	ingredients: [
+		{ 
+			code: "vegetable", 
+			validStacks: [  { type: "item", code: "game:pickledvegetable-cabbage",  shapeElement: "bowl/vegetable1/*", textureMapping: ["vegetable", "sauerkraut"] } ],
+			minQuantity: 2,
+			maxQuantity: 3,
+			typeName: "sauerkraut"
+		},
+		{ 
+			code: "liquid", 
+			validStacks: [  { type: "item", code: "game:ciderportion-*"}, { type: "item", code: "game:honeyportion"} ],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 0.5,
+			typeName: "alcoholhoney"
+		},
+		{
+			code: "meat", 
+			validStacks: [ { type: "item", code: "game:redmeat-raw",  shapeElement: "bowl/meat/*", textureMapping: ["meat", "group6"] }, 
+			{ type: "item", code: "game:redmeat-cured",  shapeElement: "bowl/meat/*", textureMapping: ["meat", "group6"] } ],
+			minQuantity: 0,
+			maxQuantity: 1,
+			typeName: "meat"
+		},
+        {
+			code: "vegetabletop", 
+			validStacks: [ 
+				{ type: "item", code: "game:vegetable-carrot",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group1"]  },
+				{ type: "item", code: "game:vegetable-onion",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group6"] },
+				{ type: "item", code: "game:vegetable-parsnip",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group4"] },
+				{ type: "item", code: "game:vegetable-turnip",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group5"] },
+				{ type: "item", code: "game:vegetable-pumpkin",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group8"] },
+				{ type: "item", code: "game:vegetable-cassava",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group11"] },
+				{ type: "item", code: "game:vegetable-bellpepper",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group8"] },
+				{ type: "item", code: "game:vegetable-fennel",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group28"] },
+				{ type: "item", code: "deartibusrusticis:vegetable-leek",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "leek"] },
+				{ type: "item", code: "deartibusrusticis:vegetable-beetroot",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "beetroot"] },
+				{ type: "item", code: "deartibusrusticis:vegetable-garlic",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "garlic"] },
+				{ type: "item", code: "deartibusrusticis:vegetable-cucumber",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "cucumber"] },
+				{ type: "item", code: "deartibusrusticis:vegetable-horseradish",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "horseradish"] },
+				{ type: "item", code: "game:pickledvegetable-carrot",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group1"]  },
+				{ type: "item", code: "game:pickledvegetable-onion",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group6"] },
+				{ type: "item", code: "game:pickledvegetable-parsnip",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group4"] },
+				{ type: "item", code: "game:pickledvegetable-turnip",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group5"] },
+				{ type: "item", code: "game:pickledvegetable-pumpkin",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group8"] },
+				{ type: "item", code: "game:pickledvegetable-cassava",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group11"] },
+				{ type: "item", code: "game:pickledvegetable-bellpepper",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group8"] },
+				{ type: "item", code: "game:pickledvegetable-fennel",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group28"] },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-leek",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "leek"] },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-beetroot",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "beetroot"] },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-garlic",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "garlic"] },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-cucumber",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "cucumber"] },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-horseradish",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "horseradish"] },
+			],
+			minQuantity: 0,
+			maxQuantity: 1,
+			typeName: "vegetable"
+		},
+		{
+			code: "fruit", 
+			validStacks: [ 
+				{ type: "item", code: "game:fruit-redapple",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "fruit-redapple"] },
+				{ type: "item", code: "game:fruit-pinkapple",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "fruit-pinkapple"] },
+				{ type: "item", code: "game:fruit-yellowapple",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "fruit-yellowapple"] },
+			],
+			minQuantity: 0,
+			maxQuantity: 1,
+			typeName: "fruit"
+		},
+		{
+			code: "dar-seasoning", 
+			validStacks: [ 
+				{ type: "item", code: "deartibusrusticis:herb-anise",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "anise"] },
+				{ type: "item", code: "deartibusrusticis:herb-bearleek",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "bearleek"] },
+				{ type: "item", code: "deartibusrusticis:herb-chives",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "chives"] },
+				{ type: "item", code: "deartibusrusticis:herb-garlic",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "garlic"] },
+				{ type: "item", code: "deartibusrusticis:herb-cress",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "cress"] },
+				{ type: "item", code: "deartibusrusticis:herb-meum",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "meum"] },
+				{ type: "item", code: "deartibusrusticis:herb-whitemustard",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "whitemustard"] },
+				{ type: "item", code: "deartibusrusticis:herb-eruca",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "eruca"] },
+				{ type: "item", code: "deartibusrusticis:herb-chervil",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "chervil"] },
+				{ type: "item", code: "deartibusrusticis:herb-estragon",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "estragon"] },
+				{ type: "item", code: "deartibusrusticis:spice-anise",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-anise"] },
+				{ type: "item", code: "deartibusrusticis:spice-bearleek",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-bearleek"] },
+				{ type: "item", code: "deartibusrusticis:spice-blackcumin",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-blackcumin"] },
+				{ type: "item", code: "deartibusrusticis:spice-cress",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-cress"] },
+				{ type: "item", code: "deartibusrusticis:spice-meum",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-meum"] },
+				{ type: "item", code: "deartibusrusticis:spice-whitemustard",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-whitemustard"] },
+				{ type: "item", code: "deartibusrusticis:spice-eruca",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-eruca"] },
+				{ type: "item", code: "deartibusrusticis:spice-chervil",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-chervil"] },
+				{ type: "item", code: "deartibusrusticis:spice-blend",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-blend"] },
+			],
+			minQuantity: 0,
+			maxQuantity: 1,
+			typeName: "seasoning"
+		}
+	]
+}

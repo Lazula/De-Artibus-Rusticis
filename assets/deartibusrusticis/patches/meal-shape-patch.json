@@ -1,0 +1,742 @@
+[
+    //Soup
+    {
+    "op": "add",
+    "path": "/elements/0/children/-",
+    "value": {
+					"name": "dar-seasoning",
+					"from": [ 0.1, 1.8, 0.1 ],
+					"to": [ 0.35, 2.05, 0.35 ],
+					"rotationOrigin": [ 0.1, 1.8, 0.1 ],
+					"faces": {
+						"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "dar-seasoning2",
+							"from": [ 0.2, -0.1, 1.0 ],
+							"to": [ 0.45, 0.15, 1.25 ],
+							"rotationOrigin": [ 0.2, -0.1, 1.0 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning3",
+							"from": [ 0.0, 0.0, 2.0 ],
+							"to": [ 0.25, 0.25, 2.25 ],
+							"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning4",
+							"from": [ 1.0, 0.0, 1.5 ],
+							"to": [ 1.25, 0.25, 1.75 ],
+							"rotationOrigin": [ 1.0, 0.0, 1.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning5",
+							"from": [ 0.8, 0.0, 2.5 ],
+							"to": [ 1.05, 0.25, 2.75 ],
+							"rotationOrigin": [ 0.8, 0.0, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning6",
+							"from": [ 1.8, -0.1, 2.4 ],
+							"to": [ 2.05, 0.15, 2.65 ],
+							"rotationOrigin": [ 1.8, -0.1, 2.4 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning7",
+							"from": [ 2.6, -0.1, 2.5 ],
+							"to": [ 2.85, 0.15, 2.75 ],
+							"rotationOrigin": [ 2.6, -0.1, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning8",
+							"from": [ 2.2, 0.0, 1.3 ],
+							"to": [ 2.45, 0.25, 1.55 ],
+							"rotationOrigin": [ 2.2, 0.0, 1.3 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning9",
+							"from": [ 2.5, 0.0, 0.3 ],
+							"to": [ 2.75, 0.25, 0.55 ],
+							"rotationOrigin": [ 2.5, 0.0, 0.3 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning10",
+							"from": [ 1.3, -0.1, 0.5 ],
+							"to": [ 1.55, 0.15, 0.75 ],
+							"rotationOrigin": [ 1.3, -0.1, 0.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						}
+					]
+				},
+        "file": "game:shapes/block/food/meal/soup"
+    },
+    //VegetableStew
+    {
+    "op": "add",
+    "path": "/elements/0/children/-",
+    "value": {
+					"name": "dar-seasoning",
+					"from": [ 0.1, 2.2, 0.1 ],
+					"to": [ 0.35, 2.45, 0.35 ],
+					"rotationOrigin": [ 0.1, 2.2, 0.1 ],
+					"faces": {
+						"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "dar-seasoning2",
+							"from": [ 0.2, -0.1, 2.5 ],
+							"to": [ 0.45, 0.15, 2.75 ],
+							"rotationOrigin": [ 0.2, -0.1, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning3",
+							"from": [ 0.0, 0.0, 2.0 ],
+							"to": [ 0.25, 0.25, 2.25 ],
+							"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning4",
+							"from": [ 1.0, 0.0, 1.5 ],
+							"to": [ 1.25, 0.25, 1.75 ],
+							"rotationOrigin": [ 1.0, 0.0, 1.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning5",
+							"from": [ 0.8, 0.0, 2.5 ],
+							"to": [ 1.05, 0.25, 2.75 ],
+							"rotationOrigin": [ 0.8, 0.0, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning6",
+							"from": [ 1.7, -0.1, 2.4 ],
+							"to": [ 1.95, 0.15, 2.65 ],
+							"rotationOrigin": [ 1.7, -0.1, 2.4 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning7",
+							"from": [ 2.6, -0.1, 2.5 ],
+							"to": [ 2.85, 0.15, 2.75 ],
+							"rotationOrigin": [ 2.6, -0.1, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning8",
+							"from": [ 2.2, 0.0, 1.5 ],
+							"to": [ 2.45, 0.25, 1.75 ],
+							"rotationOrigin": [ 2.2, 0.0, 1.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning9",
+							"from": [ 2.4, 0.0, 0.1 ],
+							"to": [ 2.65, 0.25, 0.35 ],
+							"rotationOrigin": [ 2.4, 0.0, 0.1 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning10",
+							"from": [ 1.3, -0.1, 0.5 ],
+							"to": [ 1.55, 0.15, 0.75 ],
+							"rotationOrigin": [ 1.3, -0.1, 0.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						}
+					]
+				},
+        "file": "game:shapes/block/food/meal/vegetable-stew"
+    },
+    //MeatyStew
+    {
+    "op": "add",
+    "path": "/elements/0/children/-",
+    "value": {
+					"name": "dar-seasoning",
+					"from": [ 0.1, 2.2, 0.1 ],
+					"to": [ 0.35, 2.45, 0.35 ],
+					"rotationOrigin": [ 0.1, 2.2, 0.1 ],
+					"faces": {
+						"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "dar-seasoning2",
+							"from": [ 0.2, -0.1, 2.5 ],
+							"to": [ 0.45, 0.15, 2.75 ],
+							"rotationOrigin": [ 0.2, -0.1, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning3",
+							"from": [ 0.0, 0.0, 2.0 ],
+							"to": [ 0.25, 0.25, 2.25 ],
+							"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning4",
+							"from": [ 1.0, 0.0, 1.5 ],
+							"to": [ 1.25, 0.25, 1.75 ],
+							"rotationOrigin": [ 1.0, 0.0, 1.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning5",
+							"from": [ 0.8, 0.0, 2.5 ],
+							"to": [ 1.05, 0.25, 2.75 ],
+							"rotationOrigin": [ 0.8, 0.0, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning6",
+							"from": [ 1.7, -0.1, 2.4 ],
+							"to": [ 1.95, 0.15, 2.65 ],
+							"rotationOrigin": [ 1.7, -0.1, 2.4 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning7",
+							"from": [ 2.6, -0.1, 2.5 ],
+							"to": [ 2.85, 0.15, 2.75 ],
+							"rotationOrigin": [ 2.6, -0.1, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning8",
+							"from": [ 2.2, 0.0, 1.5 ],
+							"to": [ 2.45, 0.25, 1.75 ],
+							"rotationOrigin": [ 2.2, 0.0, 1.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning9",
+							"from": [ 2.4, 0.0, 0.1 ],
+							"to": [ 2.65, 0.25, 0.35 ],
+							"rotationOrigin": [ 2.4, 0.0, 0.1 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning10",
+							"from": [ 1.3, -0.1, 0.5 ],
+							"to": [ 1.55, 0.15, 0.75 ],
+							"rotationOrigin": [ 1.3, -0.1, 0.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						}
+					]
+				},
+        "file": "game:shapes/block/food/meal/meaty-stew"
+    },
+    //Poridge
+    {
+    "op": "add",
+    "path": "/elements/0/children/-",
+    "value": {
+					"name": "dar-seasoning",
+					"from": [ 0.1, 2.3, 0.1 ],
+					"to": [ 0.35, 2.55, 0.35 ],
+					"rotationOrigin": [ 0.1, 2.3, 0.1 ],
+					"faces": {
+						"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "dar-seasoning2",
+							"from": [ 0.2, -0.1, 2.5 ],
+							"to": [ 0.45, 0.15, 2.75 ],
+							"rotationOrigin": [ 0.2, -0.1, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning3",
+							"from": [ 0.0, 0.0, 2.0 ],
+							"to": [ 0.25, 0.25, 2.25 ],
+							"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning4",
+							"from": [ 1.0, 0.0, 1.5 ],
+							"to": [ 1.25, 0.25, 1.75 ],
+							"rotationOrigin": [ 1.0, 0.0, 1.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning5",
+							"from": [ 0.8, 0.0, 2.5 ],
+							"to": [ 1.05, 0.25, 2.75 ],
+							"rotationOrigin": [ 0.8, 0.0, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning6",
+							"from": [ 1.7, -0.1, 2.4 ],
+							"to": [ 1.95, 0.15, 2.65 ],
+							"rotationOrigin": [ 1.7, -0.1, 2.4 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning7",
+							"from": [ 2.6, -0.1, 2.5 ],
+							"to": [ 2.85, 0.15, 2.75 ],
+							"rotationOrigin": [ 2.6, -0.1, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning8",
+							"from": [ 2.2, 0.0, 1.5 ],
+							"to": [ 2.45, 0.25, 1.75 ],
+							"rotationOrigin": [ 2.2, 0.0, 1.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning9",
+							"from": [ 2.4, 0.0, 0.1 ],
+							"to": [ 2.65, 0.25, 0.35 ],
+							"rotationOrigin": [ 2.4, 0.0, 0.1 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning10",
+							"from": [ 1.3, -0.1, 0.5 ],
+							"to": [ 1.55, 0.15, 0.75 ],
+							"rotationOrigin": [ 1.3, -0.1, 0.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						}
+					]
+				},
+        "file": "game:shapes/block/food/meal/porridge"
+    },
+    //ScrambledEggs
+    {
+    "op": "add",
+    "path": "/elements/0/children/-",
+    "value": {
+					"name": "dar-seasoning",
+					"from": [ 0.1, 2.3, 0.1 ],
+					"to": [ 0.35, 2.55, 0.35 ],
+					"rotationOrigin": [ 0.1, 2.3, 0.1 ],
+					"faces": {
+						"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "dar-seasoning2",
+							"from": [ 0.2, -0.1, 2.5 ],
+							"to": [ 0.45, 0.15, 2.75 ],
+							"rotationOrigin": [ 0.2, -0.1, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning3",
+							"from": [ 0.0, 0.0, 2.0 ],
+							"to": [ 0.25, 0.25, 2.25 ],
+							"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.0, 1.5, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning4",
+							"from": [ 1.0, 0.0, 1.5 ],
+							"to": [ 1.25, 0.25, 1.75 ],
+							"rotationOrigin": [ 1.0, 0.0, 1.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning5",
+							"from": [ 0.8, 0.0, 2.5 ],
+							"to": [ 1.05, 0.25, 2.75 ],
+							"rotationOrigin": [ 0.8, 0.0, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning6",
+							"from": [ 1.7, -0.1, 2.4 ],
+							"to": [ 1.95, 0.15, 2.65 ],
+							"rotationOrigin": [ 1.7, -0.1, 2.4 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning7",
+							"from": [ 2.6, -0.1, 2.5 ],
+							"to": [ 2.85, 0.15, 2.75 ],
+							"rotationOrigin": [ 2.6, -0.1, 2.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning8",
+							"from": [ 2.2, 0.0, 1.5 ],
+							"to": [ 2.45, 0.25, 1.75 ],
+							"rotationOrigin": [ 2.2, 0.0, 1.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning9",
+							"from": [ 2.4, 0.0, 0.1 ],
+							"to": [ 2.65, 0.25, 0.35 ],
+							"rotationOrigin": [ 2.4, 0.0, 0.1 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "dar-seasoning10",
+							"from": [ 1.3, -0.1, 0.5 ],
+							"to": [ 1.55, 0.15, 0.75 ],
+							"rotationOrigin": [ 1.3, -0.1, 0.5 ],
+							"faces": {
+								"north": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"east": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"south": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"up": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"down": { "texture": "#dar-seasoning", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						}
+					]
+				},
+        "file": "game:shapes/block/food/meal/scrambledeggs"
+    }
+  ]

@@ -1,0 +1,476 @@
+[
+  {
+    "op": "add",
+    "path": "/16",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-bearleek-4",
+        "deartibusrusticis:crop-bearleek-6",
+        "deartibusrusticis:crop-bearleek-5",
+        "deartibusrusticis:crop-bearleek-3"
+      ],
+      "minTemp": -5,
+      "maxTemp": 32,
+      "minRain": 0.38,
+      "maxRain": 0.8,
+      "minForest": 0.35,
+      "maxForest": 1.0,
+      "quantity": {
+        "avg": 13.3,
+        "var": 13.3
+      },
+      "chance": 0.0125
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/17",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-chives-3",
+        "deartibusrusticis:crop-chives-4",
+        "deartibusrusticis:crop-chives-5",
+        "deartibusrusticis:crop-chives-6",
+        "deartibusrusticis:crop-chives-7"
+      ],
+      "minTemp": -10,
+      "maxTemp": 25,
+      "minRain": 0.45,
+      "maxRain": 0.8,
+      "maxForest": 0.5,
+      "quantity": {
+        "avg": 13.3,
+        "var": 13.3
+      },
+      "chance": 0.01
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/18",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-peas-3",
+        "deartibusrusticis:crop-peas-4",
+        "deartibusrusticis:crop-peas-5",
+        "deartibusrusticis:crop-peas-7",
+        "deartibusrusticis:crop-peas-9"
+      ],
+      "minTemp": -5,
+      "maxTemp": 27,
+      "minRain": 0.35,
+      "maxRain": 0.75,
+      "maxForest": 0.6,
+      "quantity": {
+        "avg": 7,
+        "var": 5
+      },
+      "chance": 0.0075
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/19",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-garlic-3",
+        "deartibusrusticis:crop-garlic-5",
+        "deartibusrusticis:crop-garlic-6",
+        "deartibusrusticis:crop-garlic-8"
+      ],
+      "minTemp": 7,
+      "maxTemp": 35,
+      "minRain": 0.35,
+      "maxRain": 0.75,
+      "maxForest": 1,
+      "quantity": {
+        "avg": 7,
+        "var": 5
+      },
+      "chance": 0.025
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/20",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-horseradish-3",
+        "deartibusrusticis:crop-horseradish-5",
+        "deartibusrusticis:crop-horseradish-4"
+      ],
+      "minTemp": 5,
+      "maxTemp": 26,
+      "minRain": 0.35,
+      "maxRain": 0.75,
+      "maxForest": 0.8,
+      "quantity": {
+        "avg": 6,
+        "var": 5
+      },
+      "chance": 0.02
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/21",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-leek-2",
+        "deartibusrusticis:crop-leek-3",
+        "deartibusrusticis:crop-leek-4",
+        "deartibusrusticis:crop-leek-5"
+      ],
+      "minTemp": 5,
+      "maxTemp": 29,
+      "minRain": 0.4,
+      "maxRain": 0.75,
+      "maxForest": 0.7,
+      "quantity": {
+        "avg": 6,
+        "var": 5
+      },
+      "chance": 0.015
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/22",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-beetroot-2",
+        "deartibusrusticis:crop-beetroot-3",
+        "deartibusrusticis:crop-beetroot-4",
+        "deartibusrusticis:crop-beetroot-5"
+      ],
+      "minTemp": 3,
+      "maxTemp": 34,
+      "minRain": 0.38,
+      "maxRain": 0.75,
+      "maxForest": 0.65,
+      "quantity": {
+        "avg": 6,
+        "var": 5
+      },
+      "chance": 0.01
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/23",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-lentils-4",
+        "deartibusrusticis:crop-lentils-5",
+        "deartibusrusticis:crop-lentils-6",
+        "deartibusrusticis:crop-lentils-8"
+      ],
+      "minTemp": 8,
+      "maxTemp": 35,
+      "minRain": 0.25,
+      "maxRain": 0.75,
+      "maxForest": 0.65,
+      "quantity": {
+        "avg": 6,
+        "var": 5
+      },
+      "chance": 0.0125
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/24",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-lettuce-3",
+        "deartibusrusticis:crop-lettuce-4",
+        "deartibusrusticis:crop-lettuce-5",
+        "deartibusrusticis:crop-lettuce-6"
+      ],
+      "minTemp": 8,
+      "maxTemp": 35,
+      "minRain": 0.5,
+      "maxRain": 1,
+      "maxForest": 0.6,
+      "quantity": {
+        "avg": 6,
+        "var": 5
+      },
+      "chance": 0.0125
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/25",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-favabean-4",
+        "deartibusrusticis:crop-favabean-5",
+        "deartibusrusticis:crop-favabean-6",
+        "deartibusrusticis:crop-favabean-7",
+        "deartibusrusticis:crop-favabean-8",
+        "deartibusrusticis:crop-favabean-9"
+      ],
+      "minTemp": 7,
+      "maxTemp": 35,
+      "minRain": 0.28,
+      "maxRain": 0.8,
+      "maxForest": 0.6,
+      "quantity": {
+        "avg": 5,
+        "var": 3
+      },
+      "chance": 0.01
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/26",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-cucumber-4",
+        "deartibusrusticis:crop-cucumber-5",
+        "deartibusrusticis:crop-cucumber-6",
+        "deartibusrusticis:crop-cucumber-7",
+        "deartibusrusticis:crop-cucumber-8",
+        "deartibusrusticis:crop-cucumber-9"
+      ],
+      "minTemp": 7,
+      "maxTemp": 42,
+      "minRain": 0.4,
+      "maxRain": 0.8,
+      "maxForest": 0.6,
+      "quantity": {
+        "avg": 4,
+        "var": 3
+      },
+      "chance": 0.01
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/27",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-anise-3",
+        "deartibusrusticis:crop-anise-4",
+        "deartibusrusticis:crop-anise-5",
+        "deartibusrusticis:crop-anise-6",
+        "deartibusrusticis:crop-anise-7"
+      ],
+      "minTemp": 3,
+      "maxTemp": 27,
+      "minRain": 0.25,
+      "maxRain": 0.8,
+      "minForest": 0.4,
+      "maxForest": 1,
+      "quantity": {
+        "avg": 3,
+        "var": 5
+      },
+      "chance": 0.025
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/28",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-blackcumin-3",
+        "deartibusrusticis:crop-blackcumin-5",
+        "deartibusrusticis:crop-blackcumin-6",
+        "deartibusrusticis:crop-blackcumin-7",
+        "deartibusrusticis:crop-blackcumin-8"
+      ],
+      "minTemp": 7,
+      "maxTemp": 32,
+      "minRain": 0.4,
+      "maxRain": 0.8,
+      "maxForest": 0.6,
+      "quantity": {
+        "avg": 6,
+        "var": 5
+      },
+      "chance": 0.0125
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/29",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-chervil-3",
+        "deartibusrusticis:crop-chervil-4",
+        "deartibusrusticis:crop-chervil-5",
+        "deartibusrusticis:crop-chervil-6",
+        "deartibusrusticis:crop-chervil-7"
+      ],
+      "minTemp": 2,
+      "maxTemp": 27,
+      "minRain": 0.25,
+      "maxRain": 0.8,
+      "minForest": 0.5,
+      "maxForest": 0.8,
+      "quantity": {
+        "avg": 13.3,
+        "var": 6
+      },
+      "chance": 0.0125
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/30",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-cress-3",
+        "deartibusrusticis:crop-cress-4",
+        "deartibusrusticis:crop-cress-5",
+        "deartibusrusticis:crop-cress-6"
+      ],
+      "minTemp": 8,
+      "maxTemp": 35,
+      "minRain": 0.3,
+      "maxRain": 0.8,
+      "minForest": 0.4,
+      "maxForest": 1.0,
+      "quantity": {
+        "avg": 5,
+        "var": 3
+      },
+      "chance": 0.0125
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/31",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-eruca-3",
+        "deartibusrusticis:crop-eruca-4",
+        "deartibusrusticis:crop-eruca-5",
+        "deartibusrusticis:crop-eruca-6",
+        "deartibusrusticis:crop-eruca-7"
+      ],
+      "minTemp": 7,
+      "maxTemp": 32,
+      "minRain": 0.3,
+      "maxRain": 0.8,
+      "maxForest": 0.6,
+      "quantity": {
+        "avg": 12,
+        "var": 10
+      },
+      "chance": 0.01
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/32",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-estragon-4",
+        "deartibusrusticis:crop-estragon-5",
+        "deartibusrusticis:crop-estragon-6",
+        "deartibusrusticis:crop-estragon-7",
+        "deartibusrusticis:crop-estragon-8"
+      ],
+      "minTemp": 2,
+      "maxTemp": 27,
+      "minRain": 0.3,
+      "maxRain": 0.8,
+      "maxForest": 0.6,
+      "quantity": {
+        "avg": 10,
+        "var": 7
+      },
+      "chance": 0.0125
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/33",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-meum-3",
+        "deartibusrusticis:crop-meum-4",
+        "deartibusrusticis:crop-meum-5",
+        "deartibusrusticis:crop-meum-6",
+        "deartibusrusticis:crop-meum-7"
+      ],
+      "minTemp": -2,
+      "maxTemp": 27,
+      "minRain": 0.3,
+      "maxRain": 0.8,
+      "minForest": 0.3,
+      "maxForest": 0.75,
+      "quantity": {
+        "avg": 13,
+        "var": 10
+      },
+      "chance": 0.01
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/34",
+    "value": {
+      "blockCodes": [
+        "deartibusrusticis:crop-whitemustard-3",
+        "deartibusrusticis:crop-whitemustard-4",
+        "deartibusrusticis:crop-whitemustard-5",
+        "deartibusrusticis:crop-whitemustard-6",
+        "deartibusrusticis:crop-whitemustard-7"
+      ],
+      "minTemp": 0,
+      "maxTemp": 27,
+      "minRain": 0.25,
+      "maxRain": 0.8,
+      "minForest": 0.2,
+      "maxForest": 0.75,
+      "quantity": {
+        "avg": 10,
+        "var": 8
+      },
+      "chance": 0.01
+    },
+    "file": "game:worldgen/blockpatches/crop.json",
+    "side": "Server"
+  }
+]

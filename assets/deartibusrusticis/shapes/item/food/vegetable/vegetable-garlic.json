@@ -1,0 +1,121 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"garlicbulb": [16,16]
+	},
+	"textures": {
+		"garlicbulb": "item/food/vegetable/garlicbulb"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#garlicbulb", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#garlicbulb", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#garlicbulb", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#garlicbulb", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#garlicbulb", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#garlicbulb", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "main",
+					"from": [ -2.0, 0.0, -2.0 ],
+					"to": [ 2.0, 8.0, 2.0 ],
+					"faces": {
+						"north": { "texture": "#garlicbulb", "uv": [ 2.0, 1.5, 6.0, 9.5 ] },
+						"east": { "texture": "#garlicbulb", "uv": [ 5.5, 1.5, 9.5, 9.5 ] },
+						"south": { "texture": "#garlicbulb", "uv": [ 0.0, 1.5, 4.0, 9.5 ] },
+						"west": { "texture": "#garlicbulb", "uv": [ 6.0, 1.5, 10.0, 9.5 ] },
+						"up": { "texture": "#garlicbulb", "uv": [ 6.5, 0.0, 10.5, 4.0 ] },
+						"down": { "texture": "#garlicbulb", "uv": [ 4.5, 8.0, 8.5, 12.0 ] }
+					},
+					"children": [
+						{
+							"name": "S",
+							"from": [ 0.0, 1.0, 4.0 ],
+							"to": [ 4.0, 6.0, 6.0 ],
+							"rotationOrigin": [ 1.0, 0.5, 2.5 ],
+							"rotationX": -8.0,
+							"faces": {
+								"north": { "texture": "#garlicbulb", "uv": [ 8.0, 1.5, 12.0, 6.5 ] },
+								"east": { "texture": "#garlicbulb", "uv": [ 8.0, 1.5, 10.0, 6.5 ] },
+								"south": { "texture": "#garlicbulb", "uv": [ 8.0, 1.5, 12.0, 6.5 ] },
+								"west": { "texture": "#garlicbulb", "uv": [ 9.5, 1.5, 11.5, 6.5 ] },
+								"up": { "texture": "#garlicbulb", "uv": [ 8.0, 0.0, 12.0, 2.0 ] },
+								"down": { "texture": "#garlicbulb", "uv": [ 8.0, 6.0, 12.0, 8.0 ] }
+							}
+						},
+						{
+							"name": "N",
+							"from": [ 0.0, 1.2, -2.0 ],
+							"to": [ 4.0, 6.2, 0.0 ],
+							"rotationOrigin": [ 1.0, 0.7, -0.5 ],
+							"rotationX": 8.0,
+							"faces": {
+								"north": { "texture": "#garlicbulb", "uv": [ 8.0, 1.5, 12.0, 6.5 ] },
+								"east": { "texture": "#garlicbulb", "uv": [ 8.5, 1.5, 10.5, 6.5 ] },
+								"south": { "texture": "#garlicbulb", "uv": [ 8.0, 1.5, 12.0, 6.5 ] },
+								"west": { "texture": "#garlicbulb", "uv": [ 10.0, 1.5, 12.0, 6.5 ] },
+								"up": { "texture": "#garlicbulb", "uv": [ 8.0, 0.0, 12.0, 2.0 ] },
+								"down": { "texture": "#garlicbulb", "uv": [ 8.0, 6.0, 12.0, 8.0 ] }
+							}
+						},
+						{
+							"name": "W",
+							"from": [ -2.0, 1.2, 0.0 ],
+							"to": [ 0.0, 6.2, 4.0 ],
+							"rotationOrigin": [ -0.5, 0.7, 1.0 ],
+							"rotationZ": -8.0,
+							"faces": {
+								"north": { "texture": "#garlicbulb", "uv": [ 8.0, 1.5, 10.0, 6.5 ] },
+								"east": { "texture": "#garlicbulb", "uv": [ 8.0, 1.5, 12.0, 6.5 ] },
+								"south": { "texture": "#garlicbulb", "uv": [ 10.0, 1.5, 12.0, 6.5 ] },
+								"west": { "texture": "#garlicbulb", "uv": [ 8.0, 1.5, 12.0, 6.5 ] },
+								"up": { "texture": "#garlicbulb", "uv": [ 8.0, 0.0, 12.0, 2.0 ], "rotation": 90 },
+								"down": { "texture": "#garlicbulb", "uv": [ 8.0, 6.0, 12.0, 8.0 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "E",
+							"from": [ 4.0, 0.9, 0.0 ],
+							"to": [ 6.0, 5.9, 4.0 ],
+							"rotationOrigin": [ 2.5, 0.4, 1.0 ],
+							"rotationZ": 8.0,
+							"faces": {
+								"north": { "texture": "#garlicbulb", "uv": [ 9.0, 1.5, 11.0, 6.5 ] },
+								"east": { "texture": "#garlicbulb", "uv": [ 8.0, 1.5, 12.0, 6.5 ] },
+								"south": { "texture": "#garlicbulb", "uv": [ 10.0, 1.5, 12.0, 6.5 ] },
+								"west": { "texture": "#garlicbulb", "uv": [ 8.0, 1.5, 12.0, 6.5 ] },
+								"up": { "texture": "#garlicbulb", "uv": [ 8.0, 0.0, 12.0, 2.0 ], "rotation": 90 },
+								"down": { "texture": "#garlicbulb", "uv": [ 8.0, 6.0, 12.0, 8.0 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "stalk",
+							"from": [ 1.5, 7.9, 0.95 ],
+							"to": [ 2.5, 9.9, 1.95 ],
+							"rotationOrigin": [ 0.75, 3.7, 0.95 ],
+							"rotationX": 8.0,
+							"faces": {
+								"north": { "texture": "#garlicbulb", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+								"east": { "texture": "#garlicbulb", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+								"south": { "texture": "#garlicbulb", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+								"west": { "texture": "#garlicbulb", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+								"up": { "texture": "#garlicbulb", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+								"down": { "texture": "#garlicbulb", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,20 @@
+[
+	{
+		ingredientPattern: "WF",
+		ingredients: {
+			"W": { 
+				type: "item", 
+				code: "game:dough-{type}"
+			},
+			"F": { 
+				type: "item", 
+				code: "deartibusrusticis:herb-*" 
+			}
+		},
+		width: 2,
+		height: 1,
+		name: "herbaldough",
+		shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:herbalbread-{type}-dough"  }
+	}
+]

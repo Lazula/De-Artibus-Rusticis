@@ -1,0 +1,34 @@
+[
+	{
+		ingredientPattern: "B	L",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"B": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "deartibusrusticis:blackcuminoilportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:poultice-linen-blackcuminoil", quantity: 4  }
+	},
+	{
+		ingredientPattern: "B	C",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"B": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "deartibusrusticis:blackcuminoilportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:poultice-reed-blackcuminoil", quantity: 4  }
+	}
+]

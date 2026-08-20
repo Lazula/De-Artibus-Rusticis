@@ -1,0 +1,65 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/lootListByType/*-seed/0/codes/9",
+    "value": "deartibusrusticis:seeds-peas",
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/lootListByType/*-seed/0/codes/10",
+    "value": "deartibusrusticis:seeds-garlic",
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/lootListByType/*-seed/0/codes/11",
+    "value": "deartibusrusticis:seeds-horseradish",
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/lootListByType/*-seed/0/codes/12",
+    "value": "deartibusrusticis:seeds-leek",
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/lootListByType/*-seed/0/codes/13",
+    "value": "deartibusrusticis:seeds-beetroot",
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/lootListByType/*-seed/0/codes/14",
+    "value": "deartibusrusticis:seeds-lentils",
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/lootListByType/*-seed/0/codes/15",
+    "value": "deartibusrusticis:seeds-lettuce",
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/lootListByType/*-seed/0/codes/16",
+    "value": "deartibusrusticis:seeds-favabeans",
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/lootListByType/*-seed/0/codes/17",
+    "value": "deartibusrusticis:seeds-cucumber",
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  }
+]

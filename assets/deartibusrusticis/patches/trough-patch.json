@@ -1,0 +1,158 @@
+[
+    {
+    "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "lentils",
+      "content": {
+        "type": "item",
+        "code": "deartibusrusticis:legume-lentils"
+      },
+      "quantityPerFillLevel": 2,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4" ],
+      "textureCode": "contents-legume-lentils"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/textures/contents-legume-lentils",
+    "value": {
+      "base": "deartibusrusticis:block/wood/barrel/lentils"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "peas",
+      "content": {
+        "type": "item",
+        "code": "deartibusrusticis:legume-peas"
+      },
+      "quantityPerFillLevel": 2,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [ "block/wood/trough/large/legumefill1", "block/wood/trough/large/legumefill2", "block/wood/trough/large/legumefill3", "block/wood/trough/large/legumefill4" ],
+      "textureCode": "contents-legume-peas"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/textures/contents-legume-peas",
+    "value": {
+      "base": "deartibusrusticis:block/wood/barrel/peas"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "favabeans",
+      "content": {
+        "type": "item",
+        "code": "deartibusrusticis:legume-favabeans"
+      },
+      "quantityPerFillLevel": 2,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [ "block/wood/trough/large/legumefill1", "block/wood/trough/large/legumefill2", "block/wood/trough/large/legumefill3", "block/wood/trough/large/legumefill4" ],
+      "textureCode": "contents-legume-favabeans"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/textures/contents-legume-favabeans",
+    "value": {
+      "base": "deartibusrusticis:block/wood/barrel/favabeans"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "beetroot",
+      "content": {
+        "type": "item",
+        "code": "deartibusrusticis:vegetable-beetroot"
+      },
+      "quantityPerFillLevel": 2,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [ "block/wood/trough/large/beetrootfill1", "block/wood/trough/large/beetrootfill2", "block/wood/trough/large/beetrootfill3", "block/wood/trough/large/beetrootfill4" ],
+      "textureCode": "contents-vegetable-beetroot"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  },
+   {
+    "op": "add",
+    "path": "/textures/contents-vegetable-beetroot",
+    "value": {
+      "base": "deartibusrusticis:block/wood/barrel/beetroot"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "cucumber",
+      "content": {
+        "type": "item",
+        "code": "deartibusrusticis:vegetable-cucumber"
+      },
+      "quantityPerFillLevel": 2,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [ "block/wood/trough/large/cucumberfill1", "block/wood/trough/large/cucumberfill2", "block/wood/trough/large/cucumberfill3", "block/wood/trough/large/cucumberfill4" ],
+      "textureCode": "contents-vegetable-cucumber"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  },
+   {
+    "op": "add",
+    "path": "/textures/contents-vegetable-cucumber",
+    "value": {
+      "base": "deartibusrusticis:block/wood/barrel/cucumber"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "lettuce",
+      "content": {
+        "type": "item",
+        "code": "deartibusrusticis:vegetable-lettuce"
+      },
+      "quantityPerFillLevel": 2,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4" ],
+      "textureCode": "contents-vegetable-lettuce"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/textures/contents-vegetable-lettuce",
+    "value": {
+      "base": "deartibusrusticis:block/wood/barrel/lettuce"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  }
+]

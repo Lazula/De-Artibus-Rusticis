@@ -1,0 +1,201 @@
+{
+code: "vegetable",
+	maxstacksize: 64,
+	materialDensity: 600,
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+	variantgroups: [
+		{ code: "type", states: ["garlic", "horseradish", "beetroot", "leek", "lettuce", "cucumber"]}
+],
+shapebytype: {
+	"*-garlic": { base: "item/food/vegetable/vegetable-garlic"},
+	"*-horseradish": { base: "item/food/vegetable/vegetable-horseradish"},
+	"*-beetroot": { base: "game:item/food/vegetable/turnip"},
+	"*-leek": { base: "item/food/vegetable/vegetable-leek"},
+	"*-lettuce": { base: "item/food/vegetable/vegetable-lettuce"},
+	"*-cucumber": { base: "item/food/vegetable/vegetable-cucumber"}
+},
+textures: { 
+	"garlicbulb": { base: "item/food/vegetable/garlicbulb" },
+	"horseradish": { base: "item/food/vegetable/horseradish" },
+	"leek": { base: "item/food/vegetable/leek" },
+	"s4": { base: "item/food/vegetable/beetstalks" },
+	"e3": { base: "item/food/vegetable/beetstalks" },
+	"item": { base: "block/plant/crop/beet/bulb" },
+	"*lettuce": { base: "item/food/vegetable/lettuce"},
+	"*cucumber": { base: "item/food/vegetable/cucumber"}
+
+},
+attributes: {
+shelvable: true,
+foodTags: ["{type}"],
+nutritionPropsWhenInMealByType: {
+"*-lettuce": { satiety: 225, foodcategory: "vegetable" },
+"*": { satiety: 150, foodcategory: "vegetable" },
+},
+inContainerTexture: { base: "deartibusrusticis:block/wood/barrel/{type}" },
+                crockable: true,
+                inPiePropertiesByType: {
+                    "*-garlic": { texture: "deartibusrusticis:block/food/pie/fill-{type}", partType: "Filling", mixingCodes: ["potpie"] },
+					"*-horseradish": { texture: "deartibusrusticis:block/food/pie/fill-{type}", partType: "Filling", mixingCodes: ["potpie"] },
+					"*-leek": { texture: "deartibusrusticis:block/food/pie/fill-{type}", partType: "Filling", mixingCodes: ["potpie"] },
+					"*-beetroot": { texture: "deartibusrusticis:block/food/pie/fill-{type}", partType: "Filling", mixingCodes: ["potpie"] },
+				},
+				groundStorageTransformByType: {
+					"*-garlic": { translation: { x: 0, y: -0.35, z: 0 }, scale: 0.33 },
+					"*-horseradish": { translation: { x: 0, y: -0.1, z: 0 }, rotation: { x: 0, y: 45, z: 0 }, scale: 0.75 },
+					"*-beetroot": { translation: { x: 0.1, y: -0.4, z: -0.1 }, rotation: { x: -90, y: 0, z: -45 }, scale: 0.75 },
+					"*-leek": { translation: { x: 0, y: -0.1, z: 0 }, rotation: { x: 0, y: 45, z: 0 }, scale: 0.75 },
+					"*-lettuce": { translation: { x: 0.05, y: -0.1, z: 0 }, rotation: { x: 0, y: 45, z: 0 }, scale: 0.7 },
+					"*-cucumber": { translation: { x: 0, y: -0.1, z: 0 }, rotation: { x: 0, y: -45, z: 0 }, scale: 0.75}
+      			},
+				onshelfTransformByType: {
+					"*-garlic": { translation: { x: 0, y: -0.35, z: 0 }, scale: 0.33 },
+					"*-horseradish": { translation: { x: 0, y: -0.12, z: 0 }, scale: 0.75 },
+					"*-beetroot": { translation: { x: 0.1, y: -0.4, z: -0 }, rotation: { x: -90, y: 0, z: -45 }, scale: 0.76 },
+					"*-leek": { translation: { x: 0, y: -0.1, z: 0 }, scale: 0.75 },
+					"*-lettuce": { translation: { x: 0, y: -0.2, z: 0 }, rotation: { x: 0, y: 45, z: 0 }, scale: 0.59 },
+					"*-cucumber": { translation:{ x: 0, y: -0.15, z: 0 }, rotation: { x: 0, y: 45, z: 0 }, scale: 0.75 }
+				},
+				inTrapTransformByType: {
+					"*-garlic": { translation: { x: -0.1, y: -0.25, z: 0 }, scale: 0.33 },
+					"*-horseradish": { translation: { x: -0.15, y: -0.2, z: 0 }, rotation: { x: 0, y: 90, z: 0 }, scale: 0.5 },
+					"*-beetroot":  { translation: { x: -0.1, y: -0.35, z: 0.15 }, rotation: { x: 90, y: 0, z: 0 }, scale: 0.61 },
+					"*-leek": { translation: { x: -0.1, y: -0.15, z: 0 }, rotation: { x: 0, y: 90, z: 0 }, scale: 0.5 },
+					"*-lettuce": { translation: { x: -0.05, y: -0.125, z: 0.05 }, rotation: { x: 12, y: 90, z: 0 }, scale: 0.5 },
+					"*-cucumber": { translation: { x: -0.15, y: -0.15, z: 0 }, scale: 0.59 }
+				}	
+},
+creativeinventory: { "general": ["*"], "deartibusrusticis": [ "*" ] },
+nutritionPropsByType: {
+	"*-lettuce": { satiety: 150, foodcategory: "Vegetable" },
+    "*": { satiety: 100, foodcategory: "Vegetable" }
+},
+transitionablePropsByType: {
+	"*": [ {
+				type: "Perish",
+				freshHours: { avg: 672 },
+				transitionHours: { avg: 96 },
+				transitionedStack: { type: "item", code: "game:rot" },
+				transitionRatio: 1
+			}
+        ],
+	"lettuce": [ {
+				type: "Perish",
+				freshHours: { avg: 504 },
+				transitionHours: { avg: 96 },
+				transitionedStack: { type: "item", code: "game:rot" },
+				transitionRatio: 1
+			}
+        ]
+	},
+	guiTransformByType: {
+		"*-garlic": {
+    	translation: { x: 4, y: -8, z: 0 },
+    	rotation: { x: 0, y: 45, z: -165 },
+   		origin: { x: 0.5, y: 0.475, z: 0.5 },
+    	scale: 2.01
+		},
+		"*-beetroot": {
+		translation: { x: 2, y: 2, z: 0 },
+		rotation: { x: 180, y: 158, z: 38 },
+		origin: { x: 0.5, y: 0.23, z: 0.5 },
+		scale: 3.6
+		},
+		"*-horseradish": {
+      	translation: { x: 10, y: 10, z: 0 },
+      	rotation: { x: 0, y: 62, z: -45 },
+      	origin: { x: 0.5, y: 0.25, z: 0.5 },
+      	scale: 2.5
+   		},
+		"*-leek": {
+    	translation: { x: -5, y: 5, z: 0 },
+    	rotation: { x: -2, y: 20, z: -45 },
+    	origin: { x: 0.8, y: 0.5, z: -1.25 },
+    	scale: 2.26
+  		},
+		"*-lettuce": {
+    	translation: { x: 0, y: 5, z: 0 },
+    	rotation: { x: -90, y: 45, z: 0 },
+  		scale: 1.8
+ 		},
+		"*-cucumber": {
+    	rotation: { x: 90, y: 40, z: 0 },
+    	scale: 2.5
+ 		}
+
+	},
+	groundTransformByType: {
+		"*-garlic": {
+    	translation: { x: 0, y: 0.225, z: 0 },
+    	rotation: { x: 0, y: 0, z: 0 },
+ 		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 2.00
+		},
+		"*-beetroot": {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 75 },
+		origin: { x: 0.42, y: 0.21, z: 0.5 },
+		scale: 3.8
+		},
+		"*-horseradish": {
+    	  translation: { x: 0, y: 0, z: 0 },
+      	rotation: { x: 90, y: 0, z: 0 },
+      	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+      	scale: 2.5
+   		},
+		"*-leek": {
+    	translation: { x: 0, y: 0, z: 0 },
+    	rotation: { x: 90, y: 0, z: 0 },
+    	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 3
+  		},
+		"*-lettuce": {
+    	translation: { x: 0, y: 0.3, z: 0 },
+ 	    rotation: { x: 0, y: 0, z: 0 },
+  	 	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 2.5
+  		},
+		"*-cucumber": {
+    	translation: { x: 0, y: 0.45, z: 0 },
+    	rotation: { x: 0, y: 0, z: 0 },
+    	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 3.5
+  		}
+	},
+	tpHandTransformByType: {
+		"*-garlic": {
+  		translation: { x: -0.3, y: -1, z: -1.9 },
+    	rotation: { x: 180, y: 0, z: -100 },
+    	origin: { x: -0.05, y: 0.16, z: 0.46 },
+    	scale: 0.25
+		},
+		"*-beetroot": {
+		translation: { x: -0.68, y: -0.18, z: -0.6 },
+		rotation: { x: 0, y: 0, z: -84 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 0.8
+		},
+		"*-horseradish": {
+      	translation: { x: -1.25, y: -0.5, z: -1 },
+     	 rotation: { x: 0, y: 0, z: 15 },
+      	scale: 0.5
+    	},
+		"*-leek": {
+    	translation: { x: -1.5, y: -0.9, z: -0.6 },
+    	rotation: { x: 90, y: 0, z: 0 },
+    	scale: 0.5
+  		},
+		"*-lettuce": {
+   	 	translation: { x: -1.3, y: -0.4, z: -1 },
+    	rotation: { x: 0, y: 0, z: 18 },
+    	scale: 0.5
+ 		},
+		"*-cucumber": {
+    	translation: { x: -1, y: -0.2, z: -0.675 },
+    	rotation: { x: 0, y: 90, z: 0 },
+    	scale: 0.75
+ 		}
+	}
+}
