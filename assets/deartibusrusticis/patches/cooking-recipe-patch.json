@@ -956,6 +956,96 @@
         },
         {
           "type": "item",
+          "code": "deartibusrusticis:driedherb-anise",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "anise"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-bearleek",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "bearleek"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-chervil",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "chervil"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-chives",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "chives"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-cress",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "cress"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-eruca",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "eruca"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-estragon",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "estragon"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-garlic",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "garlicleaves"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-meum",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "meum"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-whitemustard",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "whitemustard"
+          ]
+        },
+        {
+          "type": "item",
           "code": "deartibusrusticis:spice-anise",
           "shapeElement": "bowl/dar-seasoning/*",
           "textureMapping": [
@@ -2222,6 +2312,96 @@
         },
         {
           "type": "item",
+          "code": "deartibusrusticis:driedherb-anise",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "anise"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-bearleek",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "bearleek"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-chervil",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "chervil"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-chives",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "chives"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-cress",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "cress"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-eruca",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "eruca"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-estragon",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "estragon"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-garlic",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "garlicleaves"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-meum",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "meum"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-whitemustard",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "whitemustard"
+          ]
+        },
+        {
+          "type": "item",
           "code": "deartibusrusticis:spice-anise",
           "shapeElement": "bowl/dar-seasoning/*",
           "textureMapping": [
@@ -2948,6 +3128,96 @@
         },
         {
           "type": "item",
+          "code": "deartibusrusticis:driedherb-anise",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "anise"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-bearleek",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "bearleek"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-chervil",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "chervil"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-chives",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "chives"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-cress",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "cress"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-eruca",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "eruca"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-estragon",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "estragon"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-garlic",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "garlicleaves"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-meum",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "meum"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-whitemustard",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "whitemustard"
+          ]
+        },
+        {
+          "type": "item",
           "code": "deartibusrusticis:spice-anise",
           "shapeElement": "bowl/dar-seasoning/*",
           "textureMapping": [
@@ -3636,6 +3906,96 @@
         {
           "type": "item",
           "code": "deartibusrusticis:herb-whitemustard",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "whitemustard"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-anise",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "anise"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-bearleek",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "bearleek"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-chervil",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "chervil"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-chives",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "chives"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-cress",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "cress"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-eruca",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "eruca"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-estragon",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "estragon"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-garlic",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "garlicleaves"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-meum",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "meum"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-whitemustard",
           "shapeElement": "bowl/dar-seasoning/*",
           "textureMapping": [
             "dar-seasoning",
@@ -4362,6 +4722,96 @@
         {
           "type": "item",
           "code": "deartibusrusticis:herb-whitemustard",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "whitemustard"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-anise",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "anise"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-bearleek",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "bearleek"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-chervil",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "chervil"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-chives",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "chives"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-cress",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "cress"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-eruca",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "eruca"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-estragon",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "estragon"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-garlic",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "garlicleaves"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-meum",
+          "shapeElement": "bowl/dar-seasoning/*",
+          "textureMapping": [
+            "dar-seasoning",
+            "meum"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "deartibusrusticis:driedherb-whitemustard",
           "shapeElement": "bowl/dar-seasoning/*",
           "textureMapping": [
             "dar-seasoning",

@@ -57,6 +57,18 @@
       }
     }
   },
+   {
+    "dependsOn": [ { "modid": "hydrateordiedrate" } ],
+    "file": "deartibusrusticis:itemtypes/food/dried-herb.json",
+    "op": "addmerge",
+    "path": "/attributes",
+    "side": "server",
+    "value": {
+      "hydrationByType": {
+        "*": -10
+      }
+    }
+  },
   {
     "dependsOn": [ { "modid": "hydrateordiedrate" } ],
     "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
