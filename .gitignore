@@ -3,4 +3,6 @@
 obj/
 bin/
 
+testing/
+
 *.DotSettings.user

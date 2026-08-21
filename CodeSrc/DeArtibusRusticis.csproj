@@ -56,6 +56,18 @@
         <Content Include="../assets*/**">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
+        <Content Update="..\assets\deartibusrusticis\blocktypes\testing\tetstRack.json">
+          <Link>assets\deartibusrusticis\blocktypes\testing\tetstRack.json</Link>
+        </Content>
+        <Content Update="..\assets\deartibusrusticis\shapes\block\woodherbrack.json">
+          <Link>assets\deartibusrusticis\shapes\block\woodherbrack.json</Link>
+        </Content>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Folder Include="..\assets\deartibusrusticis\shapes\testing\">
+        <Link>assets\deartibusrusticis\shapes\testing</Link>
+      </Folder>
     </ItemGroup>
     
 </Project>
