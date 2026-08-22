@@ -1,7 +1,7 @@
 [
   {
-    "op": "add",
-    "path": "/16",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-bearleek-4",
@@ -25,8 +25,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/17",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-chives-3",
@@ -50,8 +50,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/18",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-peas-3",
@@ -75,8 +75,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/19",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-garlic-3",
@@ -99,8 +99,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/20",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-horseradish-3",
@@ -122,8 +122,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/21",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-leek-2",
@@ -146,8 +146,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/22",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-beetroot-2",
@@ -170,8 +170,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/23",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-lentils-4",
@@ -194,8 +194,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/24",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-lettuce-3",
@@ -218,16 +218,16 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/25",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
-        "deartibusrusticis:crop-favabean-4",
-        "deartibusrusticis:crop-favabean-5",
-        "deartibusrusticis:crop-favabean-6",
-        "deartibusrusticis:crop-favabean-7",
-        "deartibusrusticis:crop-favabean-8",
-        "deartibusrusticis:crop-favabean-9"
+        "deartibusrusticis:crop-favabeans-4",
+        "deartibusrusticis:crop-favabeans-5",
+        "deartibusrusticis:crop-favabeans-6",
+        "deartibusrusticis:crop-favabeans-7",
+        "deartibusrusticis:crop-favabeans-8",
+        "deartibusrusticis:crop-favabeans-9"
       ],
       "minTemp": 7,
       "maxTemp": 35,
@@ -244,8 +244,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/26",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-cucumber-4",
@@ -270,8 +270,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/27",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-anise-3",
@@ -296,8 +296,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/28",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-blackcumin-3",
@@ -321,8 +321,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/29",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-chervil-3",
@@ -347,8 +347,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/30",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-cress-3",
@@ -372,8 +372,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/31",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-eruca-3",
@@ -397,8 +397,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/32",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-estragon-4",
@@ -422,8 +422,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/33",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-meum-3",
@@ -448,8 +448,8 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/34",
+    "op": "addmerge",
+    "path": "/-",
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-whitemustard-3",
