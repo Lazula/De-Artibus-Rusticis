@@ -24,7 +24,7 @@
 			},
 			{
 				code: "seasoning", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
 				minQuantity: 1,
 				maxQuantity: 1
 			}
@@ -57,7 +57,7 @@
 			},
 			{
 				code: "seasoning", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
 				minQuantity: 1,
 				maxQuantity: 1
 			}
@@ -90,7 +90,7 @@
 			},
 			{
 				code: "seasoning", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]  }, { type: "item", code: "game:salt"} ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]  }, { type: "item", code: "game:salt"} ],
 				minQuantity: 1,
 				maxQuantity: 1
 			}
@@ -129,7 +129,7 @@
 			},
 			{
 				code: "seasoning", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]  }, { type: "item", code: "game:salt"} ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]  }, { type: "item", code: "game:salt"} ],
 				minQuantity: 1,
 				maxQuantity: 1
 			}
@@ -168,7 +168,7 @@
 			},
 			{
 				code: "seasoning", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
 				minQuantity: 1,
 				maxQuantity: 1
 			}
@@ -195,19 +195,19 @@
 			},
 			{
 				code: "herb1", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" } ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" } ],
 				minQuantity: 1,
 				maxQuantity: 1
 			},
             {
 				code: "herb2", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" } ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" } ],
 				minQuantity: 1,
 				maxQuantity: 1
 			},
 			{
 				code: "seasoning", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
 				minQuantity: 1,
 				maxQuantity: 1
 			}

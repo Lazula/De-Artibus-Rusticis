@@ -1,0 +1,89 @@
+{
+code: "driedherb",
+	maxstacksize: 64,
+	materialDensity: 600,
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+	variantgroups: [
+		{ code: "type", states: ["bearleek", "chives", "garlic", "cress", "meum", "whitemustard", "eruca", "anise", "chervil", "estragon"]}
+],
+shapebytype: {
+	"*-chives": { base: "deartibusrusticis:item/food/herb/herb-chives"},
+	"*-bearleek": { base: "deartibusrusticis:item/food/herb/herb-short"},
+	"*-garlic": { base: "deartibusrusticis:item/food/herb/herb-long"},
+	"*-cress": { base: "deartibusrusticis:item/food/herb/herb-short"},
+	"*-meum": { base: "deartibusrusticis:item/food/herb/herb-short-bushy"},
+	"*-whitemustard": { base: "deartibusrusticis:item/food/herb/herb-long"},
+	"*-eruca": { base: "deartibusrusticis:item/food/herb/herb-long"},
+	"*-anise": { base: "deartibusrusticis:item/food/herb/herb-long"},
+	"*-chervil": { base: "deartibusrusticis:item/food/herb/herb-long"},
+	"*-estragon": { base: "deartibusrusticis:item/food/herb/herb-long-bushy"}
+},
+texture: { base: "item/food/driedherb/dried-{type}" },
+attributes: {
+shelvable: true,
+foodTags: ["{type}"],
+nutritionPropsWhenInMealByType: {
+"*-eruca": { satiety: 135, foodcategory: "vegetable" },
+"*": { satiety: 60, foodcategory: "vegetable" },
+},
+groundStorageTransform: { translation: { x: 0, y: -0.1, z: 0 }, rotation: { x: 0, y: 45, z: 0 }, scale: 0.75 },
+onshelfTransform: { translation: { x: 0, y: -0.1, z: 0 }, scale: 0.75 },
+inTrapTransform: { translation: { x: -0.15, y: -0.125, z: 0 }, rotation: { x: 0, y: 90, z: 0 }, scale: 0.61 },
+handbook: { include: true }
+},
+creativeinventory: { "general": ["*"], "deartibusrusticis": [ "*" ] },
+nutritionPropsByType: {
+	"*-eruca": { satiety: 90, foodcategory: "Vegetable" },
+	"*": { satiety: 40, foodcategory: "Vegetable" }
+},
+transitionablePropsByType: {		
+	"*": [{
+			type: "Perish",
+			freshHours: { avg:  3888 },
+			transitionHours: { avg: 96 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}]
+	},
+	guiTransformByType: {
+	"*-chives": {
+    	translation: { x: -10, y: 6, z: 0 },
+    	rotation: { x: 0, y: 0, z: -45 },
+    	origin: { x: 0.5, y: 0, z: 0 },
+    	scale: 2.5
+ 	 },
+	"*": {
+    	translation: { x: -5, y: 8, z: 0 },
+    	rotation: { x: -90, y: 45, z: 0 },
+    	scale: 2.5
+  	}
+	},
+	groundTransformByType: {
+	"*-chives": {
+    	translation: { x: 0, y: 0, z: 0 },
+    	rotation: { x: 90, y: 45, z: 0 },
+    	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 5
+  	},
+	"*": {
+		translation: { x: 0, y: -0, z: 0 },
+    	rotation: { x: 1, y: 0, z: 0 },
+    	origin: { x: 0.5, y: 0, z: 0.5299 },
+    	scale: 3
+	 }
+	},
+	tpHandTransformByType: {
+	"*-chives": {
+		translation: { x: -1, y: -0.3, z: -0.75 },
+    	rotation: { x: 0, y: 0, z: 0 },
+    	scale: 0.65
+		},
+	 "*": {
+   		translation: { x: -0.8, y: -0.15, z: -0.65 },
+    	rotation: { x: 0, y: 0, z: 11 },
+    	scale: 0.75
+	}
+}
+}
