@@ -74,7 +74,15 @@ transitionablePropsByType: {
 			transitionHours: { avg: 96 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
-		}]
+		}],
+	"herb-{type}":
+		[{
+			type: "Dry",
+			freshHours: { avg: 0 },
+			transitionHours: { avg: 3024 },
+			transitionedStack: { type: "item", code: "driedherb-{type]" },
+			transitionRatio: 1
+			}]
 	},
 	guiTransformByType: {
 	"*-chives": {
