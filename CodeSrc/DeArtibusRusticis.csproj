@@ -62,12 +62,9 @@
         <Content Update="..\assets\deartibusrusticis\shapes\block\woodherbrack.json">
           <Link>assets\deartibusrusticis\shapes\block\woodherbrack.json</Link>
         </Content>
-    </ItemGroup>
-    
-    <ItemGroup>
-      <Folder Include="..\assets\deartibusrusticis\shapes\testing\">
-        <Link>assets\deartibusrusticis\shapes\testing</Link>
-      </Folder>
+        <Content Update="..\assets\deartibusrusticis\shapes\block\testing\woodherbrack.json">
+          <Link>assets\deartibusrusticis\shapes\block\testing\woodherbrack.json</Link>
+        </Content>
     </ItemGroup>
     
 </Project>

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Vintagestory.API.Common;
 using Vintagestory.GameContent;
 
@@ -10,26 +11,28 @@ public class BEGenericContainerNoGui : BlockEntityContainer {
 
     public override string InventoryClassName => _invClassName;
     
-    private InventoryGeneric _inv;
+    private InventoryGeneric _inv = new InventoryGeneric(1, null, null);
     private string _invClassName;
     
     public override void Initialize(ICoreAPI api) {
-        var attribs = Block.Attributes;
-        var slotCount = attribs["slotCount"].AsInt();
-        _inv = new InventoryGeneric(slotCount, null, null);
+        InitInventory();
         
         base.Initialize(api);
     }
 
     private void InitInventory() {
         var attributes = Block.Attributes;
-        var inventoryClassName = attributes["inventoryClassName"].AsString("invalid-generic");
+        _invClassName = attributes["inventoryClassName"].AsString("invalid-generic");
         var quantitySlots = attributes["quantitySlots"].AsInt(-1);
-        _inv = new InventoryGeneric(quantitySlots, null, null);
+        _inv.AddSlots(Math.Max(quantitySlots - _inv.Count, 0));
 
         _inv.TransitionableSpeedMulByType = attributes["transitionSpeedMul"].AsObject<Dictionary<EnumTransitionType, float>>();
         _inv.PerishableFactorByFoodCategory = Block.Attributes["spoilSpeedMulByFoodCat"].AsObject<Dictionary<EnumFoodCategory, float>>();
         // _inv.SlotModified += this.OnSlotModified;
     }
+    //
+    // private ItemSlot NewSlot(int ids, ) {
+    //     
+    // }
 
 }
