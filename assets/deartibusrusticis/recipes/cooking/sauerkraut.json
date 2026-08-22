@@ -52,7 +52,6 @@
 				{ type: "item", code: "game:pickledvegetable-parsnip",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group4"] },
 				{ type: "item", code: "game:pickledvegetable-turnip",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group5"] },
 				{ type: "item", code: "game:pickledvegetable-pumpkin",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group8"] },
-				{ type: "item", code: "game:pickledvegetable-cassava",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group11"] },
 				{ type: "item", code: "game:pickledvegetable-bellpepper",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group8"] },
 				{ type: "item", code: "game:pickledvegetable-fennel",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "group28"] },
 				{ type: "item", code: "deartibusrusticis:pickledvegetable-leek",  shapeElement: "bowl/vegetabletop/*", textureMapping: ["vegetable", "leek"] },
