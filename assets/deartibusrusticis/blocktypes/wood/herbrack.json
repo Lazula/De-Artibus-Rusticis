@@ -10,7 +10,8 @@
 	attributes: {  
         inventoryClassName: "test_rack",  
         quantitySlots: 2,  
-		transitionSpeedMul: { dry: 8 }  
+		transitionSpeedMul: { dry: 8 },
+		selectionboxes: ["rope3", "rope4"]
     },
 	entityBehaviors: [{ name:  "DAR.GenericContainerNoGui" }],  
 	variantgroups: [
