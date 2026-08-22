@@ -1,5 +1,6 @@
 {
 code: "driedherb",
+tags: ["dar-dryable"],
 	maxstacksize: 64,
 	materialDensity: 600,
 	behaviors: [

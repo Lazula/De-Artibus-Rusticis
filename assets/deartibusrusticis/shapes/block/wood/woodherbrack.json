@@ -1,0 +1,129 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"rope": "game:item/resource/rope"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "stick",
+					"from": [ 0.5, 11.0, 15.0 ],
+					"to": [ 15.5, 12.0, 16.0 ],
+					"rotationOrigin": [ 0.5, 11.2, 0.0 ],
+					"faces": {
+						"north": { "texture": "#wood", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+						"east": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"south": { "texture": "#wood", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+						"west": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"up": { "texture": "#wood", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+						"down": { "texture": "#wood", "uv": [ 0.0, 0.0, 15.0, 1.0 ] }
+					}
+				},
+				{
+					"name": "rope1",
+					"from": [ 0.6, 11.9, 15.05 ],
+					"to": [ 1.5, 19.9, 15.95 ],
+					"rotationOrigin": [ 0.6, 11.9, 15.1 ],
+					"rotationZ": -67.5,
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 8.0 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 8.0 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 8.0 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 8.0 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "rope2",
+					"from": [ 31.1, 11.1, 15.05 ],
+					"to": [ 31.99, 19.1, 15.94 ],
+					"rotationOrigin": [ 23.1, -0.9, 0.0 ],
+					"rotationZ": 67.5,
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 8.0 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 8.0 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 8.0 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 8.0 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "nail",
+					"from": [ 7.5, 13.0, 14.5 ],
+					"to": [ 8.5, 14.0, 16.0 ],
+					"rotationOrigin": [ 0.0, 13.0, -0.5 ],
+					"faces": {
+						"north": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"east": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.5, 1.0 ] },
+						"south": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"west": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.5, 1.0 ] },
+						"up": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.5 ] },
+						"down": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.5 ] }
+					}
+				},
+				{
+					"name": "rope3",
+					"from": [ 3.0, 10.9, 14.8 ],
+					"to": [ 4.2, 12.1, 16.1 ],
+					"rotationOrigin": [ 0.0, 10.9, -0.2 ],
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+					},
+					"attachmentpoints": [
+						{
+							"code": "Herb2",
+							"posX": "0.6","posY": "0.6","posZ": "0.0",
+							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+						}
+					]
+				},
+				{
+					"name": "rope4",
+					"from": [ 12.0, 10.9, 14.8 ],
+					"to": [ 13.2, 12.1, 16.1 ],
+					"rotationOrigin": [ 9.0, 10.9, -0.2 ],
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+					},
+					"attachmentpoints": [
+						{
+							"code": "Herb1",
+							"posX": "0.6","posY": "0.6","posZ": "0.0",
+							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+						}
+					]
+				}
+			]
+		}
+	]}
