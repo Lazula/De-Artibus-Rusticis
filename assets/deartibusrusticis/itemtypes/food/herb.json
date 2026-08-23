@@ -39,51 +39,35 @@ nutritionPropsByType: {
 	"*-eruca": { satiety: 100, foodcategory: "Vegetable" },
 	"*": { satiety: 50, foodcategory: "Vegetable" }
 },
-transitionablePropsByType: {
-	"*anise": [{
-			type: "Perish",
-			freshHours: { avg: 504 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-			} ],
-	"*chives": [{
-			type: "Perish",
-			freshHours: { avg:  504 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-	"*eruca": [{
-			type: "Perish",
-			freshHours: { avg: 504 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		} ],
-	"*estragon": [{
-			type: "Perish",
-			freshHours: { avg: 504 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-			} ],		
-	"*": [{
-			type: "Perish",
-			freshHours: { avg:  336 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-	"herb-{type}":
-		[{
-			type: "Dry",
-			freshHours: { avg: 0 },
-			transitionHours: { avg: 3024 },
-			transitionedStack: { type: "item", code: "driedherb-{type]" },
-			transitionRatio: 1
-			}]
-	},
+transitionableProps: [
+        {
+            type: "Perish",
+            freshHours: {
+                avgByType: {
+                    "*anise": 504,
+                    "*chives": 504,
+                    "*eruca": 504,
+                    "*estragon": 504,
+                    "*": 336
+                }
+            },
+            transitionHours: {
+                avg: 96
+            },
+            transitionedStack: {
+                type: "item",
+                code: "game:rot"
+            },
+            transitionRatio: 0.5
+        },
+        {
+            type: "Dry",
+            freshHours: { avg: 0 },
+            transitionHours: { avg: 3024 },
+            transitionedStack: { type: "item", code: "driedherb-{type}" },
+            transitionRatio: 1
+        }
+    ],
 	guiTransformByType: {
 	"*-chives": {
     	translation: { x: -10, y: 6, z: 0 },
