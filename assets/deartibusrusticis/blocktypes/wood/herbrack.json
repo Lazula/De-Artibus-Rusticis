@@ -5,29 +5,29 @@
 	behaviors: [ 
         { name: "Lockable" },
         { name: "HorizontalAttachable"},
-		{ name: "DAR.ContainerNoGui", properties: { allowedCollectibleTags: [ "dar-dryable" ] } }   
+		{ name: "DAR.ContainerNoGui", properties: { allowedCollectibleTags: [ "dar-dryable" ] } }
     ],
 	attributes: {  
-        inventoryClassName: "test_rack",  
+        inventoryClassName: "herbrack",
         quantitySlots: 2,  
 		transitionSpeedMul: { dry: 8 },
 		selectionboxes: ["rope3", "rope4"]
     },
 	entityBehaviors: [{ name:  "DAR.GenericContainerNoGui" }],  
 	variantgroups: [
-		{ code: "side", loadFromProperties: "abstract/horizontalorientation" },
-        { code: "wood", states: ["aged"], loadFromProperties: "block/wood" }
-    ], 
+        { code: "wood", states: ["aged"], loadFromProperties: "block/wood" },
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
+	], 
 	shapebytype: {
-		"*-north": { base: "block/wood/herbrack", rotateY: 180 },
-		"*-east": { base: "block/wood/herbrack", rotateY: 90 },
-		"*-south": { base: "block/wood/herbrack", rotateY: 0 },
-		"*-west": { base: "block/wood/herbrack", rotateY: 270}
+		"*-north": { base: "block/wood/woodherbrack", rotateY: 180 },
+		"*-east": { base: "block/wood/woodherbrack", rotateY: 90 },
+		"*-south": { base: "block/wood/woodherbrack", rotateY: 0 },
+		"*-west": { base: "block/wood/woodherbrack", rotateY: 270}
     },
     textures: {
-        "wood": { base: "block/wood/debarked/{type}"}
+        "wood": { base: "game:block/wood/debarked/{type}"}
     },
-	creativeinventory: { "general": ["woodherbrack-north"], "deartibusrusticis": ["woodherbrack-north"] },
+	creativeinventory: { "general": ["woodherbrack-*-north"], "deartibusrusticis": ["woodherbrack-*-north"] },
     blockmaterial: "Wood",
 	lightAbsorption: 0,
 	faceCullMode: "NeverCull",
@@ -55,9 +55,9 @@
 		burnDuration: 10
 	},
 	sounds: {
-		"place": "block/planks",
-		"break": "block/planks",
-		"hit": "block/planks"
+		"place": "game:block/planks",
+		"break": "game:block/planks",
+		"hit": "game:block/planks"
 	},
 	rainPermeable: true,
 	materialDensity: 600
