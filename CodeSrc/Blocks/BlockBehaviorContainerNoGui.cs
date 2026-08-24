@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Linq;
+using System.Text;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Datastructures;
@@ -13,6 +14,8 @@ public class BlockBehaviorContainerNoGui : BlockBehavior {
     private int _maxTransferPerInteraction;
 
     private string[] _allowedCollectibleTagsStr = [];
+
+    private int?[] _selectionSlots = []; // _selectionSlots[boxIdx] = slot or null;
     
     public BlockBehaviorContainerNoGui(Block block) : base(block) { }
 
@@ -20,6 +23,15 @@ public class BlockBehaviorContainerNoGui : BlockBehavior {
         base.Initialize(properties);
         _allowedCollectibleTagsStr = properties["allowedCollectibleTags"].AsArray<string>([])!; //Just don't put null strings in the array
         _maxTransferPerInteraction = properties["maxTransferAmount"].AsInt(1);
+        var selSlotsRaw = properties["selectionSlots"].AsArray([-1]); // [slotId] = boxId
+        var lastBox = selSlotsRaw.Max();
+        var boxCount = lastBox + 1;
+        _selectionSlots = new int?[boxCount];
+        if (boxCount > 0) {
+            for (var i = 0; i < selSlotsRaw.Length; i++) {
+                _selectionSlots[selSlotsRaw[i]] = i;
+            }
+        }
     }
 
     public override void OnLoaded(ICoreAPI api) {
@@ -32,9 +44,9 @@ public class BlockBehaviorContainerNoGui : BlockBehavior {
         var playerSlot = byPlayer.InventoryManager.ActiveHotbarSlot;
         var stack = playerSlot.Itemstack;
         if (stack == null || _allowedCollectibleTags.Overlaps(stack.Collectible.Tags)) {
-            if (world.Side == EnumAppSide.Server) {
+            if (world.Side == EnumAppSide.Server && TryGetSlotForSelection(blockSel.SelectionBoxIndex, out var slot)) {
                 var be = world.BlockAccessor.GetBlockEntity<BlockEntityContainer>(blockSel.Position);
-                var containerSlot = be.Inventory[blockSel.SelectionBoxIndex];
+                var containerSlot = be.Inventory[slot];
                 if (containerSlot == null) {
                     world.Logger.Error("[De Artibus Rusticis] Slot out of range");
                     return false;
@@ -76,5 +88,14 @@ public class BlockBehaviorContainerNoGui : BlockBehavior {
     public override WorldInteraction[] GetPlacedBlockInteractionHelp(IWorldAccessor world, BlockSelection selection, IPlayer forPlayer, ref EnumHandling handling) {
         return base.GetPlacedBlockInteractionHelp(world, selection, forPlayer, ref handling); //TODO
     }
-    
+
+    private bool TryGetSlotForSelection(int selectionIdx, out int slot) {
+        if (selectionIdx < _selectionSlots.Length) {
+            var nul = _selectionSlots[selectionIdx];
+            slot = nul ?? -1;
+            return nul.HasValue;
+        }
+        slot = -1;
+        return false;
+    }
 }

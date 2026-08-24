@@ -5,18 +5,24 @@
 	behaviors: [ 
         { name: "Lockable" },
         { name: "HorizontalAttachable"},
-		{ name: "DAR.ContainerNoGui", properties: { allowedCollectibleTags: [ "dar-dryable" ] } }   
+		{
+			name: "DAR.ContainerNoGui",
+			properties: {
+				allowedCollectibleTags: [ "dar-dryable" ],
+				selectionSlots: [0, 1]
+			}
+		} 
     ],
 	attributes: {  
         inventoryClassName: "woodherbrack",  
         quantitySlots: 2,  
 		transitionSpeedMul: { dry: 8 },
-		selectionboxes: ["selection1", "selection2"],
+		selectionboxes: ["selection1", "selection2", "@0"],
 		handbook: {
 			groupBy: ["woodherbrack-*"]
 		}
     },
-	entityBehaviors: [{ name:  "DAR.GenericContainerNoGui" }],  
+//	entityBehaviors: [{ name:  "DAR.GenericContainerNoGui" }],  
 	variantgroups: [
 		{ code: "wood", states: ["aged"], loadFromProperties: "block/wood" },
 		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }

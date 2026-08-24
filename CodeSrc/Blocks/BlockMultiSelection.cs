@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
 using Vintagestory.GameContent;
@@ -14,6 +13,7 @@ public class BlockMultiSelection : Block {
         base.OnLoaded(api);
         var pointIds = Attributes["selectionBoxes"].AsArray<string>([]);
         var shape = Vintagestory.API.Common.Shape.TryGet(api, Shape.Base.CopyWithPathPrefixAndAppendix("shapes/", ".json"));
+        shape.ResolveReferences(api.World.Logger, Shape.Base);
         _selections = new Cuboidf[pointIds.Length];
         
         var rot = Shape.RotateXYZCopy.Mul(GameMath.DEG2RAD);
@@ -38,13 +38,12 @@ public class BlockMultiSelection : Block {
             Mat4f.Translate(mat, mat, halfNeg);
             
             Mat4f.Translate(mat, mat, [xSize/2f, ySize/2f, zSize/2f]);
+            
             var elementMat = element.GetInverseModelMatrix();
             Mat4f.Invert(elementMat, elementMat);
             Mat4f.Mul(mat, mat, elementMat);
             
-            // Mat4f.Invert(mat, mat);
             Mat4f.Scale(mat, mat, [ xSize, ySize, zSize ]);
-            
             _selections[i] = DarUtil.CuboidFromMat4(mat);
         }
     }
