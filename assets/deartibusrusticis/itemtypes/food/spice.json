@@ -5,7 +5,7 @@ code: "spice",
 	behaviorsByType: {
 		"spice-blackcumin": [
 		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } },
-		{ name: "Squeezable", properties: { squeezeTime: 2.0, squeezedLitres: 0.2, liquidItemCode: "deartibusrusticis:blackcuminoilportion" } } 
+		{ name: "Squeezable", properties: { squeezeTime: 2.0, squeezedLitres: 0.2, returnStacks: [{ type: "item", code: "deartibusrusticis:presscake", stacksize: 1 }], liquidItemCode: "deartibusrusticis:blackcuminoilportion" } } 
 		],
 		"*": [ 
 		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
@@ -27,17 +27,24 @@ shapebytype: {
 },
 texture: { base: "item/food/spice/{type}" },
 attributes: {
-shelvable: true,
-foodTags: ["{type}"],
-nutritionPropsWhenInMeal: { 
+	shelvable: true,
+	foodTags: ["{type}"],
+	nutritionPropsWhenInMeal: { 
 			satietyByType: {
 				"*-blend": 200,
 				"*": 75
 			}, foodcategoryByType: { 
-		"*-blend": "Vegetable", "*": "NoNutrition"} 
-},
-groundStorageTransform: { translation: { x: 0, y: -0.2, z: 0 }, scale: 0.6 },
-onshelfTransform: { translation: { x: 0, y: -0.2, z: 0 }, scale: 0.6 }
+			"*-blend": "Vegetable", "*": "NoNutrition"} 
+		},
+		groundStorageTransform: { translation: { x: 0, y: -0.2, z: 0 }, scale: 0.6 },
+		onshelfTransform: { translation: { x: 0, y: -0.2, z: 0 }, scale: 0.6 },
+		juiceablePropertiesByType: {
+			"*-blackcumin": {
+			litresPerItem: 0.25,
+			liquidStack: { type: "item", code: "blackcuminoilportion", stacksize: 1 },
+			pressedStack: { type: "item", code: "presscakemash", stacksize: 1 },
+			returnStack: { type: "item", code: "presscake", stacksize: 5 } }
+		}
 },
 creativeinventory: { "general": ["*"], "deartibusrusticis": [ "*" ] },
 nutritionPropsByType: {
