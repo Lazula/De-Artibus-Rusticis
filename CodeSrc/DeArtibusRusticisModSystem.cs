@@ -10,6 +10,7 @@ public class DeArtibusRusticisModSystem : ModSystem {
     public override void Start(ICoreAPI api) {
         api.RegisterBlockBehaviorClass("DAR.ContainerNoGui", typeof(BlockBehaviorContainerNoGui));
         api.RegisterBlockEntityClass("DAR.GenericContainerNoGui", typeof(BEGenericContainerNoGui));
+        api.RegisterBlockEntityBehaviorClass("DAR.DisplayContainerContents", typeof(BEBehaviorDisplayContainerContent));
         api.RegisterBlockClass("DAR.MultiSelection", typeof(BlockMultiSelection));
     }
 

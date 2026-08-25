@@ -44,20 +44,25 @@ public class BlockBehaviorContainerNoGui : BlockBehavior {
         var playerSlot = byPlayer.InventoryManager.ActiveHotbarSlot;
         var stack = playerSlot.Itemstack;
         if (stack == null || _allowedCollectibleTags.Overlaps(stack.Collectible.Tags)) {
-            if (world.Side == EnumAppSide.Server && TryGetSlotForSelection(blockSel.SelectionBoxIndex, out var slot)) {
+            if (TryGetSlotForSelection(blockSel.SelectionBoxIndex, out var slot)) {
                 var be = world.BlockAccessor.GetBlockEntity<BlockEntityContainer>(blockSel.Position);
                 var containerSlot = be.Inventory[slot];
                 if (containerSlot == null) {
-                    world.Logger.Error("[De Artibus Rusticis] Slot out of range");
+                    DarUtil.DarLog(world.Logger.Error,"Slot out of range");
                     return false;
                 }
-                if (stack != null) {
-                    playerSlot.TryPutInto(world, containerSlot, _maxTransferPerInteraction);
+                if (world.Side == EnumAppSide.Server) {
+                    if (stack != null) {
+                        playerSlot.TryPutInto(world, containerSlot, _maxTransferPerInteraction);
+                    }
+                    else {
+                        containerSlot.TryPutInto(world, playerSlot, _maxTransferPerInteraction);
+                    }
+                    world.BlockAccessor.MarkBlockEntityDirty(blockSel.Position);
                 }
                 else {
-                    containerSlot.TryPutInto(world, playerSlot, _maxTransferPerInteraction);
+                    containerSlot.MarkDirty();
                 }
-                world.BlockAccessor.MarkBlockEntityDirty(blockSel.Position);
             }
             handling = EnumHandling.Handled;
             return true;

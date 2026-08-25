@@ -115,7 +115,7 @@
 					],
 					"attachmentpoints": [
 						{
-							"code": "Herb2",
+							"code": "Herb1",
 							"posX": "0.6","posY": "0.6","posZ": "0.0",
 							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
 						}
@@ -152,7 +152,7 @@
 					],
 					"attachmentpoints": [
 						{
-							"code": "Herb1",
+							"code": "Herb2",
 							"posX": "0.6","posY": "0.6","posZ": "0.0",
 							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
 						}

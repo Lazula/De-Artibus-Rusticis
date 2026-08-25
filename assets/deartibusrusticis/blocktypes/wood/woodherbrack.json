@@ -13,6 +13,17 @@
 			}
 		} 
     ],
+	entityBehaviors: [
+		{
+			name:  "DAR.DisplayContainerContents",
+			properties: {
+				renderedSlots: [
+					{ slotIdx: 0, attachmentPoint: "Herb1" },
+					{ slotIdx: 1, attachmentPoint: "Herb2" }
+				]
+			}
+		}
+	],
 	attributes: {  
         inventoryClassName: "woodherbrack",  
         quantitySlots: 2,  
@@ -22,7 +33,6 @@
 			groupBy: ["woodherbrack-*"]
 		}
     },
-//	entityBehaviors: [{ name:  "DAR.GenericContainerNoGui" }],  
 	variantgroups: [
 		{ code: "wood", states: ["aged"], loadFromProperties: "block/wood" },
 		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
@@ -34,7 +44,8 @@
 		"*-west": { base: "block/wood/woodherbrack", rotateY: 270}
     },
     textures: {
-        "wood": { base: "game:block/wood/debarked/{wood}"}
+        "wood": { base: "game:block/wood/debarked/{wood}"},
+		"dummy": { base: "item/food/herb/chives"}
     },
 	creativeinventory: { "general": ["woodherbrack-*-north"], "deartibusrusticis": ["woodherbrack-*-north"] },
     blockmaterial: "Wood",

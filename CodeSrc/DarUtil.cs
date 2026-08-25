@@ -39,4 +39,17 @@ public static class DarUtil {
         cuboid.Offset(mat4[12], mat4[13], mat4[14]);
         return cuboid;
     }
+    
+    public static float[] GetTotalApTransform(AttachmentPoint ap) {
+        var parent = ap.ParentElement.GetInverseModelMatrix();
+        Mat4f.Invert(parent);
+        Mat4f.Translate(parent, parent, (float)ap.PosX, (float)ap.PosY, (float)ap.PosZ);
+        var rot = new Vec3f((float)ap.RotationX, (float)ap.RotationX, (float)ap.RotationZ).Mul(GameMath.DEG2RAD);
+        Mat4f.RotateByXYZ((Span<float>)parent, rot.X, rot.Y, rot.Z);
+        return parent;
+    }
+
+    public static void DarLog(Action<string> logMethod, string content) {
+        logMethod($"[De Artibus Rusticis] {content}");
+    }
 }

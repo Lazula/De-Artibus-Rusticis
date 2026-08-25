@@ -58,5 +58,13 @@ public class BlockMultiSelection : Block {
         }
         return _selections.Select(TransformBox).ToArray();
     }
-    
+
+    public void RenderSelectionBoxes(BlockSelection blockSel, RenderBoxDelegate renderBoxHandler) {
+        
+    }
+
+    public override void OnCollectTextures(ICoreAPI api, ITextureLocationDictionary textureDict) {
+        base.OnCollectTextures(api, textureDict);
+        textureDict.GetOrAddTextureLocation(new AssetLocationAndSource(new AssetLocation(Code.Domain, "item/food/herb/chives"), "", Code));
+    }
 }
