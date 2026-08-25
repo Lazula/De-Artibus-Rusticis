@@ -20,13 +20,15 @@
 				renderedSlots: [
 					{ slotIdx: 0, attachmentPoint: "Herb1" },
 					{ slotIdx: 1, attachmentPoint: "Herb2" }
-				]
+				],
+				transformToUse: "herbRackTransform"
 			}
 		}
 	],
 	attributes: {  
         inventoryClassName: "woodherbrack",  
-        quantitySlots: 2,  
+        quantitySlots: 2,
+		stackSizeLimit: 1,
 		transitionSpeedMul: { dry: 8 },
 		selectionboxes: ["selection1", "selection2", "@0"],
 		handbook: {
@@ -45,7 +47,6 @@
     },
     textures: {
         "wood": { base: "game:block/wood/debarked/{wood}"},
-		"dummy": { base: "item/food/herb/chives"}
     },
 	creativeinventory: { "general": ["woodherbrack-*-north"], "deartibusrusticis": ["woodherbrack-*-north"] },
     blockmaterial: "Wood",

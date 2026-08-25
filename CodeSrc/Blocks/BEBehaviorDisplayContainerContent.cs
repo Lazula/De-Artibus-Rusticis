@@ -1,5 +1,6 @@
 ﻿using System.Collections.Concurrent;
 using System.Collections.Generic;
+using DeArtibusRusticis.Rendering;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Datastructures;
@@ -8,27 +9,29 @@ using Vintagestory.GameContent;
 
 namespace DeArtibusRusticis.Blocks;
 
-public class BEBehaviorDisplayContainerContent : BlockEntityBehavior, ITexPositionSource {
+public class BEBehaviorDisplayContainerContent : BlockEntityBehavior {
 
-    private Dictionary<int, int> _slotsToRender = new();
+    private readonly Dictionary<int, int> _slotsToRender = new();
     private SlotRenderPoint[] _slotRenderPoints = [];
-    // private ITesselatorAPI? _tesselator;
-    private BlockEntityContainer? _beContainer;
 
+    private Vec3f _globalShapeRotation = null!;
+    private readonly BlockEntityContainer beContainer;
+    private string _transformName;
+    
     private ConcurrentDictionary<int, CollectibleObject?> _dirtySlots = new();
     
     public BEBehaviorDisplayContainerContent(BlockEntity blockentity) : base(blockentity) {
-        _beContainer = blockentity as BlockEntityContainer;
+        if (blockentity is not BlockEntityContainer be) { 
+            DarUtil.DarLog(Api.Logger.Error, $"BE with behavior of type DAR.DisplayContainerContents, is of invalid type: {Blockentity.GetType()}. Must have a class deriving form {nameof(BlockEntityContainer)}");
+            return;
+        }
+        beContainer = be;
     }
 
     public override void Initialize(ICoreAPI api, JsonObject properties) {
         base.Initialize(api, properties);
         if (api is ICoreClientAPI capi) {
-            // _tesselator = capi.Tesselator;
-            if (_beContainer == null) { 
-                DarUtil.DarLog(Api.Logger.Error, $"BE with behavior of type DAR.DisplayContainerContents, is of invalid type: {Blockentity.GetType()}. Must have a class deriving form {nameof(BlockEntityContainer)}");
-                return;
-            }
+            _transformName = properties["transformToUse"].AsString("originTransform");
             var slotDefs = properties["renderedSlots"].AsArray<SlotRenderPointDef>([]);
             var slotRenderPoints = new List<SlotRenderPoint>(slotDefs.Length);
             
@@ -48,6 +51,8 @@ public class BEBehaviorDisplayContainerContent : BlockEntityBehavior, ITexPositi
                     }
                 }
             });
+
+            _globalShapeRotation = cShape.RotateXYZCopy.Mul(GameMath.DEG2RAD);
             
             for (int i = 0; i < slotDefs.Length; i++) {
                 var def = slotDefs[i];
@@ -68,14 +73,14 @@ public class BEBehaviorDisplayContainerContent : BlockEntityBehavior, ITexPositi
             }
             _slotRenderPoints = slotRenderPoints.ToArray();
             
-            _beContainer.Inventory.SlotModified += HandleOnSlotModified;
+            beContainer.Inventory.SlotModified += HandleOnSlotModified;
         }
     }
 
     private void HandleOnSlotModified(int slotIdx) {
         if (_slotsToRender.TryGetValue(slotIdx, out var pointId)) {
             if (Api.Side == EnumAppSide.Client) {
-                var slot = _beContainer!.Inventory[slotIdx];
+                var slot = beContainer!.Inventory[slotIdx];
                 if (slot == null) {
                     return;
                 }
@@ -106,12 +111,13 @@ public class BEBehaviorDisplayContainerContent : BlockEntityBehavior, ITexPositi
     private void RemeshSlot(ITesselatorAPI tesselator, int renderSlotIdx, CollectibleObject? collectible) {
         ref var rp = ref _slotRenderPoints[renderSlotIdx];
         rp.meshData?.Dispose();
+        var capi = (ICoreClientAPI)Api;
         if (collectible != null) {
             //TODO do this only if actual change occurs or schedule
             MeshData mesh;
             switch(collectible) {
                 case Item item: 
-                    tesselator.TesselateItem(item, out mesh, this);
+                    tesselator.TesselateItem(item, out mesh, new ItemOnBlockTexPositionSource(item, capi.BlockTextureAtlas));
                     break;
                 case Block block: 
                     tesselator.TesselateBlock(block, out mesh);
@@ -120,7 +126,12 @@ public class BEBehaviorDisplayContainerContent : BlockEntityBehavior, ITexPositi
                     return;
             }
             rp.meshData = mesh;
-            Mat4f.Copy(rp.transform, rp.BaseTransform);
+            var mat = collectible.Attributes[_transformName].AsObject(ModelTransform.NoTransform).AsMatrix;
+            Mat4f.Identity(rp.transform);
+            DarUtil.Mat4fRotateAround(rp.transform, [_globalShapeRotation.X, _globalShapeRotation.Y, _globalShapeRotation.Z], DarUtil.Half);
+            // Mat4f.Translate(rp.transform, -0.390625f, -0.05f, -0.5f);
+            Mat4f.Mul(rp.transform, rp.BaseTransform);
+            Mat4f.Mul(rp.transform, mat);
         }
         else {
             rp.meshData = null;
@@ -137,13 +148,4 @@ public class BEBehaviorDisplayContainerContent : BlockEntityBehavior, ITexPositi
         public int slotIdx;
         public string attachmentPoint;
     }
-
-    public TextureAtlasPosition? this[string textureCode] {
-        get {
-            return ((ICoreClientAPI)Api).BlockTextureAtlas.GetPosition(Block, textureCode);
-        }
-    }
-
-
-    public Size2i? AtlasSize => ((ICoreClientAPI)Api).BlockTextureAtlas.Size;
 }

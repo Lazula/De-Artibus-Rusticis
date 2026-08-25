@@ -33,9 +33,7 @@ public class BlockMultiSelection : Block {
             float ySize = (float) (element.To![1] - element.From![1]) / 16f;
             float zSize = (float) (element.To![2] - element.From![2]) / 16f;
             Mat4f.Identity(mat);
-            Mat4f.Translate(mat, mat, half);
-            Mat4f.RotateByXYZ(mat, rot.X, rot.Y, rot.Z);
-            Mat4f.Translate(mat, mat, halfNeg);
+            DarUtil.Mat4fRotateAround(mat, [rot.X, rot.Y, rot.Z], DarUtil.Half);
             
             Mat4f.Translate(mat, mat, [xSize/2f, ySize/2f, zSize/2f]);
             
@@ -63,8 +61,8 @@ public class BlockMultiSelection : Block {
         
     }
 
-    public override void OnCollectTextures(ICoreAPI api, ITextureLocationDictionary textureDict) {
-        base.OnCollectTextures(api, textureDict);
-        textureDict.GetOrAddTextureLocation(new AssetLocationAndSource(new AssetLocation(Code.Domain, "item/food/herb/chives"), "", Code));
-    }
+    // public override void OnCollectTextures(ICoreAPI api, ITextureLocationDictionary textureDict) {
+    //     base.OnCollectTextures(api, textureDict);
+    //     textureDict.GetOrAddTextureLocation(new AssetLocationAndSource(new AssetLocation(Code.Domain, "item/food/herb/chives"), "", Code));
+    // }
 }

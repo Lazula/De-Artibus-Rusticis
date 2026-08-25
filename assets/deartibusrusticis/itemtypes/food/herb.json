@@ -32,7 +32,10 @@
 		groundStorageTransform: { translation: { x: 0, y: -0.1, z: 0 }, rotation: { x: 0, y: 45, z: 0 }, scale: 0.75 },
 		onshelfTransform: { translation: { x: 0, y: -0.1, z: 0 }, scale: 0.75 },
 		inTrapTransform: { translation: { x: -0.15, y: -0.125, z: 0 }, rotation: { x: 0, y: 90, z: 0 }, scale: 0.61 },
-		handbook: { include: true, extraSections: [ { title: "herbs-handbook-help-title", text: "herbs-handbook-help-text"}]}
+		handbook: { include: true, extraSections: [ { title: "herbs-handbook-help-title", text: "herbs-handbook-help-text"}]},
+		herbRackTransform: {
+			
+		}
 	},
 	creativeinventory: { "general": ["*"], "deartibusrusticis": [ "*" ] },
 	nutritionPropsByType: {

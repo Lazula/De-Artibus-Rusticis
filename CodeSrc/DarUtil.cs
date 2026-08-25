@@ -16,6 +16,8 @@ public static class DarUtil {
         [-S,  S, -S],
         [ S, -S, -S]
     ];
+
+    public static readonly float[] Half = [0.5f, 0.5f, 0.5f];
     
     public static Cuboidf CuboidFromMat4(float[] mat4) {
         Vec3f min = new Vec3f(); 
@@ -43,10 +45,26 @@ public static class DarUtil {
     public static float[] GetTotalApTransform(AttachmentPoint ap) {
         var parent = ap.ParentElement.GetInverseModelMatrix();
         Mat4f.Invert(parent);
-        Mat4f.Translate(parent, parent, (float)ap.PosX, (float)ap.PosY, (float)ap.PosZ);
-        var rot = new Vec3f((float)ap.RotationX, (float)ap.RotationX, (float)ap.RotationZ).Mul(GameMath.DEG2RAD);
-        Mat4f.RotateByXYZ((Span<float>)parent, rot.X, rot.Y, rot.Z);
-        return parent;
+        
+        float[] mat = new float[16];
+        var span = (Span<float>)mat;
+        Mat4f.NewIdentity(span);
+        
+        // Mat4f.RotateByXYZ(span, modelRot.X, modelRot.Y, modelRot.Z);
+
+        // Mat4f.Translate(span, -0.5f, -0.5f, -0.5f);
+        Mat4f.Mul(span, parent);
+        var rot = new Vec3f((float)ap.RotationX, (float)ap.RotationY, (float)ap.RotationZ).Mul(GameMath.DEG2RAD);
+        Mat4f.RotateByXYZ(span, rot.X, rot.Y, rot.Z);
+        Mat4f.Translate(span, (float)ap.PosX / 16f, (float)ap.PosY / 16f, (float)ap.PosZ / 16f);
+        
+        return mat;
+    }
+
+    public static void Mat4fRotateAround(Span<float> mat, float[] rotXYZ, float[] origin) {
+        Mat4f.Translate(mat, origin[0], origin[1], origin[2]); //last
+        Mat4f.RotateByXYZ(mat, rotXYZ[0], rotXYZ[1], rotXYZ[2]); //second
+        Mat4f.Translate(mat, -origin[0], -origin[1], -origin[2]); //first
     }
 
     public static void DarLog(Action<string> logMethod, string content) {
