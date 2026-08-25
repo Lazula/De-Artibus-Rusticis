@@ -32,7 +32,14 @@ nutritionPropsWhenInMealByType: {
 groundStorageTransform: { translation: { x: 0, y: -0.1, z: 0 }, rotation: { x: 0, y: 45, z: 0 }, scale: 0.75 },
 onshelfTransform: { translation: { x: 0, y: -0.1, z: 0 }, scale: 0.75 },
 inTrapTransform: { translation: { x: -0.15, y: -0.125, z: 0 }, rotation: { x: 0, y: 90, z: 0 }, scale: 0.61 },
-handbook: { include: true }
+handbook: { include: true },
+herbRackTransformByType: {
+			"*-chives": { translation: { x: -0.5, y: -0.21, z: -0.46 }, rotation: { x: 0, y: 0, z: 0 }, scale: 0.66 },
+			"*-bearleek": { translation: { x: -0.55, y: -0.21, z: -0.46 }, rotation: { x: 0, y: 0, z: 0 }, scale: 0.66 }, 
+			"*-cress": { translation: { x: -0.55, y: -0.21, z: -0.46 }, rotation: { x: 0, y: 0, z: 0 }, scale: 0.66 }, 
+			"*-meum": { translation: { x: -0.55, y: -0.21, z: -0.46 }, rotation: { x: 0, y: 0, z: 0 }, scale: 0.66 },  
+			"*": { translation: { x: -0.45, y: -0.21, z: -0.46 }, rotation: { x: 0, y: 0, z: 0 }, scale: 0.66 }, 
+		}
 },
 creativeinventory: { "general": ["*"], "deartibusrusticis": [ "*" ] },
 nutritionPropsByType: {

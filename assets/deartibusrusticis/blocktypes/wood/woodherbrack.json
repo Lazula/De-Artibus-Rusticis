@@ -18,8 +18,8 @@
 			name:  "DAR.DisplayContainerContents",
 			properties: {
 				renderedSlots: [
-					{ slotIdx: 0, attachmentPoint: "Herb1" },
-					{ slotIdx: 1, attachmentPoint: "Herb2" }
+					{ slotIdx: 0, attachmentPoint: "Herb2" },
+					{ slotIdx: 1, attachmentPoint: "Herb1" }
 				],
 				transformToUse: "herbRackTransform"
 			}
