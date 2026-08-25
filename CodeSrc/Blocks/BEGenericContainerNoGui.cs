@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Vintagestory.API.Common;
+using Vintagestory.API.Datastructures;
 using Vintagestory.GameContent;
 
 namespace DeArtibusRusticis.Blocks;
@@ -60,5 +61,14 @@ public class BEGenericContainerNoGui : BlockEntityContainer {
             transitions[EnumTransitionType.Melt] = speed;
         }
     }
-    
+
+    public override void FromTreeAttributes(ITreeAttribute tree, IWorldAccessor worldForResolving) {
+        InitInventory();
+        base.FromTreeAttributes(tree, worldForResolving);
+    }
+
+    // public override void ToTreeAttributes(ITreeAttribute tree) {
+    //     base.ToTreeAttributes(tree);
+    // }
+
 }
