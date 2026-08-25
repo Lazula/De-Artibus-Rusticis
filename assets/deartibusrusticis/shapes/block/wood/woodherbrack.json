@@ -9,7 +9,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"rope": "game:item/resource/rope"
 	},
 	"elements": [
 		{
