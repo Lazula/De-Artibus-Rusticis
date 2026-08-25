@@ -5,18 +5,36 @@
 	behaviors: [ 
         { name: "Lockable" },
         { name: "HorizontalAttachable"},
-		{ name: "DAR.ContainerNoGui", properties: { allowedCollectibleTags: [ "dar-dryable" ] } }   
+		{
+			name: "DAR.ContainerNoGui",
+			properties: {
+				allowedCollectibleTags: [ "dar-dryable" ],
+				selectionSlots: [0, 1]
+			}
+		} 
     ],
+	entityBehaviors: [
+		{
+			name:  "DAR.DisplayContainerContents",
+			properties: {
+				renderedSlots: [
+					{ slotIdx: 0, attachmentPoint: "Herb1" },
+					{ slotIdx: 1, attachmentPoint: "Herb2" }
+				],
+				transformToUse: "herbRackTransform"
+			}
+		}
+	],
 	attributes: {  
         inventoryClassName: "woodherbrack",  
-        quantitySlots: 2,  
+        quantitySlots: 2,
+		stackSizeLimit: 1,
 		transitionSpeedMul: { dry: 8 },
-		selectionboxes: ["selection1", "selection2"],
+		selectionboxes: ["selection1", "selection2", "@0"],
 		handbook: {
 			groupBy: ["woodherbrack-*"]
 		}
     },
-	entityBehaviors: [{ name:  "DAR.GenericContainerNoGui" }],  
 	variantgroups: [
 		{ code: "wood", states: ["aged"], loadFromProperties: "block/wood" },
 		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
@@ -28,7 +46,7 @@
 		"*-west": { base: "block/wood/woodherbrack", rotateY: 270}
     },
     textures: {
-        "wood": { base: "game:block/wood/debarked/{wood}"}
+        "wood": { base: "game:block/wood/debarked/{wood}"},
     },
 	creativeinventory: { "general": ["woodherbrack-*-north"], "deartibusrusticis": ["woodherbrack-*-north"] },
     blockmaterial: "Wood",
