@@ -124,6 +124,8 @@
 
 	"item-poultice-reed-blackcuminoil": "Black cumin oil poultice (from reeds)",
 	"item-poultice-linen-blackcuminoil": "Black cumin oil poultice (from linen)",
+	"item-presscake": "Black cumin press cake",
+	"item-presscakemash-wet": "Wet black cumin press cake",
 
 	"item-herbalbread-spelt-dough": "Herb spelt dough",
 	"item-herbalbread-spelt-partbaked": "Herb spelt bread (part-baked)",
@@ -835,6 +837,8 @@
 	"itemdesc-spice-eruca": "Spice",
 	"itemdesc-spice-anise": "Spice",
 	"itemdesc-spice-chervil": "Spice",
+
+	"itemdesc-presscake": "Crudely pressed seeds. Not too appetizing looking, but some animals might still eat this.",
 	
 	"itemdesc-seeds-bearleek": "<font color=\"#3FB045\">Can be harvested multiple times.</font>",
 	"itemdesc-seeds-chives": "<font color=\"#3FB045\">Can be harvested multiple times.</font>",

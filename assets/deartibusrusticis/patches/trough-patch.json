@@ -1,6 +1,6 @@
 [
     {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/contentConfig/-",
     "value": {
       "code": "lentils",
@@ -17,7 +17,7 @@
     "side": "server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/textures/contents-legume-lentils",
     "value": {
       "base": "deartibusrusticis:block/wood/barrel/lentils"
@@ -26,7 +26,7 @@
     "side": "server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/contentConfig/-",
     "value": {
       "code": "peas",
@@ -43,7 +43,7 @@
     "side": "server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/textures/contents-legume-peas",
     "value": {
       "base": "deartibusrusticis:block/wood/barrel/peas"
@@ -52,7 +52,7 @@
     "side": "server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/contentConfig/-",
     "value": {
       "code": "favabeans",
@@ -69,7 +69,7 @@
     "side": "server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/textures/contents-legume-favabeans",
     "value": {
       "base": "deartibusrusticis:block/wood/barrel/favabeans"
@@ -78,7 +78,7 @@
     "side": "server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/contentConfig/-",
     "value": {
       "code": "beetroot",
@@ -95,7 +95,7 @@
     "side": "server"
   },
    {
-    "op": "add",
+    "op": "addmerge",
     "path": "/textures/contents-vegetable-beetroot",
     "value": {
       "base": "deartibusrusticis:block/wood/barrel/beetroot"
@@ -104,7 +104,7 @@
     "side": "server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/contentConfig/-",
     "value": {
       "code": "cucumber",
@@ -121,7 +121,7 @@
     "side": "server"
   },
    {
-    "op": "add",
+    "op": "addmerge",
     "path": "/textures/contents-vegetable-cucumber",
     "value": {
       "base": "deartibusrusticis:block/wood/barrel/cucumber"
@@ -130,7 +130,7 @@
     "side": "server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/contentConfig/-",
     "value": {
       "code": "lettuce",
@@ -147,10 +147,36 @@
     "side": "server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/textures/contents-vegetable-lettuce",
     "value": {
       "base": "deartibusrusticis:block/wood/barrel/lettuce"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "presscake",
+      "content": {
+        "type": "item",
+        "code": "deartibusrusticis:presscake"
+      },
+      "quantityPerFillLevel": 4,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [ "block/wood/trough/large/legumefill1", "block/wood/trough/large/legumefill2", "block/wood/trough/large/legumefill3", "block/wood/trough/large/legumefill4" ],
+      "textureCode": "contents-presscake-blackcumin"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-presscake-blackcumin",
+    "value": {
+      "base": "deartibusrusticis:item/resource/blackcumin_presscake"
     },
     "file": "game:blocktypes/wood/trough-large.json",
     "side": "server"
