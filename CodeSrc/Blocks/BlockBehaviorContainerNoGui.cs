@@ -16,6 +16,8 @@ public class BlockBehaviorContainerNoGui : BlockBehavior {
     private string[] _allowedCollectibleTagsStr = [];
 
     private int?[] _selectionSlots = []; // _selectionSlots[boxIdx] = slot or null;
+
+    private WorldInteraction[] _interactionHelp = [];
     
     public BlockBehaviorContainerNoGui(Block block) : base(block) { }
 
@@ -38,30 +40,63 @@ public class BlockBehaviorContainerNoGui : BlockBehavior {
         base.OnLoaded(api);
         var collectibleTagRegistry = api.CollectibleTagRegistry;
         var result = collectibleTagRegistry.TryCreateTagSetAndLogIssues(out _allowedCollectibleTags, _allowedCollectibleTagsStr);
+
+        ItemStack[] allowedStacks = [
+            ..api.World.Collectibles
+                .Where(o => _allowedCollectibleTags.Overlaps(o.Tags))
+                .Select(o => new ItemStack(o))
+        ];
+        _interactionHelp = [
+            //Put Single
+            new() {
+                ActionLangCode = "deartibusrusticis:block-interact-herbrack-put",
+                MouseButton = EnumMouseButton.Right,
+                Itemstacks = allowedStacks,
+                RequireFreeHand = false,
+            },
+            //Put Many
+            new() {
+                ActionLangCode = "deartibusrusticis:block-interact-herbrack-put-many",
+                MouseButton = EnumMouseButton.Right,
+                HotKeyCode = "ctrl",
+                Itemstacks = allowedStacks,
+                RequireFreeHand = false,
+            },
+            
+            // Take Single
+            new() {
+                ActionLangCode = "deartibusrusticis:block-interact-herbrack-take",
+                MouseButton = EnumMouseButton.Right,
+                RequireFreeHand = true
+            },
+            //Take many
+            new() {
+                ActionLangCode = "deartibusrusticis:block-interact-herbrack-take-many",
+                MouseButton = EnumMouseButton.Right,
+                HotKeyCode = "ctrl",
+                RequireFreeHand = true
+            }
+        ];
     }
 
     public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel, ref EnumHandling handling) {
         var playerSlot = byPlayer.InventoryManager.ActiveHotbarSlot;
         var stack = playerSlot.Itemstack;
         if (stack == null || _allowedCollectibleTags.Overlaps(stack.Collectible.Tags)) {
-            if (TryGetSlotForSelection(blockSel.SelectionBoxIndex, out var slot)) {
-                var be = world.BlockAccessor.GetBlockEntity<BlockEntityContainer>(blockSel.Position);
-                var containerSlot = be.Inventory[slot];
-                if (containerSlot == null) {
-                    DarUtil.DarLog(world.Logger.Error,"Slot out of range");
-                    return false;
-                }
-                if (world.Side == EnumAppSide.Server) {
-                    if (stack != null) {
-                        playerSlot.TryPutInto(world, containerSlot, _maxTransferPerInteraction);
+            var transferDir = playerSlot.Empty ? TransferDirection.Take : TransferDirection.Store;
+            var be = world.BlockAccessor.GetBlockEntity<BlockEntityContainer>(blockSel.Position);
+            
+            //Transfer selected first (allows for take filtering)
+            if (TryGetSlotForSelection(blockSel.SelectionBoxIndex, out var selectedSlot)) {
+                TransferSlot(world, be, playerSlot, selectedSlot, transferDir);
+            }
+            //Transfer other if ctrl is pressed
+            if (byPlayer.Entity.Controls.CtrlKey) {
+                foreach (var slot in _selectionSlots) {
+                    //Don't overcount current slot
+                    if (slot.HasValue && slot != selectedSlot) {
+                        TransferSlot(world, be, playerSlot, slot.Value, transferDir);
                     }
-                    else {
-                        containerSlot.TryPutInto(world, playerSlot, _maxTransferPerInteraction);
-                    }
-                    world.BlockAccessor.MarkBlockEntityDirty(blockSel.Position);
-                }
-                else {
-                    containerSlot.MarkDirty();
                 }
             }
             handling = EnumHandling.Handled;
@@ -69,7 +104,7 @@ public class BlockBehaviorContainerNoGui : BlockBehavior {
         }
         return false;
     }
-
+    
     public override string GetPlacedBlockInfo(IWorldAccessor world, BlockPos pos, IPlayer forPlayer) {
         var be = world.BlockAccessor.GetBlockEntity<BlockEntityContainer>(pos);
         if (be == null) {
@@ -91,7 +126,7 @@ public class BlockBehaviorContainerNoGui : BlockBehavior {
     }
 
     public override WorldInteraction[] GetPlacedBlockInteractionHelp(IWorldAccessor world, BlockSelection selection, IPlayer forPlayer, ref EnumHandling handling) {
-        return base.GetPlacedBlockInteractionHelp(world, selection, forPlayer, ref handling); //TODO
+        return _interactionHelp;
     }
 
     private bool TryGetSlotForSelection(int selectionIdx, out int slot) {
@@ -102,5 +137,30 @@ public class BlockBehaviorContainerNoGui : BlockBehavior {
         }
         slot = -1;
         return false;
+    }
+
+    private void TransferSlot(IWorldAccessor world, BlockEntityContainer be, ItemSlot fromSlot, int targetSlot, TransferDirection dir) {
+        var containerSlot = be.Inventory[targetSlot];
+        if (containerSlot == null) {
+            DarUtil.DarLog(world.Logger.Error,"Slot out of range");
+            return;
+        }
+        if (world.Side == EnumAppSide.Server) {
+            if (dir == TransferDirection.Store) {
+                fromSlot.TryPutInto(world, containerSlot, _maxTransferPerInteraction);
+            }
+            else {
+                containerSlot.TryPutInto(world, fromSlot, _maxTransferPerInteraction);
+            }
+            world.BlockAccessor.MarkBlockEntityDirty(be.Pos);
+        }
+        else {
+            containerSlot.MarkDirty();
+        }
+    }
+
+    private enum TransferDirection {
+        Store,
+        Take
     }
 }
