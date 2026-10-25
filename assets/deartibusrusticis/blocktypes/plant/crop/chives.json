@@ -10,6 +10,7 @@
 	renderpass: "OpaqueNoCull",
 	shape: {base: "block/plant/crop/chives*"},
 	blockmaterial: "Plant",
+	randomizeRotations: true,
 	textures: {
 		"crop": { base: "block/plant/crop/chives/{stage}" }
 	},
@@ -98,7 +99,7 @@
 		nutrientConsumption: 20,
 		growthStages: 7,
 		totalGrowthMonths: 1.0,
-		heatDamageAbove: 27,
+		heatDamageAbove: 32,
 		coldDamageBelow: -10
 	},
 	collisionbox: null,

@@ -1,0 +1,811 @@
+[
+    //Enable Alcohol Files
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "deartibusrusticis:itemtypes/EF/potentmeumextract",
+        "op": "add", 
+        "path": "/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "deartibusrusticis:itemtypes/EF/potentmeumschnaps",
+        "op": "add", 
+        "path": "/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "deartibusrusticis:itemtypes/EF/strongmeumextract",
+        "op": "add", 
+        "path": "/enabled",
+        "value": true
+    },
+    {
+        "dependsOn": [ { "modid": "expandedfoods" } ],
+        "file": "deartibusrusticis:itemtypes/EF/strongmeumschnaps",
+        "op": "add", 
+        "path": "/enabled",
+        "value": true
+    },
+    //Meum Extract
+    {
+    "op": "addmerge",
+    "path": "/attributes/handbook/extraSections",
+    "value": [{ "title": "expandedfoods:item-handbooktitle-alcoholagingguide", "text": "expandedfoods:item-handbooktext-alcoholagingguide" }],
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/liquid/meumextract.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "add",
+    "path": "/transitionableProps",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 3360 },
+        "transitionHours": { "avg": 144 },
+        "transitionedStack": { "type": "item", "code": "game:vinegarportion" },
+        "transitionRatio": 1
+      },
+      {
+        "type": "Cure",
+        "freshHours": { "avg": 3360 },
+        "transitionHours": { "avg": 1008 },
+        "transitionedStack": { "type": "item", "code": "deartibusrusticis:strongmeumextractportion" },
+        "transitionRatio": 1
+      }
+    ],
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/liquid/meumextract.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    //Meum Schnaps
+    {
+    "op": "addmerge",
+    "path": "/transitionableProps",
+    "value": [
+      {
+        "type": "Cure",
+        "freshHours": { "avg": 6720 },
+        "transitionHours": { "avg": 2016 },
+        "transitionedStack": { "type": "item", "code": "deartibusrusticis:strongmeumschnapsportion" },
+        "transitionRatio": 1
+      }
+    ],
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/liquid/meumschnaps.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addmerge",
+    "path": "/attributes/handbook/extraSections",
+    "value": [{ "title": "expandedfoods:item-handbooktitle-alcoholagingguide", "text": "expandedfoods:item-handbooktext-alcoholagingguide" }],
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/liquid/meumschnaps.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+
+    //Disable DAR-Broths
+    {
+    "op": "addmerge",
+    "file": "itemtypes/liquid/fishbrothportion.json",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "file": "itemtypes/liquid/meatbrothportion.json",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "file": "itemtypes/liquid/marrowbrothportion.json",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "file": "itemtypes/liquid/vegetablebrothportion.json",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "file": "itemtypes/liquid/chickenbrothportion.json",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/stocks.json",
+        "path": "/0/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/stocks.json",
+        "path": "/1/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/stocks.json",
+        "path": "/2/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/stocks.json",
+        "path": "/3/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/stocks.json",
+        "path": "/4/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/stocks.json",
+        "path": "/5/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/stocks.json",
+        "path": "/6/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/stocks.json",
+        "path": "/7/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+
+    //Change DAR Herbbroth
+    {
+    "op": "replace",
+    "file": "itemtypes/liquid/herbbrothportion.json",
+    "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitre/satiety",
+    "value":  105,
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "add",
+    "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitre/health",
+    "value": 1.5,
+    "file": "itemtypes/liquid/herbbrothportion.json",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "replace",
+    "file": "itemtypes/liquid/herbbrothportion.json",
+    "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitreWhenInMeal/satiety",
+    "value":  1050,
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "add",
+    "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitreWhenInMeal/health",
+    "value": 15,
+    "file": "itemtypes/liquid/herbbrothportion.json",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "replace",
+    "file": "itemtypes/liquid/herbbrothportion.json",
+    "path": "/nutritionProps/satiety",
+    "value":  1.05,
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "add",
+    "path": "/nutritionProps/health",
+    "value": 0.01,
+    "file": "itemtypes/liquid/herbbrothportion.json",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "path": "/attributes/handbook/groupBy",
+    "value": ["brothportion-*"],
+    "side": "server",
+    "file": "itemtypes/liquid/herbbrothportion.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addmerge",
+    "path": "/attributes/handbook/extraSections",
+    "value": [{ "title": "expandedfoods:item-handbooktitle-broth", "text": "expandedfoods:item-handbooktext-broth" }],
+    "side": "server",
+    "file": "itemtypes/liquid/herbbrothportion.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+
+    //Enable EF Herb Broth
+    {
+    "op": "addmerge",
+    "file": "itemtypes/EF/clarifiedherbbrothportion.json",
+    "path": "/enabled",
+    "value": "true",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+
+    // Enable Juices
+    {
+    "op": "addmerge",
+    "file": "itemtypes/EF/juices.json",
+    "path": "/enabled",
+    "value": "true",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+
+    //Enable Chopped Veggies
+    {
+    "op": "addmerge",
+    "file": "itemtypes/EF/choppedvegetables.json",
+    "path": "/enabled",
+    "value": "true",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+
+    //Enable Chopped Legumes
+    {
+    "op": "addmerge",
+    "file": "itemtypes/EF/choppedlegume.json",
+    "path": "/enabled",
+    "value": "true",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+
+    //Enable Gelatin
+    {
+    "op": "addmerge",
+    "file": "itemtypes/EF/gelatin.json",
+    "path": "/enabled",
+    "value": "true",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+
+    //Enable Baked Vegetables
+    {
+    "op": "addmerge",
+    "file": "itemtypes/EF/cookedvegetable.json",
+    "path": "/enabled",
+    "value": "true",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "file": "itemtypes/EF/cookedchoppedvegetable.json",
+    "path": "/enabled",
+    "value": "true",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+
+    //Enable Baked Legumes
+    {
+    "op": "addmerge",
+    "file": "itemtypes/EF/cookedlegume.json",
+    "path": "/enabled",
+    "value": "true",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "file": "itemtypes/EF/cookedchoppedlegume.json",
+    "path": "/enabled",
+    "value": "true",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    
+    //Make Dar Vegetables Bakeable
+    {
+    "op": "addmerge",
+    "file": "itemtypes/food/vegetable.json",
+    "path": "/attributes",
+     "value": {
+		     "bakingProperties": {
+		        "temp": 100,
+		        "levelFrom": 0.0,
+		        "levelTo": 0.25,
+           "startScaleY": 1.0,
+       	    "endScaleY": 1.0,
+		      "resultCode": "deartibusrusticis:cookedvegetable-{type}-partbaked"
+         }
+    },
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "file": "itemtypes/food/pickled-vegetable.json",
+    "path": "/attributes",
+     "value": {
+		     "bakingPropertiesByType": {
+          "*-cucumber": {
+		        "temp": 100,
+		        "levelFrom": 0.0,
+		        "levelTo": 0.25,
+           "startScaleY": 1.0,
+       	    "endScaleY": 1.0,
+		      "resultCode": "deartibusrusticis:cookedvegetable-pickledcucumber-partbaked"
+          },
+          "*-leek": {
+		        "temp": 100,
+		        "levelFrom": 0.0,
+		        "levelTo": 0.25,
+           "startScaleY": 1.0,
+       	    "endScaleY": 1.0,
+		      "resultCode": "deartibusrusticis:cookedvegetable-pickledleek-partbaked"
+          },
+          "*-beetroot": {
+		        "temp": 100,
+		        "levelFrom": 0.0,
+		        "levelTo": 0.25,
+           "startScaleY": 1.0,
+       	    "endScaleY": 1.0,
+		      "resultCode": "deartibusrusticis:cookedvegetable-pickledbeetroot-partbaked"
+          },
+          "*-horseradish": {
+		        "temp": 100,
+		        "levelFrom": 0.0,
+		        "levelTo": 0.25,
+           "startScaleY": 1.0,
+       	    "endScaleY": 1.0,
+		      "resultCode": "deartibusrusticis:cookedvegetable-pickledhorseradish-partbaked"
+          },
+          "*-lettuce": {
+		        "temp": 100,
+		        "levelFrom": 0.0,
+		        "levelTo": 0.25,
+           "startScaleY": 1.0,
+       	    "endScaleY": 1.0,
+		      "resultCode": "deartibusrusticis:cookedvegetable-pickledlettuce-partbaked"
+          },
+          "*-garlic": {
+		        "temp": 100,
+		        "levelFrom": 0.0,
+		        "levelTo": 0.25,
+           "startScaleY": 1.0,
+       	    "endScaleY": 1.0,
+		      "resultCode": "deartibusrusticis:cookedvegetable-pickledgarlic-partbaked"
+          }
+        }
+    },
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "file": "itemtypes/food/vegetable.json",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-garlic": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-garlic-charred" },
+        "requiresContainer": false
+      },
+      "*-horseradish": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-horseradish-charred" },
+        "requiresContainer": false
+      },
+      "*-beetroot": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-beetroot-charred" },
+        "requiresContainer": false
+      },
+      "*-lettuce": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-lettuce-charred" },
+        "requiresContainer": false
+      },
+      "*-leek": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-leek-charred" },
+        "requiresContainer": false
+      },
+      "*-cucumber": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-cucumber-charred" },
+        "requiresContainer": false
+      }
+    },
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "file": "itemtypes/food/pickled-vegetable.json",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-garlic": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-pickledgarlic-charred" },
+        "requiresContainer": false
+      },
+      "*-horseradish": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-pickledhorseradish-charred" },
+        "requiresContainer": false
+      },
+      "*-beetroot": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-pickledbeetroot-charred" },
+        "requiresContainer": false
+      },
+      "*-lettuce": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-pickledlettuce-charred" },
+        "requiresContainer": false
+      },
+      "*-leek": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-pickledleek-charred" },
+        "requiresContainer": false
+      },
+      "*-cucumber": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedvegetable-pickledcucumber-charred" },
+        "requiresContainer": false
+      }
+    },
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+
+    //Make Dar Legumes Bakeable
+    {
+    "op": "addmerge",
+    "file": "itemtypes/food/legume.json",
+    "path": "/attributes",
+     "value": {
+		     "bakingProperties": {
+		        "temp": 100,
+		        "levelFrom": 0.0,
+		        "levelTo": 0.25,
+           "startScaleY": 1.0,
+       	    "endScaleY": 1.0,
+		      "resultCode": "deartibusrusticis:cookedlegume-{type}-partbaked"
+        },
+        "onDisplayTransform": { translation: { x: 0, y: -0.3, z: 0 }, scale: 0.4 }
+    },
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "file": "itemtypes/food/pickled-legume.json",
+    "path": "/attributes",
+     "value": {
+		     "bakingPropertiesByType": {
+          "*-peas": {
+		        "temp": 100,
+		        "levelFrom": 0.0,
+		        "levelTo": 0.25,
+           "startScaleY": 1.0,
+       	    "endScaleY": 1.0,
+		      "resultCode": "deartibusrusticis:cookedlegume-pickledpeas-partbaked"
+          },
+          "*-favabeans": {
+		        "temp": 100,
+		        "levelFrom": 0.0,
+		        "levelTo": 0.25,
+           "startScaleY": 1.0,
+       	    "endScaleY": 1.0,
+		      "resultCode": "deartibusrusticis:cookedlegume-pickledfavabeans-partbaked"
+          }
+        },
+        "onDisplayTransform": { translation: { x: 0, y: -0.3, z: 0 }, scale: 0.4 }
+    },
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "file": "itemtypes/food/legume.json",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-peas": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedlegume-peas-charred" },
+        "requiresContainer": false
+      },
+      "*-favabeans": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedlegume-favabeans-charred" },
+        "requiresContainer": false
+      }
+    },
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+    {
+    "op": "addmerge",
+    "file": "itemtypes/food/pickled-legume.json",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-peas": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedlegume-pickledpeas-charred" },
+        "requiresContainer": false
+      },
+      "*-favabeans": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedlegume-pickledfavabeans-charred" },
+        "requiresContainer": false
+      }
+    },
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+
+    //Enable Breaded Vegetables
+    {
+    "op": "addmerge",
+    "file": "itemtypes/EF/breadedvegetable.json",
+    "path": "/enabled",
+    "value": "true",
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "side": "Server"
+    },
+
+    //Enable EF Grid Recipes
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/choppedlegume.json",
+        "path": "/0/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/choppedlegume.json",
+        "path": "/1/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/choppedlegume.json",
+        "path": "/2/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/choppedlegume.json",
+        "path": "/3/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/choppedvegetable.json",
+        "path": "/0/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/choppedvegetable.json",
+        "path": "/1/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/choppedvegetable.json",
+        "path": "/2/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/choppedvegetable.json",
+        "path": "/3/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/cookedchoppedlegume.json",
+        "path": "/0/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/cookedchoppedlegume.json",
+        "path": "/1/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/cookedchoppedlegume.json",
+        "path": "/2/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/cookedchoppedlegume.json",
+        "path": "/3/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/cookedchoppedlegume.json",
+        "path": "/4/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/cookedchoppedlegume.json",
+        "path": "/5/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/cookedchoppedvegetable.json",
+        "path": "/0/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/cookedchoppedvegetable.json",
+        "path": "/1/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/cookedchoppedvegetable.json",
+        "path": "/2/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/cookedchoppedvegetable.json",
+        "path": "/3/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/cookedchoppedvegetable.json",
+        "path": "/4/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/EF/cookedchoppedvegetable.json",
+        "path": "/5/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "expandedfoods"}],
+        "side": "Server"
+    },
+]

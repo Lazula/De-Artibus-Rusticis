@@ -1,0 +1,34 @@
+[
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/ksfarming/seeds.json",
+        "path": "/3/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "farmingrevamped"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/ksfarming/seeds.json",
+        "path": "/4/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "farmingrevamped"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/ksfarming/seeds.json",
+        "path": "/5/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "farmingrevamped"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/ksfarming/seeds.json",
+        "path": "/6/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "farmingrevamped"}],
+        "side": "Server"
+    }
+]

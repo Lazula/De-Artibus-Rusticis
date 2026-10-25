@@ -1,0 +1,10 @@
+{
+	enabled: false,
+	code: "tea-cress-cold1",
+	sealHours: 16,
+	ingredients: [
+		{ type: "item", code: "game:waterportion", litres: 1 },
+		{ type: "item", code: "deartibusrusticis:spice-cress", quantity: 1 }
+	],
+	output: { type: "item", code: "deartibusrusticis:tea-cress-cold", litres: 1 }
+}

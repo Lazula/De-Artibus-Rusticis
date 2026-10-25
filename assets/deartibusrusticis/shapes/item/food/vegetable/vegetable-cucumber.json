@@ -10,7 +10,6 @@
 		"cucumber": [16,16]
 	},
 	"textures": {
-		"cucumber": "item/food/vegetable/cucumber"
 	},
 	"elements": [
 		{
@@ -33,7 +32,6 @@
 					"from": [ 6.2917, -0.2899, 3.0 ],
 					"to": [ 8.2917, 1.7101, 10.0 ],
 					"rotationOrigin": [ 7.2917, 0.7101, 7.0 ],
-					"rotationZ": 0.0,
 					"faces": {
 						"north": { "texture": "#cucumber", "uv": [ 13.5, 13.5, 16.0, 16.0 ], "autoUv": false },
 						"east": { "texture": "#cucumber", "uv": [ 12.5, 0.0, 15.0, 7.0 ], "rotation": 90, "autoUv": false },
@@ -49,6 +47,7 @@
 							"to": [ 1.7293, 1.7, 9.0 ],
 							"rotationOrigin": [ 0.9293, 1.0, 8.0 ],
 							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false },
 								"east": { "texture": "#cucumber", "uv": [ 0.0, 0.0, 1.5, 2.0 ], "rotation": 90 },
 								"south": { "texture": "#cucumber", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
 								"west": { "texture": "#cucumber", "uv": [ 0.0, 0.0, 1.5, 2.0 ], "rotation": 90 },
@@ -76,8 +75,9 @@
 							"to": [ 1.4879, 1.4793, -1.0 ],
 							"rotationOrigin": [ 0.7879, 0.9293, -1.0 ],
 							"faces": {
-								"north": { "texture": "#cucumber", "uv": [ 12.0, 15.0, 13.0, 16.0 ] },
+								"north": { "texture": "#cucumber", "uv": [ 8.5, 12.0, 9.5, 13.0 ] },
 								"east": { "texture": "#cucumber", "uv": [ 0.0, 6.0, 0.5, 7.0 ] },
+								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
 								"west": { "texture": "#cucumber", "uv": [ 0.0, 4.5, 0.5, 5.5 ] },
 								"up": { "texture": "#cucumber", "uv": [ 1.0, 8.0, 2.0, 8.5 ] },
 								"down": { "texture": "#cucumber", "uv": [ 9.5, 9.0, 10.5, 9.5 ] }
@@ -89,6 +89,7 @@
 							"to": [ 1.4879, 1.4793, 10.0 ],
 							"rotationOrigin": [ 0.7879, 0.9293, 10.0 ],
 							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
 								"east": { "texture": "#cucumber", "uv": [ 5.5, 4.5, 6.5, 5.5 ] },
 								"south": { "texture": "#cucumber", "uv": [ 15.0, 0.0, 16.0, 1.0 ] },
 								"west": { "texture": "#cucumber", "uv": [ 4.0, 0.5, 5.0, 1.5 ] },

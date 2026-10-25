@@ -1,0 +1,112 @@
+{
+    "enabled": "false",
+	"code": "choppedlegume",
+	"maxstacksize": 64,
+    "attributes": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": {
+        "groupBy": [ "choppedlegume-*" ],
+        "extraSections": [{ "title": "expandedfoods:item-handbooktitle-choppedvegetable", "text": "expandedfoods:item-handbooktext-choppedvegetable" }]
+      },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "deartibusrusticis:cookedchoppedlegume-{type}-partbaked"
+      }
+    },
+	"attributesByType": {
+		"*-favabeans": {
+			"nutritionPropsWhenInMeal": { "satiety": 150, "foodcategory": "Protein" },
+            "inPieProperties": { "texture": "deartibusrusticis:block/food/pie/fill-favabeans", "partType": "Filling" },
+			"onDisplayTransform": {  translation: { x: 0, y: -0.19, z: 0 }, scale: 0.61 }
+		},
+		"*-pickledfavabeans": {
+			"nutritionPropsWhenInMeal": { "satiety": 120, "foodcategory": "Protein" },
+            "inPieProperties": { "texture": "deartibusrusticis:block/food/pie/fill-favabeans", "partType": "Filling" },
+			"onDisplayTransform": {  translation: { x: 0, y: -0.19, z: 0 }, scale: 0.61 }
+		},
+		"*-peas": {
+			"nutritionPropsWhenInMeal": { "satiety": 150, "foodcategory": "Vegetable" },
+            "inPieProperties": { "texture": "deartibusrusticis:block/food/pie/fill-{type}", "partType": "Filling" },
+			"onDisplayTransform": {  translation: { x: 0, y: -0.19, z: 0 }, scale: 0.61 }
+		},
+		"*-pickledpeas": {
+			"nutritionPropsWhenInMeal": { "satiety": 120, "foodcategory": "Vegetable" },
+            "inPieProperties": { "texture": "deartibusrusticis:block/food/pie/fill-{type}", "partType": "Filling" },
+			"onDisplayTransform": {  translation: { x: 0, y: -0.19, z: 0 }, scale: 0.61 }
+		}
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["favabeans", "peas", "pickledfavabeans", "pickledpeas"] }
+	],
+	"shape": { "base": "deartibusrusticis:item/EF/choppedveggies/{type}" },
+	"textures": {
+		"favabean": { base: "deartibusrusticis:item/food/legume/favabean"},
+		"peas": { base: "deartibusrusticis:item/food/legume/peas"},
+		"pickledfavabean": { base: "deartibusrusticis:item/food/pickledlegume/pickledfavabean"},
+		"pickledpeas": { base: "deartibusrusticis:item/food/pickledlegume/pickledpeas"}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "deartibusrusticis": ["*"] },
+	"nutritionPropsByType": {
+        "*-favabeans": { "satiety": 100, "foodcategory": "Protein" },
+        "*-pickledfavabeans": { "satiety": 80, "foodcategory": "Protein" },
+		"*-pickledpeas": { "satiety": 80, "foodcategory": "Vegetable" },
+		"choppedlegume-*": { "satiety": 100, "foodcategory": "Vegetable" }
+	},
+	"combustiblePropsByType": {
+		"*": {
+			"meltingPoint": 150,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedchoppedlegume-{type}-charred" },
+			"requiresContainer": false
+		}
+	},
+	"transitionablePropsByType": {
+		"@*-(pickledfavabeans|pickledpeas)-*": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+        }],
+        		"*": [{
+			"type": "Perish",
+			"freshHours": { "avg": 672 },
+			"transitionHours": { "avg": 120 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}]
+	},
+	"materialDensity": 600,
+	"guiTransformByType": {
+		"*": {
+			"translation": { x: 2.5, y: 1, z: 0 },
+    		"rotation": { x: 137, y: 131, z: 0 },
+    		"origin": { x: 0.5, y: 0.1, z: 0.5 },
+    		"scale": 2.5,
+			"rotate":  true
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			translation: { x: -1.2, y: -0.25, z: -1 },
+    		rotation: { x: 1, y: -1, z: 0 },
+    		origin: { x: 0.5, y: 0.1, z: 0.5 },
+    		scale: 0.5
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3
+		}
+	}
+}

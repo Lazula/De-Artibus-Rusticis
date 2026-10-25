@@ -1,0 +1,388 @@
+[
+    //Broths to Soups, Stews
+    {
+    "op": "addeach",
+    "path": "/ingredients/0/validStacks/-",
+    "value": [
+        { "type": "item", "code": "deartibusrusticis:herbbrothportion", "shapeElement": "bowl/water", "textureMapping": [ "water", "herb-stock" ] },
+        { "type": "item", "code": "deartibusrusticis:clarifiedherbbrothportion", "shapeElement": "bowl/water", "textureMapping": [ "water", "clarifiedherbbroth" ] }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/soup.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addeach",
+    "path": "/ingredients/9/validStacks/-",
+    "value": [
+        { "type": "item", "code": "deartibusrusticis:herbbrothportion", "shapeElement": "bowl/water", "textureMapping": [ "water", "herb-stock" ] },
+        { "type": "item", "code": "deartibusrusticis:clarifiedherbbrothportion", "shapeElement": "bowl/water", "textureMapping": [ "water", "clarifiedherbbroth" ] }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addeach",
+    "path": "/ingredients/11/validStacks/-",
+    "value": [
+        { "type": "item", "code": "deartibusrusticis:herbbrothportion", "shapeElement": "bowl/water", "textureMapping": [ "water", "herb-stock" ] },
+        { "type": "item", "code": "deartibusrusticis:clarifiedherbbrothportion", "shapeElement": "bowl/water", "textureMapping": [ "water", "clarifiedherbbroth" ] }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+
+    //Black Cumin Oil to Porridge, Scrambled Eggs, Stews
+    {
+    "op": "addeach",
+    "path": "/ingredients/4/validStacks/-",
+    "value": [
+        { "type": "item", "code": "deartibusrusticis:blackcuminoilportion", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "blackcurrantwine" ] }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addeach",
+    "path": "/ingredients/8/validStacks/-",
+    "value": [
+        { "type": "item", "code": "deartibusrusticis:blackcuminoilportion", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "blackcurrantwine" ] }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addeach",
+    "path": "/ingredients/9/validStacks/-",
+    "value": [
+        { "type": "item", "code": "deartibusrusticis:blackcuminoilportion", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "blackcurrantwine" ] }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addeach",
+    "path": "/ingredients/5/validStacks/-",
+    "value": [
+        { "type": "item", "code": "deartibusrusticis:blackcuminoilportion", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "blackcurrantwine" ] }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/porridge.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+
+    //Juices to Soup
+    {
+    "op": "addeach",
+    "path": "/ingredients/0/validStacks/-",
+    "value": [
+        { "type": "item", "code": "deartibusrusticis:vegetablejuiceportion-cucumber", "shapeElement": "bowl/water", "textureMapping": [ "water", "cucumberjuice" ] },
+        { "type": "item", "code": "deartibusrusticis:vegetablejuiceportion-beetroot", "shapeElement": "bowl/water", "textureMapping": [ "water", "beetrootjuice" ] }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/soup.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+
+    //Dar Chopped Veggies to Vanilla meals
+    //Meat Stew
+    {
+    "op": "addeach",
+    "path": "/ingredients/5/validStacks/-",
+    "value": [    
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledgarlic",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledleek",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledbeetroot",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledcucumber",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledhorseradish",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-garlic",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-leek",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-beetroot",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-cucumber",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-horseradish",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-lettuce",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "lettuce"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-peas",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "peas"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-favabeans",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "favabeans"] }      
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addeach",
+    "path": "/ingredients/6/validStacks/-",
+    "value": [    
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledgarlic",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledleek",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledbeetroot",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledcucumber",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledhorseradish",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-garlic",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-leek",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-beetroot",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-cucumber",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-horseradish",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-lettuce",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "lettuce"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-peas",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "peas"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-favabeans",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "favabeans"] }     
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+
+    //Soup
+    {
+    "op": "addeach",
+    "path": "/ingredients/1/validStacks/-",
+    "value": [    
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledgarlic",  shapeElement: "bowl/vegetable base 1/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledleek",  shapeElement: "bowl/vegetable base 1/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledbeetroot",  shapeElement: "bowl/vegetable base 1/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledcucumber",  shapeElement: "bowl/vegetable base 1/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledhorseradish",  shapeElement: "bowl/vegetable base 1/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-garlic",  shapeElement: "bowl/vegetable base 1/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-leek",  shapeElement: "bowl/vegetable base 1/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-beetroot",  shapeElement: "bowl/vegetable base 1/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-cucumber",  shapeElement: "bowl/vegetable base 1/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-horseradish",  shapeElement: "bowl/vegetable base 1/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-lettuce",  shapeElement: "bowl/vegetable base 1/*", textureMapping: ["vegetable", "lettuce"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-peas",  shapeElement: "bowl/vegetable base 1/*", textureMapping: ["vegetable", "peas"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-favabeans",  shapeElement: "bowl/vegetable base 1/*", textureMapping: ["vegetable", "favabeans"] }   
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/soup.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addeach",
+    "path": "/ingredients/2/validStacks/-",
+    "value": [    
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledgarlic",  shapeElement: "bowl/vegetable base 2/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledleek",  shapeElement: "bowl/vegetable base 2/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledbeetroot",  shapeElement: "bowl/vegetable base 2/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledcucumber",  shapeElement: "bowl/vegetable base 2/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledhorseradish",  shapeElement: "bowl/vegetable base 2/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-garlic",  shapeElement: "bowl/vegetable base 2/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-leek",  shapeElement: "bowl/vegetable base 2/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-beetroot",  shapeElement: "bowl/vegetable base 2/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-cucumber",  shapeElement: "bowl/vegetable base 2/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-horseradish",  shapeElement: "bowl/vegetable base 2/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-lettuce",  shapeElement: "bowl/vegetable base 2/*", textureMapping: ["vegetable", "lettuce"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-peas",  shapeElement: "bowl/vegetable base 2/*", textureMapping: ["vegetable", "peas"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-favabeans",  shapeElement: "bowl/vegetable base 2/*", textureMapping: ["vegetable", "favabeans"] }   
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/soup.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addeach",
+    "path": "/ingredients/3/validStacks/-",
+    "value": [    
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledgarlic",  shapeElement: "bowl/vegetable base 3/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledleek",  shapeElement: "bowl/vegetable base 3/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledbeetroot",  shapeElement: "bowl/vegetable base 3/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledcucumber",  shapeElement: "bowl/vegetable base 3/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledhorseradish",  shapeElement: "bowl/vegetable base 3/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-garlic",  shapeElement: "bowl/vegetable base 3/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-leek",  shapeElement: "bowl/vegetable base 3/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-beetroot",  shapeElement: "bowl/vegetable base 3/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-cucumber",  shapeElement: "bowl/vegetable base 3/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-horseradish",  shapeElement: "bowl/vegetable base 3/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-lettuce",  shapeElement: "bowl/vegetable base 3/*", textureMapping: ["vegetable", "lettuce"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-peas",  shapeElement: "bowl/vegetable base 3/*", textureMapping: ["vegetable", "peas"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-favabeans",  shapeElement: "bowl/vegetable base 3/*", textureMapping: ["vegetable", "favabeans"] }        
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/soup.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+
+    //Vegetable Soup
+    {
+    "op": "addeach",
+    "path": "/ingredients/0/validStacks/-",
+    "value": [    
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledgarlic",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledleek",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledbeetroot",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledcucumber",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledhorseradish",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-garlic",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-leek",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-beetroot",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-cucumber",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-horseradish",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-lettuce",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "lettuce"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-peas",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "peas"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-favabeans",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "favabeans"] }        
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addeach",
+    "path": "/ingredients/1/validStacks/-",
+    "value": [    
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledgarlic",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledleek",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledbeetroot",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledcucumber",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledhorseradish",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-garlic",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-leek",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-beetroot",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-cucumber",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-horseradish",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-lettuce",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "lettuce"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-peas",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "peas"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-favabeans",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "favabeans"] }      
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addeach",
+    "path": "/ingredients/2/validStacks/-",
+    "value": [    
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledgarlic",  shapeElement: "bowl/vegetable 3/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledleek",  shapeElement: "bowl/vegetable 3/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledbeetroot",  shapeElement: "bowl/vegetable 3/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledcucumber",  shapeElement: "bowl/vegetable 3/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledhorseradish",  shapeElement: "bowl/vegetable 3/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-garlic",  shapeElement: "bowl/vegetable 3/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-leek",  shapeElement: "bowl/vegetable 3/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-beetroot",  shapeElement: "bowl/vegetable 3/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-cucumber",  shapeElement: "bowl/vegetable 3/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-horseradish",  shapeElement: "bowl/vegetable 3/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-lettuce",  shapeElement: "bowl/vegetable 3/*", textureMapping: ["vegetable", "lettuce"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-peas",  shapeElement: "bowl/vegetable 3/*", textureMapping: ["vegetable", "peas"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-favabeans",  shapeElement: "bowl/vegetable 3/*", textureMapping: ["vegetable", "favabeans"] }     
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addeach",
+    "path": "/ingredients/3/validStacks/-",
+    "value": [    
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledgarlic",  shapeElement: "bowl/vegetable 4/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledleek",  shapeElement: "bowl/vegetable 4/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledbeetroot",  shapeElement: "bowl/vegetable 4/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledcucumber",  shapeElement: "bowl/vegetable 4/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledhorseradish",  shapeElement: "bowl/vegetable 4/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-garlic",  shapeElement: "bowl/vegetable 4/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-leek",  shapeElement: "bowl/vegetable 4/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-beetroot",  shapeElement: "bowl/vegetable 4/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-cucumber",  shapeElement: "bowl/vegetable 4/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-horseradish",  shapeElement: "bowl/vegetable 4/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-lettuce",  shapeElement: "bowl/vegetable 4/*", textureMapping: ["vegetable", "lettuce"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-peas",  shapeElement: "bowl/vegetable 4/*", textureMapping: ["vegetable", "peas"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-favabeans",  shapeElement: "bowl/vegetable 4/*", textureMapping: ["vegetable", "favabeans"] }     
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+
+    //Porridge
+    {
+    "op": "addeach",
+    "path": "/ingredients/3/validStacks/-",
+    "value": [    
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledgarlic",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledleek",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledbeetroot",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledcucumber",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledhorseradish",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-garlic",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-leek",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-beetroot",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-cucumber",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-horseradish",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-lettuce",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "lettuce"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-peas",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "peas"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-favabeans",  shapeElement: "bowl/vegetable 1/*", textureMapping: ["vegetable", "favabeans"] }     
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/porridge.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addeach",
+    "path": "/ingredients/4/validStacks/-",
+    "value": [    
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledgarlic",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledleek",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledbeetroot",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledcucumber",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledhorseradish",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-garlic",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-leek",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-beetroot",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-cucumber",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-horseradish",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-lettuce",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "lettuce"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-peas",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "peas"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-favabeans",  shapeElement: "bowl/vegetable 2/*", textureMapping: ["vegetable", "favabeans"] }     
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/porridge.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+
+    //Scrambled Eggs
+    {
+    "op": "addeach",
+    "path": "/ingredients/5/validStacks/-",
+    "value": [    
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledgarlic",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledleek",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledbeetroot",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledcucumber",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledhorseradish",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-garlic",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-leek",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-beetroot",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-cucumber",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-horseradish",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-lettuce",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "lettuce"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-peas",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "peas"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-favabeans",  shapeElement: "bowl/vegetable2/*", textureMapping: ["vegetable", "favabeans"] }    
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    },
+    {
+    "op": "addeach",
+    "path": "/ingredients/6/validStacks/-",
+    "value": [    
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledgarlic",  shapeElement: "bowl/vegetable3/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledleek",  shapeElement: "bowl/vegetable3/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledbeetroot",  shapeElement: "bowl/vegetable3/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledcucumber",  shapeElement: "bowl/vegetable3/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickledhorseradish",  shapeElement: "bowl/vegetable3/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-garlic",  shapeElement: "bowl/vegetable3/*", textureMapping: ["vegetable", "garlic"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-leek",  shapeElement: "bowl/vegetable3/*", textureMapping: ["vegetable", "leek"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-beetroot",  shapeElement: "bowl/vegetable3/*", textureMapping: ["vegetable", "beetroot"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-cucumber",  shapeElement: "bowl/vegetable3/*", textureMapping: ["vegetable", "cucumber"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-horseradish",  shapeElement: "bowl/vegetable3/*", textureMapping: ["vegetable", "horseradish"] },
+        { "type": "item", "code": "deartibusrusticis:choppedvegetable-lettuce",  shapeElement: "bowl/vegetable3/*", textureMapping: ["vegetable", "lettuce"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-peas",  shapeElement: "bowl/vegetable3/*", textureMapping: ["vegetable", "peas"] },
+        { "type": "item", "code": "deartibusrusticis:choppedlegume-favabeans",  shapeElement: "bowl/vegetable3/*", textureMapping: ["vegetable", "favabeans"] }      
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+    }
+]

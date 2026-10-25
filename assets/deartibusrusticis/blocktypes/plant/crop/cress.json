@@ -4,11 +4,15 @@
 	behaviors: [{name: "Unstable"}],
 	variantgroups: [
 		{ code: "type", states: ["cress"] },
-		{ code: "stage", states: ["1", "2", "3", "4", "5", "6"] },
+		{ code: "stage", states: ["1", "2", "3", "4", "5", "6"] }
 	],
 	creativeinventory: { "general": [ "*" ], "deartibusrusticis": [ "*" ] },
 	renderpass: "OpaqueNoCull",
-	shape: {base: "block/plant/crop/cress*"},
+	shapeByType: {
+		"*-1": { base: "block/plant/crop/cress/stage1to2" },
+		"*-2": { base: "block/plant/crop/cress/stage1to2" },
+		"*": { base: "block/plant/crop/cress/stage3to6" }
+	},
 	blockmaterial: "Plant",
 	textures: {
 		"crop": { base: "block/plant/crop/cress/{stage}" }
@@ -91,8 +95,8 @@
 		nutrientConsumption: 9,
 		growthStages: 6,
 		totalGrowthMonths: 0.9,
-		heatDamageAbove: 25,
-		coldDamageBelow: -4
+		heatDamageAbove: 32,
+		coldDamageBelow: -5
 	},
 	collisionbox: null,
 		selectionboxByType: {

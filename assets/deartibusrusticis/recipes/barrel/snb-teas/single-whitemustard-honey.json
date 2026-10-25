@@ -1,0 +1,10 @@
+{
+	enabled: false,
+	code: "tea-whitemustard-honey-cold1",
+	sealHours: 16,
+	ingredients: [
+		{ type: "item", code: "game:waterportion", litres: 1 },
+		{ type: "item", code: "deartibusrusticis:teablend-whitemustard", quantity: 1 }
+	],
+	output: { type: "item", code: "deartibusrusticis:tea-whitemustard-honey-cold", litres: 1 }
+}

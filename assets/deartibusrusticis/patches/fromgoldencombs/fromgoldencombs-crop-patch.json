@@ -1,0 +1,154 @@
+[
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [7]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/anise.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [6]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/bearleek.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [4,5]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/beetroot.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [7,8]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/blackcumin.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [7]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/chervil.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [7]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/chives.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [6]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/cress.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [10,11,12]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/cucumber.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [7]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/eruca.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [7,8]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/estragon.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [10,11,12]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/favabeans.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [7]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/garlic.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [6]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/horseradish.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [6]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/leek.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [6,7,8]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/lentils.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [8]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [7]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/meum.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [8,9]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/peas.json",
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "fromgoldencombs" } ],
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {"name": "PushEventOnCropBroken", "properties": { "eventName": "cropbreak", "validCropStages": [7]}},
+        "file": "deartibusrusticis:blocktypes/plant/crop/whitemustard.json",
+        "side": "server"
+    }
+]

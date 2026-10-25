@@ -1,0 +1,50 @@
+[  
+  {
+     "enabled": false,
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-knife"], "isTool": true  },
+      "V": { "type": "item", "code": "deartibusrusticis:vegetable-*", "allowedVariants": ["horseradish", "beetroot", "cucumber", "garlic", "leek", "lettuce"], "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "deartibusrusticis:choppedvegetable-{type}" }
+   },
+  {
+     "enabled": false,
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-knife"], "isTool": true  },
+      "V": { "type": "item", "code": "deartibusrusticis:pickledvegetable-*", "allowedVariants": ["horseradish", "beetroot", "cucumber", "garlic", "leek", "lettuce"], "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickled{type}" }
+  },
+  {
+     "enabled": false,
+    "ingredientPattern": "KV",
+    "recipeGroup": 2,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
+      "V": { "type": "item", "code": "deartibusrusticis:vegetable-*", "allowedVariants": ["horseradish", "beetroot", "cucumber", "garlic", "leek", "lettuce"], "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "deartibusrusticis:choppedvegetable-{type}" }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "KV",
+    "recipeGroup": 2,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
+      "V": { "type": "item", "code": "deartibusrusticis:pickledvegetable-*", "allowedVariants": ["horseradish", "beetroot", "cucumber", "garlic", "leek", "lettuce"], "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "deartibusrusticis:choppedvegetable-pickled{type}" }
+  }
+]

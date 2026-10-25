@@ -14,7 +14,14 @@
 				validStacks: [ { type: "item",  code: "game:waterportion" } ],
 				minQuantity: 1,
 				maxQuantity: 1,
-				portionSizeLitres: 2,
+				portionSizeLitres: 1,
+			},
+			{ 
+				code: "water", 
+				validStacks: [ { type: "item",  code: "game:waterportion" } ],
+				minQuantity: 1,
+				maxQuantity: 1,
+				portionSizeLitres: 1,
 			},
 			{
 				code: "chicken", 
@@ -24,7 +31,7 @@
 			},
 			{
 				code: "seasoning", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
 				minQuantity: 1,
 				maxQuantity: 1
 			}
@@ -47,7 +54,14 @@
 				validStacks: [ { type: "item",  code: "game:waterportion" } ],
 				minQuantity: 1,
 				maxQuantity: 1,
-				portionSizeLitres: 2,
+				portionSizeLitres: 1,
+			},
+			{ 
+				code: "water", 
+				validStacks: [ { type: "item",  code: "game:waterportion" } ],
+				minQuantity: 1,
+				maxQuantity: 1,
+				portionSizeLitres: 1,
 			},
 			{
 				code: "meat", 
@@ -57,7 +71,7 @@
 			},
 			{
 				code: "seasoning", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
 				minQuantity: 1,
 				maxQuantity: 1
 			}
@@ -80,7 +94,14 @@
 				validStacks: [ { type: "item",  code: "game:waterportion" } ],
 				minQuantity: 1,
 				maxQuantity: 1,
-				portionSizeLitres: 2,
+				portionSizeLitres: 1,
+			},
+			{ 
+				code: "water", 
+				validStacks: [ { type: "item",  code: "game:waterportion" } ],
+				minQuantity: 1,
+				maxQuantity: 1,
+				portionSizeLitres: 1,
 			},
 			{
 				code: "bone", 
@@ -90,7 +111,7 @@
 			},
 			{
 				code: "seasoning", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]  }, { type: "item", code: "game:salt"} ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]  }, { type: "item", code: "game:salt"} ],
 				minQuantity: 1,
 				maxQuantity: 1
 			}
@@ -111,17 +132,11 @@
 			{ 
 				code: "water", 
 				validStacks: [ { type: "item",  code: "game:waterportion" } ],
-				minQuantity: 1,
-				maxQuantity: 1,
-				portionSizeLitres: 2,
+				minQuantity: 2,
+				maxQuantity: 2,
+				portionSizeLitres: 1,
 			},
 			{
-				code: "vegetable1", 
-				validStacks: [ { type: "item",  code: "game:vegetable-*" }, { type: "item",  code: "deartibusrusticis:vegetable-*" }, { type: "item",  code: "game:pickledvegetable-*" }, { type: "item",  code: "deartibusrusticis:pickledvegetable-*" }],
-				minQuantity: 1,
-				maxQuantity: 1
-			},
-            {
 				code: "vegetable1", 
 				validStacks: [ { type: "item",  code: "game:vegetable-*" }, { type: "item",  code: "deartibusrusticis:vegetable-*" }, { type: "item",  code: "game:pickledvegetable-*" }, { type: "item",  code: "deartibusrusticis:pickledvegetable-*" }],
 				minQuantity: 1,
@@ -129,7 +144,7 @@
 			},
 			{
 				code: "seasoning", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]  }, { type: "item", code: "game:salt"} ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]  }, { type: "item", code: "game:salt"} ],
 				minQuantity: 1,
 				maxQuantity: 1
 			}
@@ -168,7 +183,7 @@
 			},
 			{
 				code: "seasoning", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
 				minQuantity: 1,
 				maxQuantity: 1
 			}
@@ -189,30 +204,90 @@
 			{ 
 				code: "water", 
 				validStacks: [ { type: "item",  code: "game:waterportion" } ],
-				minQuantity: 1,
-				maxQuantity: 1,
+				minQuantity: 2,
+				maxQuantity: 2,
 				portionSizeLitres: 2,
 			},
 			{
 				code: "herb1", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" } ],
-				minQuantity: 1,
-				maxQuantity: 1
-			},
-            {
-				code: "herb2", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" } ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }],
 				minQuantity: 1,
 				maxQuantity: 1
 			},
 			{
 				code: "seasoning", 
-				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:driedherb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ] }, { type: "item", code: "game:salt"} ],
 				minQuantity: 1,
 				maxQuantity: 1
 			}
 		],
         isFood: true,
 		cooksInto: { type: "Item", code: "deartibusrusticis:herbbrothportion", quantity: 200 }
+	},
+	{
+		code: "vegetable-stock",
+		perishableProps: {
+			freshHours: { avg: 96 },
+			transitionHours: { avg: 24 },
+			transitionRatio: 1.0,
+			transitionedStack: { type: "item", code: "rot" }
+		},
+		shape: { base: "game:block/food/meal/liquid" },
+		ingredients: [
+			{ 
+				code: "water", 
+				validStacks: [ { type: "item",  code: "game:waterportion" } ],
+				minQuantity: 2,
+				maxQuantity: 2,
+				portionSizeLitres: 1,
+			},
+			{
+				code: "vegetable1", 
+				validStacks: [ { type: "item",  code: "pemmican:vegetable-*" }, { type: "item",  code: "pemmican:cookedvegetable-*" }, { type: "item",  code: "pemmican:pickledvegetable-*" }, { type: "item",  code: "pemmican:choppedvegetable-*" }, { type: "item",  code: "pemmican:cookedchoppedvegetable-*" }],
+				minQuantity: 1,
+				maxQuantity: 1
+			},
+			{
+				code: "seasoning", 
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]  }, { type: "item", code: "game:salt"} ],
+				minQuantity: 1,
+				maxQuantity: 1
+			}
+		],
+        isFood: true,
+		cooksInto: { type: "Item", code: "deartibusrusticis:vegetablebrothportion", quantity: 200 },
+	},
+	{
+		code: "vegetable-stock",
+		perishableProps: {
+			freshHours: { avg: 96 },
+			transitionHours: { avg: 24 },
+			transitionRatio: 1.0,
+			transitionedStack: { type: "item", code: "rot" }
+		},
+		shape: { base: "game:block/food/meal/liquid" },
+		ingredients: [
+			{ 
+				code: "water", 
+				validStacks: [ { type: "item",  code: "game:waterportion" } ],
+				minQuantity: 2,
+				maxQuantity: 2,
+				portionSizeLitres: 1,
+			},
+			{
+				code: "vegetable1", 
+				validStacks: [ { type: "item",  code: "bdcrop:vegetable-*" }],
+				minQuantity: 1,
+				maxQuantity: 1
+			},
+			{
+				code: "seasoning", 
+				validStacks: [ { type: "item", code: "deartibusrusticis:herb-*" }, { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]  }, { type: "item", code: "game:salt"} ],
+				minQuantity: 1,
+				maxQuantity: 1
+			}
+		],
+        isFood: true,
+		cooksInto: { type: "Item", code: "deartibusrusticis:vegetablebrothportion", quantity: 200 },
 	}
 ]

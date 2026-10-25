@@ -74,7 +74,6 @@
 			}
 		},
 	},
-	
 	combustiblePropsByType: {
 		"*-dough": {
    	     meltingPoint: 200,
@@ -102,17 +101,33 @@
 		}
 	},
 	nutritionPropsByType: {
-		"*-flax-partbaked": { satiety: 125, foodcategory: "Grain" },
-		"*-flax-perfect": { satiety: 275, foodcategory: "Grain" },
-		"*-flax-charred": { satiety: 145, foodcategory: "Grain" },
+		"*-flax-partbaked": { satiety: 160, foodcategory: "Grain" },
+		"*-flax-perfect": { satiety: 310, foodcategory: "Grain" },
+		"*-flax-charred": { satiety: 180, foodcategory: "Grain" },
 		
-		"*-rice-partbaked": { satiety: 225, foodcategory: "Grain" },
-		"*-rice-perfect": { satiety: 500, foodcategory: "Grain" },
-		"*-rice-charred": { satiety: 305, foodcategory: "Grain" },
+		"*-rice-partbaked": { satiety: 260, foodcategory: "Grain" },
+		"*-rice-perfect": { satiety: 535, foodcategory: "Grain" },
+		"*-rice-charred": { satiety: 340, foodcategory: "Grain" },
 		
-		"*-partbaked": { satiety: 200, foodcategory: "Grain" },
-		"*-perfect": { satiety: 450, foodcategory: "Grain" },
-		"*-charred": { satiety: 295, foodcategory: "Grain" }
+		"*-spelt-partbaked": { satiety: 235, foodcategory: "Grain" },
+		"*-spelt-perfect": { satiety: 485, foodcategory: "Grain" },
+		"*-spelt-charred": { satiety: 330, foodcategory: "Grain" },
+
+		"*-rye-partbaked": { satiety: 235, foodcategory: "Grain" },
+		"*-rye-perfect": { satiety: 485, foodcategory: "Grain" },
+		"*-rye-charred": { satiety: 330, foodcategory: "Grain" },
+
+		"*-sunflower-partbaked": { satiety: 235, foodcategory: "Grain" },
+		"*-sunflower-perfect": { satiety: 485, foodcategory: "Grain" },
+		"*-sunflower-charred": { satiety: 330, foodcategory: "Grain" },
+
+		"*-cassava-partbaked": { satiety: 235, foodcategory: "Grain" },
+		"*-cassava-perfect": { satiety: 485, foodcategory: "Grain" },
+		"*-cassava-charred": { satiety: 330, foodcategory: "Grain" },
+
+		"*-amaranth-partbaked": { satiety: 235, foodcategory: "Grain" },
+		"*-amaranth-perfect": { satiety: 485, foodcategory: "Grain" },
+		"*-amaranth-charred": { satiety: 330, foodcategory: "Grain" }
 	},
 	transitionablePropsByType: {
 		"*-dough": [{

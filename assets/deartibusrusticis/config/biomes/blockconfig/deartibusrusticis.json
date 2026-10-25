@@ -1,0 +1,149 @@
+{
+    "BlockPatches": {
+        "*-anise-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-bearleek-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-beetroot-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-blackcumin-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-chervil-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic",
+                "atlantic nearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-chives-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic",
+                "atlantic nearctic",
+                "eastern palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-cress-*": {
+            "biorealm": [
+                "atlantic palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-cucumber-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic",
+                "eastern palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-eruca-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-estragon-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic",
+                "eastern palearctic",
+                "atlantic nearctic",
+                "pacific nearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-favabeans-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-garlic-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic",
+                "eastern palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-horseradish-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-leek-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic",
+                "eastern palearctic",
+                "pacific palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-lentils-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic",
+                "eastern palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-lettuce-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-meum-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-peas-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic",
+                "eastern palearctic"
+            ],
+            "bioriver": "both"
+        },
+        "*-whitemustard-*": {
+            "biorealm": [
+                "atlantic palearctic",
+                "central palearctic",
+                "atlantic nearctic"
+            ],
+            "bioriver": "both"
+        }
+    }
+}

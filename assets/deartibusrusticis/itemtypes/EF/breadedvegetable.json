@@ -1,0 +1,449 @@
+{
+	"enabled": "false",
+	"code": "breadedvegetable",
+  	"class": "ExpandedFood",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type",	"states": [ "flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower", "birch", "pine", "maple" ]},
+		{ "code": "veggie", "states": ["horseradish", "garlic", "leek", "beetroot", "cucumber", "pickledhorseradish", "pickledgarlic", "pickledleek", "pickledbeetroot", "pickledcucumber"]},	
+		{ "code": "state", "states": ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupv", "syrupcharred", "oiled"] }
+	],
+	"attributes": {
+		"displaycaseable": true,
+		"shelvable": true,
+		"handbook": { 
+          "groupBy": [ "breadedvegetable-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-fryingguide", "text": "expandedfoods:item-handbooktext-fryingguide" }]
+        },
+  		"expandedNutritionProps": {
+			"game:flour-flax": {"saturation": 80, "foodcategory": "Grain"},
+			"game:flour-rye": {"saturation": 150, "foodcategory": "Grain"},
+			"game:flour-spelt": {"saturation": 150, "foodcategory": "Grain"},
+			"game:flour-cassava": {"saturation": 150, "foodcategory": "Grain"},
+			"game:flour-amaranth": {"saturation": 150, "foodcategory": "Grain"},
+			"game:flour-sunflower": {"saturation": 150, "foodcategory": "Grain"},
+			"game:flour-rice": {"saturation": 165, "foodcategory": "Grain"},
+      		"game:flour-birch" : { "saturation": 50, "foodcategory": "Grain" },
+      		"game:flour-pine" : { "saturation": 50, "foodcategory": "Grain" },
+      		"game:flour-maple" : { "saturation": 50, "foodcategory": "Grain" },
+			"acorns:flour-acorn": {"saturation": 150, "foodcategory": "Grain"},
+			"expandedfoods:breadcrumbs-flax": {"saturation": 80, "foodcategory": "Grain"},
+			"expandedfoods:breadcrumbs-rice": {"saturation": 160, "foodcategory": "Grain"},
+			"expandedfoods:breadcrumbs-spelt": {"saturation": 150, "foodcategory": "Grain"},
+			"expandedfoods:breadcrumbs-rye": {"saturation": 150, "foodcategory": "Grain"},
+			"expandedfoods:breadcrumbs-cassava": {"saturation": 150, "foodcategory": "Grain"},
+			"expandedfoods:breadcrumbs-amaranth": {"saturation": 150, "foodcategory": "Grain"},
+			"expandedfoods:breadcrumbs-sunflower": {"saturation": 150, "foodcategory": "Grain"},
+			"expandedfoods:breadcrumbs-birch": {"saturation": 50, "foodcategory": "Grain"},
+			"expandedfoods:breadcrumbs-pine": {"saturation": 50, "foodcategory": "Grain"},
+			"expandedfoods:breadcrumbs-maple": {"saturation": 50, "foodcategory": "Grain"},
+			"expandedfoods:breadcrumbs-acorn": {"saturation": 160, "foodcategory": "Grain"},
+			"aculinaryartillery:eggwhiteportion": { "saturation": 3, "foodcategory": "Protein"},
+			"aculinaryartillery:eggyolkportion-chicken": { "saturation": 17, "foodcategory": "Protein"},
+			"aculinaryartillery:eggyolkportion-pheasant": { "saturation": 25, "foodcategory": "Protein"},
+			"aculinaryartillery:eggyolkportion-goldenpheasant": { "saturation": 25, "foodcategory": "Protein"},
+			"aculinaryartillery:eggyolkportion-capercaillie": { "saturation": 25, "foodcategory": "Protein"},
+			"aculinaryartillery:eggyolkportion-wildturkey": { "saturation": 25, "foodcategory": "Protein"},
+			"aculinaryartillery:eggyolkfullportion-chicken": { "saturation": 20, "foodcategory": "Protein"},
+			"aculinaryartillery:eggyolkfullportion-pheasant": { "saturation": 28, "foodcategory": "Protein"},
+			"aculinaryartillery:eggyolkfullportion-goldenpheasant": { "saturation": 28, "foodcategory": "Protein"},
+			"aculinaryartillery:eggyolkfullportion-capercaillie": { "saturation": 28, "foodcategory": "Protein"},
+			"aculinaryartillery:eggyolkfullportion-wildturkey": { "saturation": 28, "foodcategory": "Protein"},
+    		"expandedfoods:foodoilportion-*" : { "saturation": 6.4, "health": 0.1, "foodcategory": "Vegetable" },
+    		"expandedfoods:treesyrupportion-*" : { "saturation": 9.6, "health": 0.1, "foodcategory": "Fruit" },
+    		"expandedfoods:fruitsyrupportion-saguaro" : { "saturation": 12, "health": 0.2, "foodcategory": "Fruit" }, 
+      		"expandedfoods:fruitsyrupportion-*" : { "saturation": 12, "health": 0.1, "foodcategory": "Fruit" },
+    		"expandedfoods:lard" : { "saturation": 10, "health": 0.05, "foodcategory": "Protein" },
+    		"expandedfoods:fishsauce" : { "saturation": 5, "foodcategory": "Protein" },
+    		"expandedfoods:soysauce" : { "saturation": 6.4, "health": 0.1, "foodcategory": "Protein" },
+    		"game:honeyportion" : { "saturation": 4, "foodcategory": "Fruit" },
+			"game:salt": {"saturation": 10, "health": 0.5, "foodcategory": "Grain"}
+		},
+		"bakingPropertiesByType": {
+			"@*-(raw|oiled)": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "deartibusrusticis:breadedvegetable-{type}-{veggie}-partbaked"
+			},
+			"*-partbaked": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "deartibusrusticis:breadedvegetable-{type}-{veggie}-cooked"
+			},
+			"*-cooked": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "deartibusrusticis:breadedvegetable-{type}-{veggie}-charred",
+				"initialCode": "deartibusrusticis:breadedvegetable-{type}-{veggie}-partbaked"
+			},
+			"*-charred": {
+				"temp": 100,
+				"levelFrom": 0.85,
+				"levelTo": 1.0,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "deartibusrusticis:breadedvegetable-{type}-{veggie}-cooked"
+			},
+			"*-syruppartbaked": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "deartibusrusticis:breadedvegetable-{type}-{veggie}-syrupv"
+			},
+			"*-syrupv": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "deartibusrusticis:breadedvegetable-{type}-{veggie}-syrupcharred",
+				"initialCode": "deartibusrusticis:breadedvegetable-{type}-{veggie}-syruppartbaked"
+			},
+			"*-syrupcharred": {
+				"temp": 100,
+				"levelFrom": 0.85,
+				"levelTo": 1.0,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "deartibusrusticis:breadedvegetable-{type}-{veggie}-syrupv"
+			}
+		},
+		"onDisplayTransformByType": {
+			"*-garlic-*": { translation: { x: 0, y: -0.375, z: 0 }, scale: 0.25 },
+    	    "*-beetroot-*": { translation: { x: 0, y: -0.45, z: -0.125 }, rotation: { x: 0, y: 45, z: -90 }, scale: 0.6 },
+    	    "*-leek-*": { translation: { x: 0.2, y: -0.475, z: 0.1 }, rotation: { x: 91, y: 0, z: -45 }, scale: 0.5 },
+          	"*-cucumber-*": { translation: { x: 0, y: -0.225, z: -0.05 }, rotation: { x: 0, y: 135, z: 0 }, scale: 0.59 },
+          	"*-horseradish-*": { translation: { x: 0, y: -0.3, z: 0 }, rotation: { x: 0, y: 45, z: 0 }, scale: 0.4 },
+			"*-pickledgarlic-*": { translation: { x: 0, y: -0.3, z: 0 }, rotation: { x: 0, y: -125, z: 1 }, scale: 0.4 },
+    	    "*-pickledbeetroot-*": { translation: { x: 0, y: -0.45, z: -0.125 }, rotation: { x: 0, y: 45, z: -90 }, scale: 0.6 },
+    	    "*-pickledleek-*": { translation: { x: -0.05, y: -0.2, z: 0 }, rotation: { x: 0, y: -135, z: 0 }, scale: 0.61 },
+          	"*-pickledcucumber-*": { translation: { x: 0, y: -0.225, z: -0.05 }, rotation: { x: 0, y: 135, z: 0 }, scale: 0.59 },
+          	"*-pickledhorseradish-*": { translation: { x: 0, y: -0.3, z: 0 }, rotation: { x: 0, y: 45, z: 0 }, scale: 0.4 }
+		},
+		"renderIngredientsByType": {
+			"*": {
+				"deartibusrusticis:pickledvegetable-leek": "deartibusrusticis:shapes/item/food/pickledvegetable/pickled-leek.json",
+				"deartibusrusticis:pickledvegetable-horseradish": "deartibusrusticis:shapes/item/food/pickledvegetable/pickled-horseradish.json",
+				"deartibusrusticis:pickledvegetable-cucumber": "deartibusrusticis:shapes/item/food/pickledvegetable/vegetable-cucumber.json",
+				"deartibusrusticis:pickledvegetable-garlic": "deartibusrusticis:item/food/pickledvegetable/pickled-garlic.json",
+				"deartibusrusticis:pickledvegetable-beetroot": "game:shapes/item/food/pickledvegetable/turnip.json",
+				"deartibusrusticis:vegetable-leek": "deartibusrusticis:shapes/item/food/vegetable/vegetable-leek.json",
+				"deartibusrusticis:vegetable-horseradish": "deartibusrusticis:shapes/item/food/vegetable/vegetable-horseradish.json",
+				"deartibusrusticis:vegetable-cucumber": "deartibusrusticis:shapes/item/food/vegetable/vegetable-cucumber.json",
+				"deartibusrusticis:vegetable-garlic": "deartibusrusticis:shapes/item/food/vegetable/vegetable-garlic.json",
+				"deartibusrusticis:vegetable-beetroot": "deartibusrusticis:shapes/item/EF/friedbeetroot.json"
+			}
+		},
+		"satMultByType": {
+			"@*-(partbaked|syruppartbaked)": 0.5,
+			"@*-(cooked|syrup)": 1,
+			"@*-(charred|syrupcharred)": 0.75
+		}
+	},
+	"shapeByType":	{
+		"*-pickledleek-*": { "base": "deartibusrusticis:item/food/pickledvegetable/pickled-leek"},
+		"*-pickledhorseradish-*": { "base": "deartibusrusticis:item/food/pickledvegetable/pickled-horseradish"},
+		"*-pickledcucumber-*": { "base": "deartibusrusticis:item/food/pickledvegetable/vegetable-cucumber.json"},
+		"*-pickledgarlic-*": { "base": "deartibusrusticis:item/food/pickledvegetable/pickled-garlic.json"},
+		"*-pickledbeetroot-*": { "base": "game:item/food/pickledvegetable/turnip.json"},
+		"*-leek-*": { "base": "deartibusrusticis:item/food/vegetable/vegetable-leek.json"},
+		"*-horseradish-*": { "base": "deartibusrusticis:item/food/vegetable/vegetable-horseradish.json"},
+		"*-cucumber-*": { "base": "deartibusrusticis:item/food/vegetable/vegetable-cucumber.json"},
+		"*-garlic-*": { "base": "deartibusrusticis:item/food/vegetable/vegetable-garlic.json"},
+		"*-beetroot-*": { "base": "deartibusrusticis:shapes/item/EF/friedbeetroot.json"}
+	},
+	"texturesByType": { 
+		"@*-(syruppartbaked|syrupv|syrupcharred)": {
+			"friedbeetroot": { "base": "expandedfoods:item/food/grain/breading/{type}-fish" },
+			"leek": { "base": "expandedfoods:item/food/grain/breading/{type}-fish" }, 
+			"horseradish": { "base": "expandedfoods:item/food/grain/breading/{type}-fish" }, 
+			"cucumber": { "base": "expandedfoods:item/food/grain/breading/{type}-fish" }, 	 
+			"garlicbulb": { "base": "expandedfoods:item/food/grain/breading/{type}-fish" }, 
+			"turnip": {"base": "expandedfoods:item/food/grain/breading/{type}-fish"},	
+			"pickledgarlic": {"base": "expandedfoods:item/food/grain/breading/{type}-fish"},
+			"pickledhorseradish": {"base": "expandedfoods:item/food/grain/breading/{type}-fish"},
+			"pickledcucumber": {"base": "expandedfoods:item/food/grain/breading/{type}-fish"},
+			"pickledleek": {"base": "expandedfoods:item/food/grain/breading/{type}-fish"},
+			"breading-syrup": { "base": "expandedfoods:item/food/grain/breading/{type}-fish" }, 
+		},
+		"*": {
+			"friedbeetroot": { "base": "expandedfoods:item/food/grain/breading/{type}-{state}" },
+			"leek": { "base": "expandedfoods:item/food/grain/breading/{type}-{state}" }, 
+			"horseradish": { "base": "expandedfoods:item/food/grain/breading/{type}-{state}" }, 
+			"cucumber": { "base": "expandedfoods:item/food/grain/breading/{type}-{state}" },  
+			"garlicbulb": {"base": "expandedfoods:item/food/grain/breading/{type}-{state}"},		
+			"turnip": {"base": "expandedfoods:item/food/grain/breading/{type}-{state}"},
+			"pickledgarlic": {"base": "expandedfoods:item/food/grain/breading/{type}-{state}"},
+			"pickledhorseradish": {"base": "expandedfoods:item/food/grain/breading/{type}-{state}"},
+			"pickledcucumber": {"base": "expandedfoods:item/food/grain/breading/{type}-{state}"},
+			"pickledleek": {"base": "expandedfoods:item/food/grain/breading/{type}-{state}"},
+			"breading-cooked": { "base": "expandedfoods:item/food/grain/breading/{type}-{state}" } 
+		}
+	},
+	"nutritionPropsByType": {
+		"@*-(partbaked|syruppartbaked)": { "satiety": 80, "foodcategory": "Vegetable" },
+		"@*-(cooked|syrupv)": { "satiety": 90, "foodcategory": "Vegetable" },
+		"@*-(charred|syrupcharred)": { "satiety": 70, "foodcategory": "Vegetable" }
+	},
+	"creativeinventory": { "general": ["*"], "deartibusrusticis": ["*"]},
+	"transitionablePropsByType": {
+		"@*-(oiled|raw)": [{
+			"type": "Perish",
+			"freshHours": { "avg": 18 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+			}
+		],
+		"@*-(partbaked|cooked|syruppartbaked|syrupv)": [{
+			"type": "Perish",
+			"freshHours": { "avg": 60 },
+			"transitionHours": { "avg": 96 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"@*-(charred|syrupcharred)": [{
+			"type": "Perish",
+			"freshHours": { "avg": 120 },
+			"transitionHours": { "avg": 192 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}]
+	},
+	"materialDensity": 600,
+	"guiTransformByType": {
+    	"*-garlic-*": {
+    	translation: { x: 4, y: -2, z: 0 },
+    	rotation: { x: 0, y: 45, z: -165 },
+    	origin: { x: 0.5, y: 0.35, z: 0.5 },
+    	scale: 2.01
+		},
+		"*-leek-*": {
+    	translation: { x: -5, y: 5, z: 0 },
+    	rotation: { x: -2, y: 20, z: -45 },
+    	origin: { x: 0.8, y: 0.5, z: -1.25 },
+    	scale: 2.26
+  		},
+		"*-pickledgarlic-*": {
+     	translation: { x: 5, y: -2, z: 0 },
+    	rotation: { x: -26, y: 38, z: -180 },
+    	origin: { x: 0.5, y: 0.15, z: 0.5 },
+    	scale: 3
+		},
+		"*-beetroot-*": {
+		translation: { x: 2, y: 2, z: 0 },
+		rotation: { x: 180, y: 158, z: 38 },
+		origin: { x: 0.5, y: 0.23, z: 0.5 },
+		scale: 3.6
+		},
+		"*-horseradish-*": {
+      	translation: { x: 4, y: 4, z: 0 },
+    	rotation: { x: 0, y: 62, z: -45 },
+    	origin: { x: 0.5, y: 0.1, z: 0.5 },
+   		scale: 2.5
+   		},
+		"*-pickledbeetroot-*": {
+		translation: { x: 2, y: 2, z: 0 },
+		rotation: { x: 180, y: 158, z: 38 },
+		origin: { x: 0.5, y: 0.23, z: 0.5 },
+		scale: 3.6
+		},
+		"*-pickledhorseradish-*": {
+      	translation: { x: 10, y: 10, z: 0 },
+      	rotation: { x: 0, y: 62, z: -45 },
+      	origin: { x: 0.5, y: 0.25, z: 0.5 },
+      	scale: 2.5
+   		},
+		"*-pickledleek-*": {
+     	translation: { x: -3, y: 11, z: 0 },
+    	rotation: { x: -29, y: -48, z: 7 },
+    	origin: { x: 0.5, y: 0.1, z: 0.5 },
+    	scale: 3.5
+  		},
+		"*-lettuce-*": {
+    	translation: { x: 0, y: 5, z: 0 },
+    	rotation: { x: -90, y: 45, z: 0 },
+  		scale: 1.8
+ 		},
+		"*-cucumber-*": {
+    	rotation: { x: 90, y: 40, z: 0 },
+    	scale: 2.5
+ 		},
+		"*-pickledlettuce-*": {
+    	translation: { x: 0, y: 5, z: 0 },
+    	rotation: { x: -90, y: 45, z: 0 },
+  		scale: 1.8
+ 		},
+		"*-pickledcucumber-*": {
+    	rotation: { x: 90, y: 40, z: 0 },
+    	scale: 2.5
+ 		}
+	},
+	tpHandTransformByType: {
+		"*-leek-*": {
+    	translation: { x: -1.5, y: -0.9, z: -0.6 },
+    	rotation: { x: 90, y: 0, z: 0 },
+    	scale: 0.5
+  		},
+		"*-garlic-*": {
+  		translation: { x: -0.3, y: -1, z: -1.9 },
+    	rotation: { x: 180, y: 0, z: -100 },
+    	origin: { x: -0.05, y: 0.16, z: 0.46 },
+    	scale: 0.25
+		},
+		"*-pickledgarlic-*": {
+  		translation: { x: -0.3, y: -1, z: -1.9 },
+    	rotation: { x: 180, y: 0, z: -100 },
+    	origin: { x: -0.05, y: 0.16, z: 0.46 },
+    	scale: 0.25
+		},
+		"*-beetroot-*": {
+		translation: { x: -0.68, y: -0.18, z: -0.6 },
+		rotation: { x: 0, y: 0, z: -84 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 0.8
+		},
+		"*-horseradish-*": {
+      	translation: { x: -1.25, y: -0.5, z: -1 },
+     	 rotation: { x: 0, y: 0, z: 15 },
+      	scale: 0.5
+    	},
+		"*-pickledbeetroot-*": {
+		translation: { x: -0.68, y: -0.18, z: -0.6 },
+		rotation: { x: 0, y: 0, z: -84 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 0.8
+		},
+		"*-pickledhorseradish-*": {
+      	translation: { x: -1.25, y: -0.5, z: -1 },
+     	 rotation: { x: 0, y: 0, z: 15 },
+      	scale: 0.5
+    	},
+		"*-pickledleek-*": {
+    	translation: { x: -0.7, y: -0.9, z: -0.9 },
+    	rotation: { x: 101, y: 0, z: 106 },
+    	scale: 0.5
+  		},
+		"*-cucumber-*": {
+    	translation: { x: -1, y: -0.2, z: -0.675 },
+    	rotation: { x: 0, y: 90, z: 0 },
+    	scale: 0.75
+ 		},
+		"*-pickledcucumber-*": {
+    	translation: { x: -1, y: -0.2, z: -0.675 },
+    	rotation: { x: 0, y: 90, z: 0 },
+    	scale: 0.75
+ 		}
+	},
+		heldRightReadyAnimationByType: {
+		"*-garlic-*": "holdbothhands",
+		"*-leek-*": "holdbothhands"
+	},
+	heldTpIdleAnimationByType: {
+		"*-garlic-*": "holdbothhands",
+		"*-leek-*": "holdbothhands"
+    },
+	"groundTransformByType": {
+		"*-garlic-*": {
+    	translation: { x: 0, y: 0.225, z: 0 },
+    	rotation: { x: 0, y: 0, z: 0 },
+ 		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 2.00
+		},
+		"*-leek-*": {
+    	translation: { x: 0, y: 0, z: 0 },
+    	rotation: { x: 90, y: 0, z: 0 },
+    	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 3
+  		},
+		"*-pickledgarlic-*": {
+    	translation: { x: 0, y: 0.25, z: 0 },
+    	rotation: { x: 0, y: 0, z: 0 },
+    	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 2.5
+		},
+		"*-beetroot-*": {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 75 },
+		origin: { x: 0.42, y: 0.21, z: 0.5 },
+		scale: 3.8
+		},
+		"*-horseradish-*": {
+    	translation: { x: 0, y: 0, z: 0 },
+      	rotation: { x: 90, y: 0, z: 0 },
+      	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+      	scale: 2.5
+   		},
+		"*-pickledbeetroot-*": {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 75 },
+		origin: { x: 0.42, y: 0.21, z: 0.5 },
+		scale: 3.8
+		},
+		"*-pickledhorseradish-*": {
+    	translation: { x: 0, y: 0, z: 0 },
+      	rotation: { x: 90, y: 0, z: 0 },
+      	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+      	scale: 2.5
+   		},
+		"*-pickledleek-*": {
+    	translation: { x: 0, y: 0.375, z: 0 },
+    	rotation: { x: 0, y: 0, z: 0 },
+    	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 3.5
+  		},
+		"*-lettuce-*": {
+    	translation: { x: 0, y: 0.3, z: 0 },
+ 	    rotation: { x: 0, y: 0, z: 0 },
+  	 	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 2.5
+  		},
+		"*-cucumber-*": {
+    	translation: { x: 0, y: 0.45, z: 0 },
+    	rotation: { x: 0, y: 0, z: 0 },
+    	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 3.5
+  		},
+		"*-pickledlettuce-*": {
+    	translation: { x: 0, y: 0.3, z: 0 },
+ 	    rotation: { x: 0, y: 0, z: 0 },
+  	 	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 2.5
+  		},
+		"*-pickledcucumber-*": {
+    	translation: { x: 0, y: 0.45, z: 0 },
+    	rotation: { x: 0, y: 0, z: 0 },
+    	origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    	scale: 3.5
+  		}
+	},
+	"combustiblePropsByType": {
+		"@*-(raw|partbaked|cooked|oiled)": {
+			"meltingPoint": 150,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{type}-{veggie}-charred" },
+			"requiresContainer": false
+		},
+		"@*-(syruppartbaked|syrupv)": {
+			"meltingPoint": 150,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{type}-{veggie}-syrupcharred" },
+			"requiresContainer": false
+		}
+	}
+}

@@ -1,0 +1,25 @@
+[
+	{
+		ingredientPattern: "SHS",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"H": { type: "item", code: "deartibusrusticis:herb-*" }
+		},		
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:blend-simple", quantity: 2  }
+	},
+	{
+		ingredientPattern: "SHR",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ], quantity: 4 },
+			"H": { type: "item", code: "deartibusrusticis:herb-*", quantity: 4 },
+			"R": { type: "item", code: "deartibusrusticis:root-meum" }
+		},		
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:blend-simple", quantity: 8  }
+	}
+]

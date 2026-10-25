@@ -1,0 +1,17 @@
+[
+  // Make Seeds pressable into Food Oil
+  {
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "juiceableProperties": {
+			"litresPerItem": 0.078125,
+			"liquidStack": { "type": "item", "code": "expandedfoods:foodoilportion-seed", "stacksize": 1 },
+			"pressedStack": { "type": "item", "code": "game:pressedmash-seed", "stacksize": 1 }
+		}
+    },
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/resource/seeds.json",
+    "dependsOn": [{"modid": "expandedfoods"}],
+  }
+]

@@ -23,8 +23,8 @@ textures: {
 	"s4": { base: "item/food/vegetable/beetstalks" },
 	"e3": { base: "item/food/vegetable/beetstalks" },
 	"item": { base: "block/plant/crop/beet/bulb" },
-	"*lettuce": { base: "item/food/vegetable/lettuce"},
-	"*cucumber": { base: "item/food/vegetable/cucumber"}
+	"lettuce": { base: "item/food/vegetable/lettuce"},
+	"cucumber": { base: "item/food/vegetable/cucumber"}
 
 },
 attributes: {
@@ -33,9 +33,8 @@ foodTags: ["{type}"],
 nutritionPropsWhenInMealByType: {
 "*-lettuce": { satiety: 225, foodcategory: "vegetable" },
 "*": { satiety: 150, foodcategory: "vegetable" },
-},
-inContainerTexture: { base: "deartibusrusticis:block/wood/barrel/{type}" },
-                crockable: true,
+		},
+				inContainerTexture: { base: "deartibusrusticis:block/wood/barrel/{type}" },
                 inPiePropertiesByType: {
                     "*-garlic": { texture: "deartibusrusticis:block/food/pie/fill-{type}", partType: "Filling", mixingCodes: ["potpie"] },
 					"*-horseradish": { texture: "deartibusrusticis:block/food/pie/fill-{type}", partType: "Filling", mixingCodes: ["potpie"] },
@@ -65,13 +64,22 @@ inContainerTexture: { base: "deartibusrusticis:block/wood/barrel/{type}" },
 					"*-leek": { translation: { x: -0.1, y: -0.15, z: 0 }, rotation: { x: 0, y: 90, z: 0 }, scale: 0.5 },
 					"*-lettuce": { translation: { x: -0.05, y: -0.125, z: 0.05 }, rotation: { x: 12, y: 90, z: 0 }, scale: 0.5 },
 					"*-cucumber": { translation: { x: -0.15, y: -0.15, z: 0 }, scale: 0.59 }
-				}	
-},
+				},
+				onDisplayTransformByType: {
+          			"*-garlic": { translation: { x: 0, y: -0.375, z: 0 }, scale: 0.25 },
+    	    		"*-beetroot": { translation: { x: 0, y: -0.45, z: -0.125 }, rotation: { x: 0, y: 45, z: -90 }, scale: 0.6 },
+    	    		"*-leek": { translation: { x: 0.2, y: -0.475, z: 0.1 }, rotation: { x: 91, y: 0, z: -45 }, scale: 0.5 },
+    	    		"*-lettuce": { translation: { x: 0, y: -0.275, z: 0 }, rotation: { x: 0, y: 45, z: 3 }, scale: 0.4 },
+          			"*-cucumber": { translation: { x: 0, y: -0.225, z: -0.05 }, rotation: { x: 0, y: 135, z: 0 }, scale: 0.59 },
+          			"*-horseradish": { translation: { x: 0, y: -0.3, z: 0 }, rotation: { x: 0, y: 45, z: 0 }, scale: 0.4 }
+        		}		
+			},
 creativeinventory: { "general": ["*"], "deartibusrusticis": [ "*" ] },
 nutritionPropsByType: {
 	"*-lettuce": { satiety: 150, foodcategory: "Vegetable" },
     "*": { satiety: 100, foodcategory: "Vegetable" }
 },
+storageFlags: 33,
 transitionablePropsByType: {
 	"*": [ {
 				type: "Perish",
@@ -92,9 +100,9 @@ transitionablePropsByType: {
 	},
 	guiTransformByType: {
 		"*-garlic": {
-    	translation: { x: 4, y: -8, z: 0 },
+    	translation: { x: 4, y: -2, z: 0 },
     	rotation: { x: 0, y: 45, z: -165 },
-   		origin: { x: 0.5, y: 0.475, z: 0.5 },
+    	origin: { x: 0.5, y: 0.35, z: 0.5 },
     	scale: 2.01
 		},
 		"*-beetroot": {
@@ -104,10 +112,10 @@ transitionablePropsByType: {
 		scale: 3.6
 		},
 		"*-horseradish": {
-      	translation: { x: 10, y: 10, z: 0 },
-      	rotation: { x: 0, y: 62, z: -45 },
-      	origin: { x: 0.5, y: 0.25, z: 0.5 },
-      	scale: 2.5
+      	translation: { x: 4, y: 4, z: 0 },
+    	rotation: { x: 0, y: 62, z: -45 },
+   		origin: { x: 0.5, y: 0.1, z: 0.5 },
+    	scale: 2.5
    		},
 		"*-leek": {
     	translation: { x: -5, y: 5, z: 0 },

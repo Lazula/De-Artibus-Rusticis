@@ -124,6 +124,7 @@
   {
     "op": "addmerge",
     "path": "/-",
+    "dependsOn": [ { "modid": "bdcrop", "invert": "true" } ],
     "value": {
       "blockCodes": [
         "deartibusrusticis:crop-leek-2",

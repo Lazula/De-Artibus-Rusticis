@@ -1,0 +1,52 @@
+[
+ {
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "deartibusrusticis:breadedvegetable-flax-*-raw", "name": "vegetable" }]}
+	],
+	"output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-flax-{vegetable}-oiled", "stackSize": 1}
+ },
+ {
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "deartibusrusticis:breadedvegetable-rice-*-raw", "name": "vegetable" }]}
+	],
+	"output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-rice-{vegetable}-oiled", "stackSize": 1}
+ },
+ {
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "deartibusrusticis:breadedvegetable-rye-*-raw", "name": "vegetable" }]}
+	],
+	"output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-rye-{vegetable}-oiled", "stackSize": 1}
+ },
+ {
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "deartibusrusticis:breadedvegetable-spelt-*-raw", "name": "vegetable" }]}
+	],
+	"output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-spelt-{vegetable}-oiled", "stackSize": 1}
+ },
+ {
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "deartibusrusticis:breadedvegetable-cassava-*-raw", "name": "vegetable" }]}
+	],
+	"output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-cassava-{vegetable}-oiled", "stackSize": 1}
+ },
+ {
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "deartibusrusticis:breadedvegetable-amaranth-*-raw", "name": "vegetable" }]}
+	],
+	"output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-amaranth-{vegetable}-oiled", "stackSize": 1}
+ },
+ {
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "deartibusrusticis:breadedvegetable-sunflower-*-raw", "name": "vegetable" }]}
+	],
+	"output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-sunflower-{vegetable}-oiled", "stackSize": 1}
+ }
+]
+

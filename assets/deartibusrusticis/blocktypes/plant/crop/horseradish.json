@@ -11,7 +11,7 @@
 	shape: {base: "block/plant/crop/horseradish*"},
 	blockmaterial: "Plant",
 	textures: {
-		"6": { base: "block/plant/crop/horseradish/{stage}" }
+		"crop": { base: "block/plant/crop/horseradish/{stage}" }
 	},
 	attributes: {
 		foodTags: ["nibbleCrop"],

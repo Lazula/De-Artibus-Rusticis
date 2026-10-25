@@ -1,0 +1,13 @@
+[
+	{
+        enabled: false,
+		ingredientPattern: "B	L",
+		ingredients: {
+			"L": { type: "item", code: "deartibusrusticis:herbalbread-{type}-perfect" },
+			"B": { type: "item", tags: ["tool-knife"], isTool: true, toolDurabilityCost: 1  },
+		},	
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:slicedherbbread-{type}-perfect", quantity: 4  }
+	}
+]

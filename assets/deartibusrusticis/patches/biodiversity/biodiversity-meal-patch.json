@@ -1,0 +1,221 @@
+[
+	//Mash
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/0/validStacks",
+		"value": [
+	        { "type": "item", "code": "bdcrop:vegetable-leek", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group1" ] },
+			{ "type": "item", "code": "bdcrop:vegetable-stubbleturnip", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group1" ] },
+			{ "type": "item", "code": "bdcrop:vegetable-potato", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group1" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "bdcrop" } ]
+	},
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		  "path": "/ingredients/2/validStacks",
+		  "value": [
+            { "type": "item", "code": "bdcrop:flour-buckwheat", "shapeElement": "bowl/thickener/*" }
+
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "bdrop" } ]
+	},
+
+	//Sauerkraut
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		  "path": "/ingredients/1/validStacks",
+		  "value": [
+            { "type": "item", "code": "bdcrop:ciderportion-*",  shapeElement: "bowl/sweetener", textureMapping: ["topping", "honey"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "bdcrop" } ]
+	},
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+	        { "type": "item", "code": "bdcrop:vegetable-leek", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group1" ] },
+			{ "type": "item", "code": "bdcrop:vegetable-stubbleturnip", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group1" ] },
+			{ "type": "item", "code": "bdcrop:vegetable-potato", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group1" ] },
+			{ "type": "item", "code": "bdcrop:vegetable-tomato", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group1" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "bdcrop" } ]
+	},
+
+	//Compost
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/0/validStacks",
+		  "value": [
+            { "type": "item", "code": "bdcrop:ciderportion-*",  shapeElement: "bowl/sweetener", textureMapping: ["topping", "honey"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "bdcrop" } ]
+	},
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/compost.json",
+		  "path": "/ingredients/1/validStacks",
+		  "value": [
+            { "type": "item", "code": "bdcrop:fruit-*",  shapeElement: "bowl/fruit/*", textureMapping: ["fruit", "group1"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "bdcrop" } ]
+	},
+
+	//Poach
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/poach.json",
+		  "path": "/ingredients/1/validStacks",
+		  "value": [
+            { "type": "item", "code": "bdcrop:ciderportion-*",  shapeElement: "bowl/sweetener", textureMapping: ["topping", "honey"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "bdcrop" } ]
+	},
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/7/validStacks",
+		"value": [
+	        { "type": "item", "code": "bdcrop:vegetable-leek", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group1" ] },
+			{ "type": "item", "code": "bdcrop:vegetable-stubbleturnip", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group1" ] },
+			{ "type": "item", "code": "bdcrop:vegetable-potato", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group1" ] }
+		],
+    "side": "server",
+	"dependsOn": [ { "modid": "bdcrop" } ]
+	},
+
+	//Stock
+	{
+        "op": "addmerge",
+        "file": "recipes/cooking/stocks.json",
+        "path": "/7/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "bdcrop", "invert": true}],
+        "side": "Server"
+    },
+
+	//Pickling
+	{
+        "op": "addmerge",
+        "file": "recipes/barrel/pickledvegetable.json",
+        "path": "/1/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "bdcrop", "invert": true}],
+        "side": "Server"
+    },
+
+	//Conversion
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/BD/BDconversions.json",
+        "path": "/0/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "bdcrop", "invert": true}],
+        "side": "Server"
+    },
+
+	//Gingerbread & Herbal
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/gingerbread.json",
+        "path": "/4/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "bdcrop", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/gingerbread.json",
+        "path": "/5/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "bdcrop", "invert": true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/herbaldough.json",
+        "path": "/2/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "bdcrop", "invert": true}],
+        "side": "Server"
+    },
+	//Gingerbread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/*-buckwheat",
+    "value": {
+		"satiety": 110,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "bdcrop" } ]
+  	},
+	//Herbal Bread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-buckwheat-partbaked",
+    "value": {
+		"satiety": 125,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "bdcrop" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-buckwheat-perfect",
+    "value": {
+		"satiety": 275,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "bdcrop" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-buckwheat-charred",
+    "value": {
+		"satiety": 145,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "bdcrop" } ]
+  	},
+	//Herbal Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"buckwheat"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "bdcrop" } ]
+    },
+	//Ginger Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"buckwheat"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "bdcrop" } ]
+    }
+]

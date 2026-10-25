@@ -1,0 +1,16 @@
+[
+    //leek
+    {
+        "dependsOn": [ { "modid": "bdcrop" } ],
+        "file": "deartibusrusticis:itemtypes/resource/seeds",
+        "op": "remove", 
+        "path": "/variantgroups/0/states/5" 
+    },
+    {
+        "dependsOn": [ { "modid": "bdcrop" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/leek",
+        "op": "add", 
+        "path": "/enabled",
+        "value": false
+    }
+]

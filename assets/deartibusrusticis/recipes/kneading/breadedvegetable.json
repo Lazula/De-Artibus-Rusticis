@@ -1,0 +1,193 @@
+[
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-horseradish", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-horseradish-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-garlic", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-garlic-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-cucumber-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-leek", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-leek-raw", "stackSize": 1}
+ },
+{
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-beetroot-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-horseradish", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "game:salt", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-horseradish-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-garlic", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "game:salt", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-garlic-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "game:salt", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-cucumber-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-leek", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "game:salt", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-leek-raw", "stackSize": 1}
+ },
+{
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "game:salt", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-beetroot-raw", "stackSize": 1}
+ },
+{
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-horseradish", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-pickledhorseradish-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-garlic", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-pickledgarlic-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-cucumber", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-pickledcucumber-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-leek", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-pickledleek-raw", "stackSize": 1}
+ },
+{
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:vegetable-beetroot", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-pickledbeetroot-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:pickledvegetable-horseradish", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "game:salt", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-pickledhorseradish-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:pickledvegetable-garlic", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "game:salt", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-pickledgarlic-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:pickledvegetable-cucumber", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "game:salt", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-pickledcucumber-raw", "stackSize": 1}
+ },
+ {
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:pickledvegetable-leek", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "game:salt", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-pickledleek-raw", "stackSize": 1}
+ },
+{
+  "ingredients": [
+    {"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+    {"inputs": [{ "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    {"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "deartibusrusticis:pickledvegetable-beetroot", "quantity": 1 }]},
+    {"inputs": [{ "type": "item", "code": "game:salt", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "deartibusrusticis:breadedvegetable-{grain}-pickledbeetroot-raw", "stackSize": 1}
+ }
+]
+

@@ -10,7 +10,6 @@
 		"string": [16,16]
 	},
 	"textures": {
-		"string": "game:item/resource/string"
 	},
 	"elements": [
 		{
@@ -140,6 +139,7 @@
 									"name": "leaf",
 									"from": [ 1.0, 0.2, -1.3 ],
 									"to": [ 6.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 2.0, 0.2, 0.2 ],
 									"faces": {
 										"north": { "texture": "#herb", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "enabled": false },
@@ -154,6 +154,7 @@
 									"name": "leaf6",
 									"from": [ 1.0, 0.2, -1.3 ],
 									"to": [ 6.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 2.0, 0.2, 0.2 ],
 									"rotationX": -90.0,
 									"faces": {
@@ -169,6 +170,7 @@
 									"name": "leaf19",
 									"from": [ 1.0, 0.2, -1.3 ],
 									"to": [ 6.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 2.0, 0.2, 0.2 ],
 									"rotationX": -45.0,
 									"faces": {
@@ -184,6 +186,7 @@
 									"name": "leaf20",
 									"from": [ 1.0, 0.2, -1.3 ],
 									"to": [ 6.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 2.0, 0.2, 0.2 ],
 									"rotationX": -135.0,
 									"faces": {
@@ -215,6 +218,7 @@
 									"name": "leaf2",
 									"from": [ 2.0, 0.2, -1.3 ],
 									"to": [ 8.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 3.0, 0.2, 0.2 ],
 									"faces": {
 										"north": { "texture": "#herb", "uv": [ 0.0, 0.0, 6.0, 0.5 ], "enabled": false },
@@ -229,6 +233,7 @@
 									"name": "leaf7",
 									"from": [ 2.0, 0.2, -1.3 ],
 									"to": [ 8.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 3.0, 0.2, 0.2 ],
 									"rotationX": -90.0,
 									"faces": {
@@ -244,6 +249,7 @@
 									"name": "leaf17",
 									"from": [ 2.0, 0.2, -1.3 ],
 									"to": [ 8.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 3.0, 0.2, 0.2 ],
 									"rotationX": -45.0,
 									"faces": {
@@ -259,6 +265,7 @@
 									"name": "leaf18",
 									"from": [ 2.0, 0.2, -1.3 ],
 									"to": [ 8.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 3.0, 0.2, 0.2 ],
 									"rotationX": -135.0,
 									"faces": {
@@ -293,6 +300,7 @@
 									"name": "leaf3",
 									"from": [ 2.0, 0.2, -1.3 ],
 									"to": [ 7.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 3.0, 0.2, 0.2 ],
 									"faces": {
 										"north": { "texture": "#herb", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "enabled": false },
@@ -307,6 +315,7 @@
 									"name": "leaf8",
 									"from": [ 2.0, 0.2, -1.3 ],
 									"to": [ 7.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 3.0, 0.2, 0.2 ],
 									"rotationX": -90.0,
 									"faces": {
@@ -322,6 +331,7 @@
 									"name": "leaf15",
 									"from": [ 2.0, 0.2, -1.3 ],
 									"to": [ 7.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 3.0, 0.2, 0.2 ],
 									"rotationX": -45.0,
 									"faces": {
@@ -337,6 +347,7 @@
 									"name": "leaf16",
 									"from": [ 2.0, 0.2, -1.3 ],
 									"to": [ 7.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 3.0, 0.2, 0.2 ],
 									"rotationX": -135.0,
 									"faces": {
@@ -370,6 +381,7 @@
 									"name": "leaf4",
 									"from": [ 1.0, 0.2, -1.3 ],
 									"to": [ 7.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 2.0, 0.2, 0.2 ],
 									"faces": {
 										"north": { "texture": "#herb", "uv": [ 0.0, 0.0, 6.0, 0.5 ], "enabled": false },
@@ -384,6 +396,7 @@
 									"name": "leaf9",
 									"from": [ 1.0, 0.2, -1.3 ],
 									"to": [ 7.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 2.0, 0.2, 0.2 ],
 									"rotationX": -90.0,
 									"faces": {
@@ -399,6 +412,7 @@
 									"name": "leaf13",
 									"from": [ 1.0, 0.2, -1.3 ],
 									"to": [ 7.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 2.0, 0.2, 0.2 ],
 									"rotationX": 45.0,
 									"faces": {
@@ -414,6 +428,7 @@
 									"name": "leaf14",
 									"from": [ 1.0, 0.2, -1.3 ],
 									"to": [ 7.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 2.0, 0.2, 0.2 ],
 									"rotationX": -135.0,
 									"faces": {
@@ -447,6 +462,7 @@
 									"name": "leaf5",
 									"from": [ 1.0, 0.2, -1.3 ],
 									"to": [ 7.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 2.0, 0.2, 0.2 ],
 									"faces": {
 										"north": { "texture": "#herb", "uv": [ 0.0, 0.0, 6.0, 0.5 ], "enabled": false },
@@ -461,6 +477,7 @@
 									"name": "leaf10",
 									"from": [ 1.0, 0.2, -1.3 ],
 									"to": [ 7.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 2.0, 0.2, 0.2 ],
 									"rotationX": -90.0,
 									"faces": {
@@ -476,6 +493,7 @@
 									"name": "leaf11",
 									"from": [ 1.0, 0.2, -1.3 ],
 									"to": [ 7.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 2.0, 0.2, 0.2 ],
 									"rotationX": -135.0,
 									"faces": {
@@ -491,6 +509,7 @@
 									"name": "leaf12",
 									"from": [ 1.0, 0.2, -1.3 ],
 									"to": [ 7.0, 0.21, 1.7 ],
+									"shade": false,
 									"rotationOrigin": [ 2.0, 0.2, 0.2 ],
 									"rotationX": -45.0,
 									"faces": {

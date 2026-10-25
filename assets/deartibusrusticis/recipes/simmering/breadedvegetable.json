@@ -1,0 +1,198 @@
+﻿[
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-flax-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-flax-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+},
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:lard",	"quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-flax-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-flax-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+},
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-rice-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-rice-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+},
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:lard", "quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-rice-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-rice-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+},
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-rye-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-rye-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+},
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:lard", "quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-rye-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-rye-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+},
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-spelt-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-spelt-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+},
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:lard", "quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-spelt-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-spelt-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+},
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-cassava-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-cassava-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+},
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:lard", "quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-cassava-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-cassava-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+},
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-amaranth-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-amaranth-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+},
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:lard", "quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-amaranth-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-amaranth-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+},
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-sunflower-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-sunflower-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+},
+{
+	"Ingredients": [
+		{ "type": "item", "code": "expandedfoods:lard", "quantity": 10 },
+		{ "type": "item", "code": "deartibusrusticis:breadedvegetable-sunflower-*-raw", "quantity": 1, "name": "vegetable" }
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 10,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "deartibusrusticis:breadedvegetable-sunflower-{vegetable}-cooked" },
+		"requiresContainer": false
+	}
+}
+]

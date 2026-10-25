@@ -4,7 +4,7 @@
 	behaviors: [{name: "Unstable"}],
 	variantgroups: [
 		{ code: "type", states: ["garlic"] },
-		{ code: "stage", states: ["1", "2", "3", "4", "5", "6", "7", "8", "9"] },
+		{ code: "stage", states: ["1", "2", "3", "4", "5", "6", "7"] },
 	],
 	creativeinventory: { "general": [ "*" ], "deartibusrusticis": [ "*" ] },
 	renderpass: "OpaqueNoCull",
@@ -49,20 +49,20 @@
 	},
 	rainPermeable: false,
 	dropsByType: {
-		"*-6": [
+		"*-4": [
 			{ type: "item", code: "herb-garlic", quantity: { avg: 3, var: 1}  },
 			{ type: "item", code: "seeds-garlic", quantity: { avg: 0.8  }  },
 		],
-		"*-7": [
+		"*-5": [
 			{ type: "item", code: "herb-garlic", quantity: { avg: 5, var: 1}  },
 			{ type: "item", code: "seeds-garlic", quantity: { avg: 0.8  }  },
 		],
-		"*-8": [
+		"*-6": [
 			{ type: "item", code: "vegetable-garlic", quantity: { avg: 3, var: 1 }  },
 			{ type: "item", code: "herb-garlic", quantity: { avg: 7, var: 1}  },
 			{ type: "item", code: "seeds-garlic", quantity: { avg: 0.99  }  },
 		],
-		"*-9": [
+		"*-7": [
 			{ type: "item", code: "vegetable-garlic", quantity: { avg: 9, var: 2}  },
 			{ type: "item", code: "seeds-garlic", quantity: { avg: 1.2}  },
 		],
@@ -73,8 +73,8 @@
 	cropProps: {
 		requiredNutrient: "N",
 		nutrientConsumption: 40,
-		growthStages: 9,
-		totalGrowthMonths: 1.8,
+		growthStages: 7,
+		totalGrowthMonths: 1.6,
 		heatDamageAbove: 32,
 		coldDamageBelow: -10
 	},

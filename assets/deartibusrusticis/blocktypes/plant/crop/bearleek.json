@@ -10,6 +10,7 @@
 	renderpass: "OpaqueNoCull",
 	shape: {base: "block/plant/crop/bearleek*"},
 	blockmaterial: "Plant",
+	randomizeRotations: true,
 	textures: {
 		"crop": { base: "block/plant/crop/bearleek/{stage}" }
 	},

@@ -1,0 +1,142 @@
+{
+	"enabled": "false",
+	"code": "cookedchoppedlegume",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type", "states": ["peas", "favabeans", "pickledpeas", "pickledfavabeans"] },
+		{ "code": "state", "states": ["partbaked", "perfect", "charred" ] }
+	],
+	"shape": { "base": "deartibusrusticis:item/EF/choppedveggies/{type}" },
+	"textures": {
+		"favabean": { base: "deartibusrusticis:item/EF/baked/{state}/favabean"},
+		"peas": { base: "deartibusrusticis:item/EF/baked/{state}/peas"},
+		"pickledfavabean": { base: "deartibusrusticis:item/EF/baked/{state}/pickledfavabean"},
+		"pickledpeas": { base: "deartibusrusticis:item/EF/baked/{state}/pickledpeas"}
+	},
+    "attributes": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": {
+        "groupBy": [ "cookedveggie-*" ],
+        "extraSections": [{ "title": "expandedfoods:item-handbooktitle-cookedchoppedveggie", "text": "expandedfoods:item-handbooktext-cookedchoppedveggie" }]
+      },
+	  "onDisplayTransform": {  translation: { x: 0, y: -0.19, z: 0 }, scale: 0.61 }
+    },
+	"attributesByType": {
+		"*-partbaked": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "deartibusrusticis:cookedchoppedlegume-{type}-perfect",
+				"initialCode": "deartibusrusticis:choppedlegume-{type}"
+			}
+		},
+		"*-perfect": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "deartibusrusticis:cookedchoppedlegume-{type}-charred",
+				"initialCode": "deartibusrusticis:cookedchoppedlegume-{type}-partbaked"
+			}
+		},
+		"*-charred": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "deartibusrusticis:cookedchoppedlegume-{type}-perfect"
+			}
+		}
+	},
+	"combustiblePropsByType": {
+		"@*-(partbaked|perfect)": {
+			"meltingPoint": 150,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedchoppedlegume-{type}-charred" },
+			"requiresContainer": false
+		}
+	},
+	"materialDensity": 600,
+	"creativeinventory": { "general": ["*"], "items": ["*"], "deartibusrusticis": ["*"] },
+	"nutritionPropsByType": {
+		"*-favabeans-partbaked": { "satiety": 110, "foodcategory": "Protein" },
+        "*-pickledfavabeans-partbaked": { "satiety": 90, "foodcategory": "Protein" },
+		"*-pickledpeas-partbaked": { "satiety": 90, "foodcategory": "Vegetable" },
+		"*-peas-partbaked": { "satiety": 110, "foodcategory": "Vegetable" },
+
+		"*-lettuce-perfect": { "satiety": 140, "foodcategory": "Protein" },
+        "*-pickledlettuce-perfect": { "satiety": 120, "foodcategory": "Protein" },
+		"*-pickledpeas-perfect": { "satiety": 120, "foodcategory": "Vegetable" },
+		"*-peas-perfect": { "satiety": 140, "foodcategory": "Vegetable" },
+
+		"*-lettuce-charred": { "satiety": 12, "foodcategory": "Protein" },
+        "*-pickledlettuce-charred": { "satiety": 100, "foodcategory": "Protein" },
+		"*-pickledpeas-charred": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-peas-charred": { "satiety": 125, "foodcategory": "Vegetable" }
+	},
+    "transitionablePropsByType": {
+        "@*-(pickledpeas|pickledfavabeans)-*": [{
+      		"type": "Perish",
+      		"freshHours": { "avg": 1800 },
+      		"transitionHours": { "avg": 240 },
+      		"transitionedStack": { "type": "item", "code": "game:rot" },
+      		"transitionRatio": 1
+    	}],
+        "@cookedchoppedlegume-.*-(partbaked|perfect)-*": [{
+          "type": "Perish",
+          "freshHours": { "avg": 504 },
+          "transitionHours": { "avg": 96 },
+          "transitionedStack": { "type": "item", "code": "game:rot" },
+          "transitionRatio": 1
+        }],
+		"@*-(pickledpeas|pickledfavabeans)-charred": [{
+			"type": "Perish",
+			"freshHours": { "avg": 7300 },
+			"transitionHours": { "avg": 400 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"cookedchoppedlegume-*-charred": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1764 },
+			"transitionHours": { "avg": 160 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}]
+	},
+	"guiTransformByType": {
+		"*": {
+			"translation": { x: 2.5, y: 1, z: 0 },
+    		"rotation": { x: 137, y: 131, z: 0 },
+    		"origin": { x: 0.5, y: 0.1, z: 0.5 },
+    		"scale": 2.5,
+			"rotate":  true
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			translation: { x: -1.2, y: -0.25, z: -1 },
+    		rotation: { x: 1, y: -1, z: 0 },
+    		origin: { x: 0.5, y: 0.1, z: 0.5 },
+    		scale: 0.5
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3
+		}
+	}
+}

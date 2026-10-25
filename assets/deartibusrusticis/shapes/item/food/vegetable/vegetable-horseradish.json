@@ -6,10 +6,8 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"horseradish": [16,16]
 	},
 	"textures": {
-		"horseradish": "item/food/vegetable/horseradish"
 	},
 	"elements": [
 		{

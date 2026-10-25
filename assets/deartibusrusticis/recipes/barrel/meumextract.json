@@ -1,0 +1,11 @@
+[
+	{
+		code: "meumextract",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "game:spiritportion-{fruit}",  litres: 10 },
+			{ type: "item", code: "deartibusrusticis:root-meum", quantity: 1 }
+		],
+		output: { type: "item", code: "deartibusrusticis:meumextractportion", litres: 10 }
+	}
+]

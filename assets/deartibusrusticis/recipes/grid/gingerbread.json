@@ -38,8 +38,60 @@
 		ingredientPattern: "SH,BL",
 		ingredients: {
             "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
-			"H": { type: "item", code: "deartibusrusticis:driedherb-*"},
-			"B": { type: "item", code: "game:bread-*-perfect", allowedVariants: ["flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"], name: "type" }, 
+			"H": { type: "item", code: "deartibusrusticis:herb-*"},
+			"B": { type: "item", code: "pemmican:bread-*-perfect", allowedVariants: ["corn", "potato"], name: "type" }, 
+			"L": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:gingerbread-{type}", quantity: 4  }
+	},
+	{
+		ingredientPattern: "S ,BL",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"B": { type: "item", code: "deartibusrusticis:herbalbread-*-perfect", allowedVariants: ["corn", "potato"], name: "type" }, 
+			"L": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:gingerbread-{type}", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SH,BL",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"H": { type: "item", code: "deartibusrusticis:herb-*"},
+			"B": { type: "item", code: "bdcrop:bread-*-perfect", allowedVariants: ["buckwheat"], name: "type" }, 
+			"L": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "deartibusrusticis:gingerbread-{type}", quantity: 4  }
+	},
+	{
+		ingredientPattern: "S ,BL",
+		ingredients: {
+            "S": { type: "item", code: "deartibusrusticis:spice-*", allowedVariants: ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard" ]},
+			"B": { type: "item", code: "deartibusrusticis:herbalbread-*-perfect", allowedVariants: ["buckwheat"], name: "type" }, 
 			"L": { type: "block", code: "game:bowl-*-fired" }
 		},
 		attributes: {

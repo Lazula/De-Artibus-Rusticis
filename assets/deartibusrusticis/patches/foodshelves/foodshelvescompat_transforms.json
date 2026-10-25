@@ -1,0 +1,135 @@
+[
+    {
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:vegetable-cucumber",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.85, "translation": { "x": 0.0, "y": 0.15, "z": 0 }, "rotation": { "x": 0, "y": 90, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:pickledvegetable-cucumber",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.85, "translation": { "x": 0.0, "y": 0.15, "z": 0 }, "rotation": { "x": 0, "y": 90, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:vegetable-horseradish",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.75, "translation": { "x": -0.05, "y": 0.15, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:pickledvegetable-horseradish",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.75, "translation": { "x": -0.05, "y": 0.15, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:vegetable-leek",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.75, "translation": { "x": -0.05, "y": 0.15, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:vegetable-garlic",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.675, "translation": { "x": 0.0, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:vegetable-lettuce",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.75, "translation": { "x": 0.0, "y": 0.25, "z": 0 }, "rotation": { "x": 90, "y": 90, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:herb-bearleek",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 1.0, "translation": { "x": -0.05, "y": 0.1, "z": 0 }, "rotation": { "x": 90, "y": 90, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:herb-meum",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 1.0, "translation": { "x": -0.05, "y": 0.1, "z": 0 }, "rotation": { "x": 90, "y": 90, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:herb-cress",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 1.0, "translation": { "x": -0.05, "y": 0.1, "z": 0 }, "rotation": { "x": 90, "y": 90, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:herb-eruca",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 1.0, "translation": { "x": -0.05, "y": 0.1, "z": 0 }, "rotation": { "x": 90, "y": 90, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:herb-estragon",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 1.0, "translation": { "x": -0.05, "y": 0.1, "z": 0 }, "rotation": { "x": 90, "y": 90, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:herb-garlic",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 1.0, "translation": { "x": -0.05, "y": 0.1, "z": 0 }, "rotation": { "x": 90, "y": 90, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:herb-anise",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 1.0, "translation": { "x": -0.05, "y": 0.1, "z": 0 }, "rotation": { "x": 90, "y": 90, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:herb-whitemustard",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 1.0, "translation": { "x": -0.05, "y": 0.1, "z": 0 }, "rotation": { "x": 90, "y": 90, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:herb-chervil",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 1.0, "translation": { "x": -0.05, "y": 0.1, "z": 0 }, "rotation": { "x": 90, "y": 90, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/baskets/vegetablebasket.json",
+    	"path": "/deartibusrusticis:herb-chives",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.75, "translation": { "x": -0.1, "y": 0.1, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/general/fooduniversal.json",
+    	"path": "/deartibusrusticis:herbalbread-*",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.8, "translation": { "x": 0.0, "y": 0.0, "z": 0.0 }, "rotation": { "x": 0, "y": 0, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	},
+	{
+        "op": "addmerge",
+		"file": "foodshelves:config/transformations/shelves/breadshelf.json",
+    	"path": "/deartibusrusticis:herbalbread-*",
+    	"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.8, "translation": { "x": 0.0, "y": 0.0, "z": 0.0 }, "rotation": { "x": 0, "y": 0, "z": 0 } },
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	}
+]

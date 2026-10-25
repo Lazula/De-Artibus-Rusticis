@@ -1,0 +1,328 @@
+{
+  "enabled": false,
+  "code": "teaportion",
+  "variantGroups": [
+    {
+      "code": "herb",
+      "states": [ "anise", "blackcumin", "bearleek", "meum", "chervil", "estragon", "chives", "cress", "whitemustard", "garlic", "anise-honey", "blackcumin-honey", "bearleek-honey", "meum-honey", "chervil-honey", "estragon-honey", "chives-honey", "cress-honey", "whitemustard-honey", "garlic-honey" ]
+    }
+  ],
+  "class": "ItemLiquidPortion",
+  "matterState": "liquid",
+  "attributes": {
+    "handbook": {
+      "ignoreCreativeInvStacks": true
+    },
+    "waterTightContainerProps": {
+      "containable": true,
+      "itemsPerLitre": 100,
+      "texturebytype": {
+        "*-anise": {
+          "base": "deartibusrusticis:block/liquid/teas/anise-tea"
+        },
+        "*-bearleek": {
+          "base": "deartibusrusticis:block/liquid/teas/bearleek-tea"
+        },
+        "*-blackcumin": {
+          "base": "deartibusrusticis:block/liquid/teas/blackcumin-tea"
+        },
+        "*-chervil": {
+          "base": "deartibusrusticis:block/liquid/teas/chervil-tea"
+        },
+        "*-chives": {
+          "base": "deartibusrusticis:block/liquid/teas/chives-tea"
+        },
+        "*-estragon": {
+          "base": "deartibusrusticis:block/liquid/teas/estragon-tea"
+        },
+        "*-meum": {
+          "base": "deartibusrusticis:block/liquid/teas/meum-tea"
+        },
+        "*-cress": {
+          "base": "deartibusrusticis:block/liquid/teas/cress-tea"
+        },
+        "*-whitemustard": {
+          "base": "deartibusrusticis:block/liquid/teas/whitemustard-tea"
+        },
+        "*-garlic": {
+          "base": "deartibusrusticis:block/liquid/teas/garlic-tea"
+        },
+        "*-anise-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/anise-honey-tea"
+        },
+        "*-bearleek-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/bearleek-honey-tea"
+        },
+        "*-blackcumin-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/blackcumin-honey-tea"
+        },
+        "*-chervil-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/chervil-honey-tea"
+        },
+        "*-chives-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/chives-honey-tea"
+        },
+        "*-estragon-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/estragon-honey-tea"
+        },
+        "*-meum-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/meum-honey-tea"
+        },
+        "*-cress-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/cress-honey-tea"
+        },
+        "*-whitemustard-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/whitemustard-honey-tea"
+        },
+        "*-garlic-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/garlic-honey-tea"
+        }
+      },
+      "allowSpill": true,
+      "whenSpilled": {
+        "action": "DropContents",
+        "stack": {
+          "type": "item",
+          "code": "teaportion-{herb}"
+        }
+      },
+      "nutritionPropsPerLitreByType": {
+        "*-anise": {
+          "foodCategory": "Vegetable",
+          "satiety": 80,
+          "health": 2.0
+        },
+        "*-bearleek": {
+          "foodCategory": "Vegetable",
+          "satiety": 125,
+          "health": 0.5
+        },
+        "*-blackcumin": {
+          "foodCategory": "Vegetable",
+          "satiety": 80,
+          "health": 2.0
+        },
+        "*-cress": {
+          "foodCategory": "Vegetable",
+          "satiety": 125,
+          "health": 0.5
+        },
+        "*-chervil": {
+          "foodCategory": "Vegetable",
+          "satiety": 125,
+          "health": 0.5
+        },
+        "*-estragon": {
+          "foodCategory": "Vegetable",
+          "satiety": 80,
+          "health": 2.0
+        },
+        "*-meum": {
+          "foodCategory": "Vegetable",
+          "satiety": 80,
+          "health": 2.0
+        },
+        "*-chives": {
+          "foodCategory": "Vegetable",
+          "satiety": 125,
+          "health": 0.5
+        },
+        "*-whitemustard": {
+          "foodCategory": "Vegetable",
+          "satiety": 80,
+          "health": 2.0
+        },
+        "*-garlic": {
+          "foodCategory": "Vegetable",
+          "satiety": 125,
+          "health": 0.5
+        },
+        "*-anise-honey": {
+          "foodCategory": "Vegetable",
+          "satiety": 125,
+          "health": 4.0
+        },
+        "*-bearleek-honey": {
+          "foodCategory": "Vegetable",
+          "satiety": 175,
+          "health": 1.5
+        },
+        "*-blackcumin-honey": {
+          "foodCategory": "Vegetable",
+          "satiety": 125,
+          "health": 4.0
+        },
+        "*-cress-honey": {
+          "foodCategory": "Vegetable",
+          "satiety": 175,
+          "health": 1.5
+        },
+        "*-chervil-honey": {
+          "foodCategory": "Vegetable",
+          "satiety": 175,
+          "health": 1.5
+        },
+        "*-estragon-honey": {
+          "foodCategory": "Vegetable",
+          "satiety": 125,
+          "health": 4.0
+        },
+        "*-meum-honey": {
+          "foodCategory": "Vegetable",
+          "satiety": 125,
+          "health": 4.0
+        },
+        "*-chives-honey": {
+          "foodCategory": "Vegetable",
+          "satiety": 175,
+          "health": 1.5
+        },
+        "*-whitemustard-honey": {
+          "foodCategory": "Vegetable",
+          "satiety": 125,
+          "health": 4.0
+        },
+        "*-garlic-honey": {
+          "foodCategory": "Vegetable",
+          "satiety": 175,
+          "health": 1.5
+        }
+      }
+    }
+  },
+  "shape": { "base": "game:item/liquid" },
+  "creativeinventoryStacks": [
+    {
+      "tabs": [ "general", "deartibusrusticis" ],
+      "stacks": [
+        {
+          "type": "block",
+          "code": "game:woodbucket",
+          "attributes": {
+            "ucontents": [
+              {
+                "type": "item",
+                "code": "deartibusrusticis:teaportion-{herb}",
+                "states": [ "anise", "blackcumin", "bearleek", "meum", "chervil", "estragon", "chives", "cress", "whitemustard", "garlic", "anise-honey", "blackcumin-honey", "bearleek-honey", "meum-honey", "chervil-honey", "estragon-honey", "chives-honey", "cress-honey", "whitemustard-honey", "garlic-honey" ],
+                "makefull": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "texturebytype": {
+    "*-anise": {
+          "base": "deartibusrusticis:block/liquid/teas/anise-tea"
+        },
+        "*-bearleek": {
+          "base": "deartibusrusticis:block/liquid/teas/bearleek-tea"
+        },
+        "*-blackcumin": {
+          "base": "deartibusrusticis:block/liquid/teas/blackcumin-tea"
+        },
+        "*-chervil": {
+          "base": "deartibusrusticis:block/liquid/teas/chervil-tea"
+        },
+        "*-chives": {
+          "base": "deartibusrusticis:block/liquid/teas/chives-tea"
+        },
+        "*-estragon": {
+          "base": "deartibusrusticis:block/liquid/teas/estragon-tea"
+        },
+        "*-meum": {
+          "base": "deartibusrusticis:block/liquid/teas/meum-tea"
+        },
+        "*-cress": {
+          "base": "deartibusrusticis:block/liquid/teas/cress-tea"
+        },
+        "*-whitemustard": {
+          "base": "deartibusrusticis:block/liquid/teas/whitemustard-tea"
+        },
+        "*-garlic": {
+          "base": "deartibusrusticis:block/liquid/teas/garlic-tea"
+        },
+        "*-anise-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/anise-honey-tea"
+        },
+        "*-bearleek-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/bearleek-honey-tea"
+        },
+        "*-blackcumin-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/blackcumin-honey-tea"
+        },
+        "*-chervil-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/chervil-honey-tea"
+        },
+        "*-chives-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/chives-honey-tea"
+        },
+        "*-estragon-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/estragon-honey-tea"
+        },
+        "*-meum-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/meum-honey-tea"
+        },
+        "*-cress-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/cress-honey-tea"
+        },
+        "*-whitemustard-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/whitemustard-honey-tea"
+        },
+        "*-garlic-honey": {
+          "base": "deartibusrusticis:block/liquid/teas/garlic-honey-tea"
+        }
+    },
+  "maxstacksize": 5000,
+  "materialDensity": 200,
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "rotation": {
+      "x": 123,
+      "y": -33,
+      "z": -13
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 1.4
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 25,
+      "y": 157,
+      "z": -5
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.5,
+      "y": -1,
+      "z": -1.4
+    }
+  },
+  "transitionableProps": [
+    {
+      "type": "Perish",
+      "freshHours": { "avg": 12 },
+      "transitionHours": { "avg": 168 },
+      "transitionedStack": {
+        "type": "item",
+        "code": "game:waterportion"
+      },
+      "transitionRatio": 1
+    }
+  ]
+}

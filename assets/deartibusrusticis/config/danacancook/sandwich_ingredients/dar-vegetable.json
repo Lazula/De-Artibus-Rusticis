@@ -1,0 +1,161 @@
+{
+    "vegetable-lettuce": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/lettuce-sandwich" },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.5 }
+    },
+    "pickledvegetable-lettuce": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/lettuce-sandwich" },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.5 }
+    },
+    "vegetable-garlic": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/garlic-sandwich" },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.5 }
+    },
+    "pickledvegetable-garlic": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/garlic-sandwich" },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.5 }
+    },
+    "vegetable-beetroot": {
+        "shape": { "base": "danacancook:item/sandwich_ingredients_vanilla/generic_6" },
+        "textures":  {
+          "all":  { "base": "deartibusrusticis:block/food/pie/fill-{type}" }
+        },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.1 }
+    },
+    "pickledvegetable-beetroot": {
+        "shape": { "base": "danacancook:item/sandwich_ingredients_vanilla/generic_6" },
+        "textures":  {
+          "all":  { "base": "deartibusrusticis:block/food/pie/fill-{type}" }
+        },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.1 }
+    },
+    "vegetable-cucumber": {
+        "shape": { "base": "danacancook:item/sandwich_ingredients_vanilla/generic_6" },
+        "textures":  {
+          "all":  { "base": "deartibusrusticis:block/food/pie/fill-{type}" }
+        },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.1 }
+    },
+    "pickledvegetable-cucumber": {
+        "shape": { "base": "danacancook:item/sandwich_ingredients_vanilla/generic_6" },
+        "textures":  {
+          "all":  { "base": "deartibusrusticis:block/food/pie/fill-{type}" }
+        },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.1 }
+    },
+    "vegetable-horseradish": {
+        "shape": { "base": "danacancook:item/sandwich_ingredients_vanilla/generic_6" },
+        "textures":  {
+          "all":  { "base": "deartibusrusticis:block/food/pie/fill-{type}" }
+        },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.1 }
+    },
+    "pickledvegetable-horseradish": {
+        "shape": { "base": "danacancook:item/sandwich_ingredients_vanilla/generic_6" },
+        "textures":  {
+          "all":  { "base": "deartibusrusticis:block/food/pie/fill-{type}" }
+        },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.1 }
+    },
+    "vegetable-leek": {
+        "shape": { "base": "danacancook:item/sandwich_ingredients_vanilla/generic_6" },
+        "textures":  {
+          "all":  { "base": "deartibusrusticis:block/food/pie/fill-{type}" }
+        },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.1 }
+    },
+    "pickledvegetable-leek": {
+        "shape": { "base": "danacancook:item/sandwich_ingredients_vanilla/generic_6" },
+        "textures":  {
+          "all":  { "base": "deartibusrusticis:block/food/pie/fill-{type}" }
+        },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.1 }
+    },
+    "legume-favabeans": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/favabeans-sandwich" },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.5 }
+    },
+    "pickledlegume-favabeans": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/favabeans-sandwich" },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.5 }
+    },
+    "legume-lentils": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/lentils-sandwich" },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.5 }
+    },
+    "pickledlegume-lentils": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/lentils-sandwich" },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.5 }
+    },
+    "legume-peas": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/peas-sandwich" },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.5 }
+    },
+    "pickledlegume-peas": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/peas-sandwich" },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.5 }
+    },
+    "herb-*": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/herb-sandwich" },
+        "textures":  {
+          "herb":  { "base": "deartibusrusticis:block/food/meal/{type}" }
+        },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.5 }
+    },
+    "spice-*": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/spice-sandwich" },
+        "textures":  {
+          "spice":  { "base": "deartibusrusticis:block/food/meal/spice-{type}" }
+        },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.5 }
+    },
+    "blend-*": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/spice-sandwich" },
+        "textures":  {
+          "spice":  { "base": "deartibusrusticis:block/food/meal/blend-{type}" }
+        },
+        "size": 0.00625, // 0.1/16
+        "rotate": true,
+        "rotation": { "avg": 1, "var": 0.5 }
+    }
+}

@@ -1,0 +1,654 @@
+[
+    //Seeds
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:itemtypes/resource/seeds.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/class",
+        "value": "ItemPlantableSeedV2"
+    },
+
+    //Vegetables
+    
+    //Beetroot
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:itemtypes/resource/seeds",
+        "op": "remove", 
+        "path": "/variantgroups/0/states/5" 
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/beetroot",
+        "op": "add", 
+        "path": "/enabled",
+        "value": false
+    },
+
+    //Cucumber
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/cucumber.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/cucumber.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/cucumber.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/cucumber.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    //Garlic
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/garlic.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/garlic.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/garlic.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/garlic.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Horseradish
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/horseradish.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/horseradish.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/horseradish.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/horseradish.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Leek
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/leek.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/leek.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/leek.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/leek.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Lettuce
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lettuce.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Legumes
+
+    //Favabeans
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/favabeans.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/favabeans.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/favabeans.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/favabeans.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Lentils
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lentils.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lentils.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lentils.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/lentils.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Peas
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/peas.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/peas.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/peas.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/peas.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Herbs
+
+    //Anise
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/anise.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/anise.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/anise.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/anise.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Bearleek
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/bearleek.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/bearleek.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/bearleek.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/bearleek.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Black Cumin
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/blackcumin.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/blackcumin.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/blackcumin.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/blackcumin.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Chervil
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/chervil.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/chervil.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/chervil.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/chervil.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Chives
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/chives.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/chives.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/chives.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/chives.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Cress
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/cress.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/cress.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/cress.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/cress.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Eruca
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/eruca.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/eruca.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/eruca.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/eruca.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Estragon
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/estragon.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/estragon.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/estragon.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/estragon.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Meum
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/meum.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/meum.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/meum.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/meum.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //White Mustard
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/whitemustard.json",
+        "side": "Server",
+        "op": "replace",
+        "path": "/class",
+        "value": "BlockCropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/whitemustard.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityClass",
+        "value": "BECropV2"
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/whitemustard.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/entityBehaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+        "file": "deartibusrusticis:blocktypes/plant/crop/whitemustard.json",
+        "side": "Server",
+        "op": "add",
+        "path": "/cropProps/behaviors",
+        "value": [{ "name": "CropWeeds" }, { "name": "CropBlight" }]
+    },
+
+    //Seeds Patch
+    {
+        "dependsOn": [ { "modid": "cropsv2" } ],
+    "file": "deartibusrusticis:itemtypes/resource/seeds.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/class",
+    "value": "ItemPlantableSeedV2"
+  }
+
+]

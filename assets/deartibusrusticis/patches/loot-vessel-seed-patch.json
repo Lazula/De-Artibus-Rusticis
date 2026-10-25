@@ -6,8 +6,6 @@
           "deartibusrusticis:seeds-peas",
           "deartibusrusticis:seeds-garlic",
           "deartibusrusticis:seeds-horseradish",
-          "deartibusrusticis:seeds-leek",
-          "deartibusrusticis:seeds-beetroot",
           "deartibusrusticis:seeds-lentils",
           "deartibusrusticis:seeds-lettuce",
           "deartibusrusticis:seeds-favabeans",
@@ -15,5 +13,26 @@
     ],
     "file": "game:blocktypes/clay/lootvessel.json",
     "side": "Server"
-  }
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/lootListByType/*-seed/0/codes",
+    "dependsOn": [ { "modid": "bdcrop", "invert": "true" } ],
+    "value": [
+          "deartibusrusticis:seeds-leek"
+    ],
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/lootListByType/*-seed/0/codes",
+    "dependsOn": [ { "modid": "cropsv2", "invert": "true" } ],
+    "value": [
+          "deartibusrusticis:seeds-beetroot"
+    ],
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+
 ]

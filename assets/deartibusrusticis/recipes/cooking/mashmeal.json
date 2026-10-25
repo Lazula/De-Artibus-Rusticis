@@ -27,28 +27,34 @@
 				{ type: "item", code: "game:pickledvegetable-carrot",  shapeElement: "bowl/vegetable1/*", textureMapping: ["vegetable", "group1"] },
 				{ type: "item", code: "game:pickledvegetable-parsnip",  shapeElement: "bowl/vegetable1/*", textureMapping: ["vegetable", "group4"] },
 				{ type: "item", code: "game:pickledvegetable-pumpkin",  shapeElement: "bowl/vegetable1/*", textureMapping: ["vegetable", "group8"] },
-				{ type: "item", code: "game:pickledvegetable-turnip",  shapeElement: "bowl/vegetable1/*", textureMapping: ["vegetable", "group5"] },
-				{ type: "item", code: "game:pickledvegetable-carrot",  shapeElement: "bowl/vegetable1/*", textureMapping: ["vegetable", "group1"] },
-				{ type: "item", code: "game:pickledvegetable-parsnip",  shapeElement: "bowl/vegetable1/*", textureMapping: ["vegetable", "group4"] },
-				{ type: "item", code: "game:pickledvegetable-pumpkin",  shapeElement: "bowl/vegetable1/*", textureMapping: ["vegetable", "group8"] }
+				{ type: "item", code: "game:vegetable-turnip",  shapeElement: "bowl/vegetable1/*", textureMapping: ["vegetable", "group5"] },
+				{ type: "item", code: "game:vegetable-carrot",  shapeElement: "bowl/vegetable1/*", textureMapping: ["vegetable", "group1"] },
+				{ type: "item", code: "game:vegetable-parsnip",  shapeElement: "bowl/vegetable1/*", textureMapping: ["vegetable", "group4"] },
+				{ type: "item", code: "game:vegetable-pumpkin",  shapeElement: "bowl/vegetable1/*", textureMapping: ["vegetable", "group8"] }
 			],
 			minQuantity: 2,
 			maxQuantity: 2,
 			typeName: "mashtest"
 		},
 		{
-			code: "base", 
+			code: "mashoil", 
 			validStacks: [ 
-				{ type: "item", code: "game:oilportion-olive",  shapeElement: "bowl/base/*" },
-				{ type: "item", code: "deartibusrusticis:herbbrothportion",  shapeElement: "bowl/base/*" },
-				{ type: "item", code: "deartibusrusticis:vegetablebrothportion",  shapeElement: "bowl/base/*" },
-				{ type: "item", code: "deartibusrusticis:meatbrothportion",  shapeElement: "bowl/base/*" },
-				{ type: "item", code: "deartibusrusticis:chickenbrothportion",  shapeElement: "bowl/base/*" }
+				{ type: "item", code: "game:oilportion-olive",  shapeElement: "bowl/base/*" }
 			],
-			minQuantity: 1,
+			minQuantity: 0,
+			maxQuantity: 1,
+			portionSizeLitres: 0.2,
+			typeName: "mashoil"
+		},
+		{
+			code: "mashbroth", 
+			validStacks: [ 
+				{ type: "item", code: "deartibusrusticis:herbbrothportion",  shapeElement: "bowl/base/*" }
+			],
+			minQuantity: 0,
 			maxQuantity: 1,
 			portionSizeLitres: 1.0,
-			typeName: "mashbase"
+			typeName: "mashbroth"
 		},
         {
 			code: "thickener", 

@@ -1,0 +1,75 @@
+[
+	{
+		"enabled": false,
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "deartibusrusticis:legume-favabeans", "quantity": 6 }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "deartibusrusticis:seeds-favabeans", "quantity": 1  }
+	},
+	{
+		"enabled": false,
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "deartibusrusticis:legume-lentils", "quantity": 6 }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "deartibusrusticis:seeds-lentils", "quantity": 1  }
+	},
+	{
+		"enabled": false,
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "deartibusrusticis:legume-peas", "quantity": 6 }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "deartibusrusticis:seeds-peas", "quantity": 1  }
+	},
+	{
+		"enabled": false,
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "deartibusrusticis:seeds-{spice}", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"spice": ["anise", "bearleek", "blackcumin", "chervil", "cress", "eruca", "meum", "whitemustard"]
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "deartibusrusticis:spice-{spice}", "quantity": 1  }
+	},
+	{
+		"enabled": false,
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "deartibusrusticis:legume-favabeans"}
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "deartibusrusticis:seeds-favabeans", "quantity": 8  }
+	},
+	{
+		"enabled": false,
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "deartibusrusticis:legume-lentils"}
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "deartibusrusticis:seeds-lentils", "quantity": 8  }
+	},
+	{
+		"enabled": false,
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "deartibusrusticis:legume-peas"}
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "deartibusrusticis:seeds-peas", "quantity": 8 }
+	}
+]

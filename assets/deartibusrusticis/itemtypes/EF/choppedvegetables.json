@@ -1,0 +1,123 @@
+{
+    "enabled": "false",
+	"code": "choppedvegetable",
+	"maxstacksize": 64,
+    "attributes": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": {
+        "groupBy": [ "choppedvegetable-*" ],
+        "extraSections": [{ "title": "expandedfoods:item-handbooktitle-choppedvegetable", "text": "expandedfoods:item-handbooktext-choppedvegetable" }]
+      },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "deartibusrusticis:cookedchoppedvegetable-{type}-partbaked"
+      },
+	  onDisplayTransformByType: {
+          			"*-garlic": { translation: { x: 0, y: -0.3, z: 0 }, scale: 0.4 },
+					"*-pickledgarlic": { translation: { x: 0, y: -0.3, z: 0 }, scale: 0.4 },
+    	    		"*-lettuce": { translation: { x: 0, y: -0.19, z: 0 }, scale: 0.59 },
+					"*-pickledlettuce": { translation: { x: 0, y: -0.19, z: 0 }, scale: 0.59 },
+          			"*": { translation: { x: 0, y: -0.19, z: 0 }, scale: 0.6 }
+        		}		
+    },
+	"attributesByType": {
+		"*-lettuce": {
+			"nutritionPropsWhenInMeal": { "satiety": 225, "foodcategory": "Vegetable" }
+		},
+		"*-pickledlettuce": {
+			"nutritionPropsWhenInMeal": { "satiety": 180, "foodcategory": "Vegetable" }
+		},
+		"*-cucumber": {
+			"nutritionPropsWhenInMeal": { "satiety": 100, "foodcategory": "Vegetable" }
+		},
+		"*-pickledcucumber": {
+			"nutritionPropsWhenInMeal": { "satiety": 90, "foodcategory": "Vegetable" }
+		},
+		"choppedvegetable-*": {
+			"nutritionPropsWhenInMeal": { "satiety": 150, "foodcategory": "Vegetable" },
+            "inPieProperties": { "texture": "deartibusrusticis:block/food/pie/fill-{type}", "partType": "Filling" }
+		}
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["beetroot", "cucumber", "garlic", "horseradish", "leek", "lettuce", "pickledbeetroot", "pickledcucumber", "pickledgarlic", "pickledhorseradish", "pickledleek", "pickledlettuce"] }
+	],
+	"shape": { "base": "deartibusrusticis:item/EF/choppedveggies/{type}" },
+	"textures": {
+        "beetroot": { base: "deartibusrusticis:item/food/vegetable/bulb" },
+		"garlic": { base: "deartibusrusticis:item/food/vegetable/garlicbulb" },
+		"horseradish": { base: "deartibusrusticis:item/food/vegetable/horseradish" },
+		"leek": { base: "deartibusrusticis:item/food/vegetable/leek" },
+		"lettuce": { base: "deartibusrusticis:item/food/vegetable/lettuce"},
+		"cucumber": { base: "deartibusrusticis:item/food/vegetable/cucumber"},
+		"pickledbeetroot": { base: "deartibusrusticis:item/food/pickledvegetable/pickledbeet" },
+		"pickledgarlic": { base: "deartibusrusticis:item/food/pickledvegetable/pickledgarlic" },
+		"pickledhorseradish": { base: "deartibusrusticis:item/food/pickledvegetable/pickledhorseradish" },
+		"pickledleek": { base: "deartibusrusticis:item/food/pickledvegetable/pickledleek" },
+		"pickledlettuce": { base: "deartibusrusticis:item/food/pickledvegetable/pickledlettuce"},
+		"pickledcucumber": { base: "deartibusrusticis:item/food/pickledvegetable/pickledcucumber"}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "deartibusrusticis": ["*"] },
+	"nutritionPropsByType": {
+		"*-lettuce": { "satiety": 150, "foodcategory": "Vegetable" },
+        "*-pickledlettuce": { "satiety": 125, "foodcategory": "Vegetable" },
+		"@*-(pickledbeetroot|pickledcucumber|pickledgarlic|pickledhorseradish|pickledleek)": { "saturation": 80, "foodcategory": "Vegetable" },
+		"choppedvegetable-*": { "satiety": 100, "foodcategory": "Vegetable" }
+	},
+	"combustiblePropsByType": {
+		"*": {
+			"meltingPoint": 150,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedchoppedvegetable-{type}-charred" },
+			"requiresContainer": false
+		}
+	},
+	"transitionablePropsByType": {
+		"@*-(pickledbeetroot|pickledcucumber|pickledgarlic|pickledhorseradish|pickledleek)-*": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+        }],
+        		"*": [{
+			"type": "Perish",
+			"freshHours": { "avg": 672 },
+			"transitionHours": { "avg": 120 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}]
+	},
+	"materialDensity": 600,
+	"guiTransformByType": {
+		"*": {
+			"translation": { x: 2.5, y: 1, z: 0 },
+    		"rotation": { x: 137, y: 131, z: 0 },
+    		"origin": { x: 0.5, y: 0.1, z: 0.5 },
+    		"scale": 2.5,
+			"rotate":  true
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			translation: { x: -1.2, y: -0.25, z: -1 },
+    		rotation: { x: 1, y: -1, z: 0 },
+    		origin: { x: 0.5, y: 0.1, z: 0.5 },
+    		scale: 0.5
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3
+		}
+	}
+}

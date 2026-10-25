@@ -8,7 +8,18 @@
 	],
 	creativeinventory: { "general": [ "*" ], "deartibusrusticis": [ "*" ] },
 	renderpass: "OpaqueNoCull",
-	shape: {base: "block/plant/crop/cucumber*"},
+	randomizeRotations: true,
+	shapeByType: {
+		"*-5": { base: "block/plant/crop/cucumber/stage5" },
+		"*-6": { base: "block/plant/crop/cucumber/stage6" },
+		"*-7": { base: "block/plant/crop/cucumber/stage7" },
+		"*-8": { base: "block/plant/crop/cucumber/stage8" },
+		"*-9": { base: "block/plant/crop/cucumber/stage9" },
+		"*-10": { base: "block/plant/crop/cucumber/stage10" },
+		"*-11": { base: "block/plant/crop/cucumber/stage11" },
+		"*-12": { base: "block/plant/crop/cucumber/stage12" },
+		"*": { base: "block/plant/crop/cucumber/stage1to4" }
+	},
 	blockmaterial: "Plant",
 	textures: {
 		"crop": { base: "block/plant/crop/cucumber/{stage}" }
@@ -19,8 +30,8 @@
 				name: "Harvestable",
 				properties: {
 					harvestTime: 1.2, 
-					harvestedStack: { type: "item", code: "deartibusrusticis:vegetable-cucumber", quantity: { avg: 4, var: 1 } },
-					harvestedBlockCode: "crop-cucumber-9"
+					harvestedStack: { type: "item", code: "deartibusrusticis:vegetable-cucumber", quantity: { avg: 5, var: 1 } },
+					harvestedBlockCode: "crop-cucumber-8"
 				}
 			}
 		]

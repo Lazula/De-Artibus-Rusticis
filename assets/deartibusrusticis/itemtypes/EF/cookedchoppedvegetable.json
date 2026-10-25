@@ -1,0 +1,156 @@
+{
+	"enabled": "false",
+	"code": "cookedchoppedvegetable",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type", "states": ["beetroot", "leek", "lettuce", "garlic", "horseradish", "cucumber", "pickledbeetroot", "pickledleek", "pickledlettuce", "pickledgarlic", "pickledhorseradish", "pickledcucumber"] },
+		{ "code": "state", "states": ["partbaked", "perfect", "charred" ] }
+	],
+	"shape": { "base": "deartibusrusticis:item/EF/choppedveggies/{type}" },
+	"textures": {
+        "beetroot": { base: "deartibusrusticis:item/EF/baked/{state}/bulb" },
+		"garlic": { base: "deartibusrusticis:item/EF/baked/{state}/garlicbulb" },
+		"horseradish": { base: "deartibusrusticis:item/EF/baked/{state}/horseradish" },
+		"leek": { base: "deartibusrusticis:item/EF/baked/{state}/leek" },
+		"lettuce": { base: "deartibusrusticis:item/EF/baked/{state}/lettuce"},
+		"cucumber": { base: "deartibusrusticis:item/EF/baked/{state}/cucumber"},
+		"pickledbeetroot": { base: "deartibusrusticis:item/EF/baked/{state}/pickledbeet" },
+		"pickledgarlic": { base: "deartibusrusticis:item/EF/baked/{state}/pickledgarlic" },
+		"pickledhorseradish": { base: "deartibusrusticis:item/EF/baked/{state}/pickledhorseradish" },
+		"pickledleek": { base: "deartibusrusticis:item/EF/baked/{state}/pickledleek" },
+		"pickledlettuce": { base: "deartibusrusticis:item/EF/baked/{state}/pickledlettuce"},
+		"pickledcucumber": { base: "deartibusrusticis:item/EF/baked/{state}/pickledcucumber"},
+	},
+    "attributes": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": {
+        "groupBy": [ "cookedveggie-*" ],
+        "extraSections": [{ "title": "expandedfoods:item-handbooktitle-cookedchoppedveggie", "text": "expandedfoods:item-handbooktext-cookedchoppedveggie" }]
+      },
+	  onDisplayTransformByType: {
+          			"*-garlic": { translation: { x: 0, y: -0.3, z: 0 }, scale: 0.4 },
+					"*-pickledgarlic": { translation: { x: 0, y: -0.3, z: 0 }, scale: 0.4 },
+    	    		"*-lettuce": { translation: { x: 0, y: -0.19, z: 0 }, scale: 0.59 },
+					"*-pickledlettuce": { translation: { x: 0, y: -0.19, z: 0 }, scale: 0.59 },
+          			"*": { translation: { x: 0, y: -0.19, z: 0 }, scale: 0.6 }
+        		}
+    },
+	"attributesByType": {
+		"*-partbaked": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "deartibusrusticis:cookedchoppedvegetable-{type}-perfect",
+				"initialCode": "deartibusrusticis:choppedvegetable-{type}"
+			}
+		},
+		"*-perfect": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "deartibusrusticis:cookedchoppedvegetable-{type}-charred",
+				"initialCode": "deartibusrusticis:cookedchoppedvegetable-{type}-partbaked"
+			}
+		},
+		"*-charred": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "deartibusrusticis:cookedchoppedvegetable-{type}-perfect"
+			}
+		}
+	},
+	"combustiblePropsByType": {
+		"@*-(partbaked|perfect)": {
+			"meltingPoint": 150,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedchoppedvegetable-{type}-charred" },
+			"requiresContainer": false
+		}
+	},
+	"materialDensity": 600,
+	"creativeinventory": { "general": ["*"], "items": ["*"], "deartibusrusticis": ["*"] },
+	"nutritionPropsByType": {
+		"*-lettuce-partbaked": { "satiety": 165, "foodcategory": "Vegetable" },
+        "*-pickledlettuce-partbaked": { "satiety": 135, "foodcategory": "Vegetable" },
+		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber)-partbaked": { "satiety": 90, "foodcategory": "Vegetable" },
+		"cookedchoppedvegetable-*-partbaked": { "satiety": 110, "foodcategory": "Vegetable" },
+
+		"*-lettuce-perfect": { "satiety": 200, "foodcategory": "Vegetable" },
+        "*-pickledlettuce-perfect": { "satiety": 170, "foodcategory": "Vegetable" },
+		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber)-perfect": { "satiety": 120, "foodcategory": "Vegetable" },
+		"cookedchoppedvegetable-*-perfect": { "satiety": 140, "foodcategory": "Vegetable" },
+
+		"*-lettuce-charred": { "satiety": 180, "foodcategory": "Vegetable" },
+        "*-pickledlettuce-charred": { "satiety": 150, "foodcategory": "Vegetable" },
+		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber)-charred": { "satiety": 100, "foodcategory": "Vegetable" },
+		"cookedchoppedvegetable-*-charred": { "satiety": 125, "foodcategory": "Vegetable" }
+	},
+    "transitionablePropsByType": {
+        "@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber)-*": [{
+      		"type": "Perish",
+      		"freshHours": { "avg": 1800 },
+      		"transitionHours": { "avg": 240 },
+      		"transitionedStack": { "type": "item", "code": "game:rot" },
+      		"transitionRatio": 1
+    	}],
+        "@cookedchoppedvegetable-.*-(partbaked|perfect)-*": [{
+          "type": "Perish",
+          "freshHours": { "avg": 504 },
+          "transitionHours": { "avg": 96 },
+          "transitionedStack": { "type": "item", "code": "game:rot" },
+          "transitionRatio": 1
+        }],
+		"@*-(pickledgarlic|pickledbeetroot|pickledhorseradish|pickledleek|pickledcucumber)-charred": [{
+			"type": "Perish",
+			"freshHours": { "avg": 7300 },
+			"transitionHours": { "avg": 400 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"cookedchoppedvegetable-*-charred": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1764 },
+			"transitionHours": { "avg": 160 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}]
+	},
+	"guiTransformByType": {
+		"*": {
+			"translation": { x: 2.5, y: 1, z: 0 },
+    		"rotation": { x: 137, y: 131, z: 0 },
+    		"origin": { x: 0.5, y: 0.1, z: 0.5 },
+    		"scale": 2.5,
+			"rotate":  true
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			translation: { x: -1.2, y: -0.25, z: -1 },
+    		rotation: { x: 1, y: -1, z: 0 },
+    		origin: { x: 0.5, y: 0.1, z: 0.5 },
+    		scale: 0.5
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3
+		}
+	}
+}

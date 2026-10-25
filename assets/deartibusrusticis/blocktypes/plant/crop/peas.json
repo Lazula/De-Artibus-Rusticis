@@ -8,8 +8,15 @@
 	],
 	creativeinventory: { "general": [ "*" ], "deartibusrusticis": [ "*" ] },
 	renderpass: "OpaqueNoCull",
+	shapeByType: {
+		"*-1": { base: "block/plant/crop/peas/stage1-3" },
+		"*-2": { base: "block/plant/crop/peas/stage1-3" },
+		"*-3": { base: "block/plant/crop/peas/stage1-3" },
+		"*": { base: "block/plant/crop/peas/stage4-9" }
+	},
 	shape: {base: "block/plant/crop/peas*"},
 	blockmaterial: "Plant",
+	randomizeRotations: true,
 	textures: {
 		"crop": { base: "block/plant/crop/peas/{stage}" }
 	},
@@ -66,7 +73,7 @@
 		nutrientConsumption: 20,
 		growthStages: 9,
 		totalGrowthMonths: 1.3,
-		heatDamageAbove: 27,
+		heatDamageAbove: 32,
 		coldDamageBelow: -10
 	},
 	collisionbox: null,

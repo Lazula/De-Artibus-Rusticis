@@ -5,53 +5,49 @@ code: "spice",
 	behaviorsByType: {
 		"spice-blackcumin": [
 		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } },
-		{ name: "Squeezable", properties: { squeezeTime: 2.0, squeezedLitres: 0.2, returnStacks: [{ type: "item", code: "deartibusrusticis:presscake", stacksize: 1 }], liquidItemCode: "deartibusrusticis:blackcuminoilportion" } } 
+		{ name: "Squeezable", properties: { squeezeTime: 2.0, squeezedLitres: 0.1, returnStacks: [{ type: "item", code: "deartibusrusticis:presscake", stacksize: 1 }], liquidItemCode: "deartibusrusticis:blackcuminoilportion" } } 
 		],
 		"*": [ 
 		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
 		]
 	},
 	variantgroups: [
-		{ code: "type", states: ["blackcumin", "bearleek", "cress", "meum", "whitemustard", "eruca", "anise", "chervil", "blend"]}
-],
-shapebytype: {
-	"*-anise": { base: "item/food/spice/spice-normal"},
-	"*-bearleek": { base: "item/food/spice/spice-normal"},
-	"*-blackcumin": { base: "item/food/spice/spice-normal"},
-	"*-chervil": { base: "item/food/spice/spice-normal"},
-	"*-cress": { base: "item/food/spice/spice-normal"},
-	"*-eruca": { base: "item/food/spice/spice-normal"},
-	"*-meum": { base: "item/food/spice/spice-normal"},
-	"*-whitemustard": { base: "item/food/spice/spice-normal"},
-	"*-blend": { base: "item/food/spice/spice-blend"}
-},
-texture: { base: "item/food/spice/{type}" },
-attributes: {
-	shelvable: true,
-	foodTags: ["{type}"],
-	nutritionPropsWhenInMeal: { 
-			satietyByType: {
-				"*-blend": 200,
-				"*": 75
-			}, foodcategoryByType: { 
-			"*-blend": "Vegetable", "*": "NoNutrition"} 
-		},
-		groundStorageTransform: { translation: { x: 0, y: -0.2, z: 0 }, scale: 0.6 },
-		onshelfTransform: { translation: { x: 0, y: -0.2, z: 0 }, scale: 0.6 },
-		juiceablePropertiesByType: {
-			"*-blackcumin": {
-			litresPerItem: 0.25,
-			liquidStack: { type: "item", code: "blackcuminoilportion", stacksize: 1 },
-			pressedStack: { type: "item", code: "presscakemash", stacksize: 1 },
-			returnStack: { type: "item", code: "presscake", stacksize: 5 } }
-		}
-},
-creativeinventory: { "general": ["*"], "deartibusrusticis": [ "*" ] },
-nutritionPropsByType: {
-	"*-blend": { satiety: 100, foodcategory: "Vegetable" },
-    "*": { satiety: 25, foodcategory: "NoNutrition" }
-},
-transitionablePropsByType: {
+		{ code: "type", states: ["blackcumin", "bearleek", "cress", "meum", "whitemustard", "eruca", "anise", "chervil"]}
+	],
+	shapebytype: {
+		"*-anise": { base: "item/food/spice/spice-normal"},
+		"*-bearleek": { base: "item/food/spice/spice-normal"},
+		"*-blackcumin": { base: "item/food/spice/spice-normal"},
+		"*-chervil": { base: "item/food/spice/spice-normal"},
+		"*-cress": { base: "item/food/spice/spice-normal"},
+		"*-eruca": { base: "item/food/spice/spice-normal"},
+		"*-meum": { base: "item/food/spice/spice-normal"},
+		"*-whitemustard": { base: "item/food/spice/spice-normal"}
+	},
+	texture: { base: "item/food/spice/{type}" },
+	attributes: {
+		shelvable: true,
+		foodTags: ["{type}"],
+		nutritionPropsWhenInMeal: { 
+				satietyByType: { "*": 100 }, 
+				foodcategoryByType: { "*": "NoNutrition"} 
+			},
+			groundStorageTransform: { translation: { x: 0, y: -0.2, z: 0 }, scale: 0.6 },
+			onshelfTransform: { translation: { x: 0, y: -0.2, z: 0 }, scale: 0.6 },
+			juiceablePropertiesByType: {
+				"*-blackcumin": {
+				litresPerItem: 0.2,
+				liquidStack: { type: "item", code: "blackcuminoilportion", stacksize: 1 },
+				pressedStack: { type: "item", code: "presscakemash", stacksize: 1 },
+				returnStack: { type: "item", code: "presscake", stacksize: 5 } }
+			}
+	},
+	creativeinventory: { "general": ["*"], "deartibusrusticis": [ "*" ] },
+	storageFlags: 33,
+	nutritionPropsByType: {
+		"*": { satiety: 40, foodcategory: "NoNutrition" }
+	},
+	transitionablePropsByType: {
 	"*": [ {
 				type: "Perish",
 				freshHours: { avg: 1512 },

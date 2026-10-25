@@ -1,0 +1,528 @@
+[
+    {
+        "dependsOn": [ { "modid": "steepandbrew" } ],
+        "file": "deartibusrusticis:itemtypes/tea/snb-teas",
+        "op": "addmerge", 
+        "path": "/enabled",
+        "value": true,
+        "side": "server"
+    },
+    {
+        "dependsOn": [ { "modid": "steepandbrew" } ],
+        "file": "deartibusrusticis:itemtypes/tea/teablend",
+        "op": "addmerge", 
+        "path": "/enabled",
+        "value": true,
+        "side": "server"
+    },
+
+    //Enable Tea Blends
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/0/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/1/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/2/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/3/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/4/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/5/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/6/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/7/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/8/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/9/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/10/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/11/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/12/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/13/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/14/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/15/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/16/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/17/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/18/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/19/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/20/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/tea/teablend.json",
+        "path": "/21/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+
+    //Enable Cooking Recipes
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-anise.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-anise-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-bearleek.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-bearleek-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-blackcumin.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-blackcumin-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-chervil.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-chervil-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-chives.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-chives-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-cress.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-cress-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-estragon.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-estragon-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-garlic.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-garlic-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-meum.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-meum-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-whitemustard.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/snb-teas/single-whitemustard-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+
+    //Enable Sealing Recipes
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-anise.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-anise-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-bearleek.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-bearleek-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-blackcumin.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-blackcumin-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-chervil.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-chervil-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-chives.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-chives-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-cress1.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-cress2.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-cress-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-estragon.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-estragon-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-garlic.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-garlic-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-meum.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-meum-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-whitemustard.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/barrel/snb-teas/single-whitemustard-honey.json",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "steepandbrew"}],
+        "side": "Server"
+    }
+]

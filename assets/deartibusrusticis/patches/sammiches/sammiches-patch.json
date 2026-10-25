@@ -1,0 +1,275 @@
+[
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "file": "deartibusrusticis:itemtypes/sandwich/sammiches-bread.json",
+    "op": "addmerge", 
+    "path": "/enabled",
+    "value": true,
+    "side": "server"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "add",
+    "path": "/attributes",
+    "value": true,
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/EF/choppedlegume.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "sandwich:whenOnSandwich": {
+        "shape": { "base": "deartibusrusticis:item/EF/choppedveggies/{type}" },
+        //  "shapeLast": { "base": "sandwich:item/sandwich_ingredients_vanilla/slicedbread-top" },
+        "size": 0.0225, // 1/16
+        "rotate": true,
+        "rotation": {
+          "avg": 1,
+          "var": 0.8
+        }
+      }
+    },
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/EF/choppedlegume.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "add",
+    "path": "/attributes",
+    "value": true,
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/EF/choppedvegetables.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "sandwich:whenOnSandwich": {
+        "shape": { "base": "deartibusrusticis:item/EF/choppedveggies/{type}" },
+        //  "shapeLast": { "base": "sandwich:item/sandwich_ingredients_vanilla/slicedbread-top" },
+        "size": 0.0225, // 1/16
+        "rotate": true,
+        "rotation": {
+          "avg": 1,
+          "var": 0.8
+        }
+      }
+    },
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/EF/choppedvegetables.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "sandwich:whenOnSandwich": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/sammich-herb-sandwich" },
+         "textures":  {
+          "herb":  { "base": "deartibusrusticis:block/food/meal/{type}" }
+        },
+        //  "shapeLast": { "base": "sandwich:item/sandwich_ingredients_vanilla/slicedbread-top" },
+        "size": 0.0225, // 1/16
+        "rotate": true,
+        "rotation": {
+          "avg": 1,
+          "var": 0.8
+        }
+      }
+    },
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/food/herb.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "sandwich:whenOnSandwich": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/sammich-spice-sandwich" },
+         "textures":  {
+          "spice":  { "base": "deartibusrusticis:block/food/meal/spice-{type}" }
+        },
+        //  "shapeLast": { "base": "sandwich:item/sandwich_ingredients_vanilla/slicedbread-top" },
+        "size": 0.0225, // 1/16
+        "rotate": true,
+        "rotation": {
+          "avg": 1,
+          "var": 0.8
+        }
+      }
+    },
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/food/spice.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "sandwich:whenOnSandwich": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/sammich-spice-sandwich" },
+         "textures":  {
+          "spice":  { "base": "deartibusrusticis:block/food/meal/blend-{type}" }
+        },
+        //  "shapeLast": { "base": "sandwich:item/sandwich_ingredients_vanilla/slicedbread-top" },
+        "size": 0.0225, // 1/16
+        "rotate": true,
+        "rotation": {
+          "avg": 1,
+          "var": 0.8
+        }
+      }
+    },
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/food/blend.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "add",
+    "path": "/attributesByType",
+    "value": true,
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/food/vegetable.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-lettuce": {
+        "sandwich:whenOnSandwich": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/sammich-lettuce-sandwich" },
+        "size": 0.0225, // 1/16
+        "rotate": true,
+        "rotation": {
+          "avg": 1,
+          "var": 0.8
+          }
+        }
+      }
+    },
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/food/vegetable.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "add",
+    "path": "/attributesByType",
+    "value": true,
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/food/pickled-vegetable.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-lettuce": {
+        "sandwich:whenOnSandwich": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/sammich-lettuce-sandwich" },
+        "size": 0.0225, // 1/16
+        "rotate": true,
+        "rotation": {
+          "avg": 1,
+          "var": 0.8
+          }
+        }
+      }
+    },
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/food/pickled-vegetable.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "add",
+    "path": "/attributesByType",
+    "value": true,
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/food/legume.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-lentils": {
+        "sandwich:whenOnSandwich": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/sammich-lentils-sandwich" },
+        "size": 0.0225, // 1/16
+        "rotate": true,
+        "rotation": {
+          "avg": 1,
+          "var": 0.8
+          }
+        }
+      }
+    },
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/food/legume.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "add",
+    "path": "/attributesByType",
+    "value": true,
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/food/pickled-legume.json"
+  },
+  {
+    "dependsOn": [ { "modid": "sandwich" } ],
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-lentils": {
+        "sandwich:whenOnSandwich": {
+        "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/sammich-lentils-sandwich" },
+        "size": 0.0225, // 1/16
+        "rotate": true,
+        "rotation": {
+          "avg": 1,
+          "var": 0.8
+          }
+        }
+      }
+    },
+    "side": "server",
+    "file": "deartibusrusticis:itemtypes/food/pickled-legume.json"
+  },
+  {
+        "op": "addmerge",
+        "file": "recipes/grid/sandwich/herbbreadslice.json",
+        "path": "/0/enabled",
+        "value": true,
+        "dependsOn": [{"modid": "sandwich"}],
+        "side": "Server"
+    },
+
+    //Long Term Food
+    {
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/sandwich/sammiches-bread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"corn",
+			"potato"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "longtermfood" }, { "modid": "sandwich" } ]
+    },
+
+    //Biodiversity
+    {
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/sandwich/sammiches-bread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"buckwheat"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "bdcrop" }, { "modid": "sandwich" } ]
+    }
+]

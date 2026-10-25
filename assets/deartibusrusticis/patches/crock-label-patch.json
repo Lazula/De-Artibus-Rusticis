@@ -1,0 +1,16 @@
+[
+  {
+    "op": "addeach",
+    "path": "/attributes/labelNames/-",
+    "value": [
+    "cucumber", "leek", "beetroot", "horseradish", "lettuce", "garlic", "peas", "favabeans", "lentils"
+    ],
+    "file": "game:blocktypes/clay/fired/crock.json"
+  },
+  {
+		"op": "addmerge",
+		"path": "/textures",
+		"value": { labeldar: { base: "game:block/clay/crock/labeldar" } },
+		"file": "game:blocktypes/clay/fired/crock.json"
+	}
+]

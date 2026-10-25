@@ -1,0 +1,12 @@
+[ 
+    {
+		ingredientPattern: "L",
+		ingredients: {
+			"L": { type: "item", code: "bdcrop:vegetable-leek" }
+		},		
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:vegetable-leek", quantity: 1  }
+	}
+]

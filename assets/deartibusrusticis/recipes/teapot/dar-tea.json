@@ -1,0 +1,464 @@
+[
+	{
+		"code": "anisetea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:spice-anise",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-anise",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 80,
+		"maxTemperature": 100
+	},
+    {
+		"code": "blackcumintea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:spice-blackcumin",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-blackcumin",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 80,
+		"maxTemperature": 100
+	},
+    {
+		"code": "bearleektea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:herb-bearleek",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-bearleek",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 55,
+		"maxTemperature": 75
+	},
+    {
+		"code": "meumtea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:herb-meum",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-meum",
+			"litres": 1
+		},
+		"duration": 3,
+		"minTemperature": 85,
+		"maxTemperature": 100
+	},
+    {
+		"code": "cherviltea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:herb-chervil",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-chervil",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 75,
+		"maxTemperature": 100
+	},
+	{
+		"code": "estragontea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:herb-estragon",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-estragon",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 85,
+		"maxTemperature": 100
+	},
+	{
+		"code": "chivestea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:herb-chives",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-chives",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 85,
+		"maxTemperature": 100
+	},
+	{
+		"code": "cresstea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:herb-cress",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-cress",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 75,
+		"maxTemperature": 100
+	},
+	{
+		"code": "cresstea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:spice-cress",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-cress",
+			"litres": 1
+		},
+		"duration": 4,
+		"minTemperature": 75,
+		"maxTemperature": 100
+	},
+	{
+		"code": "whitemustardtea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:spice-whitemustard",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-whitemustard",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 75,
+		"maxTemperature": 100
+	},
+	{
+		"code": "garlictea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:vegetable-garlic",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-garlic",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 75,
+		"maxTemperature": 100
+	},
+	{
+		"code": "anisehoneytea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:teablend-anise",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-anise-honey",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 80,
+		"maxTemperature": 100
+	},
+    {
+		"code": "blackcuminhoneytea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:teablend-blackcumin",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-blackcumin-honey",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 80,
+		"maxTemperature": 100
+	},
+    {
+		"code": "bearleekhoneytea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:teablend-bearleek",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-bearleek-honey",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 55,
+		"maxTemperature": 75
+	},
+    {
+		"code": "meumhoneytea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:teablend-meum",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-meum-honey",
+			"litres": 1
+		},
+		"duration": 3,
+		"minTemperature": 85,
+		"maxTemperature": 100
+	},
+    {
+		"code": "chervilhoneytea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:teablend-chervil",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-chervil-honey",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 75,
+		"maxTemperature": 100
+	},
+	{
+		"code": "estragonhoneytea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:teablend-estragon",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-estragon-honey",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 85,
+		"maxTemperature": 100
+	},
+	{
+		"code": "chiveshoneytea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:teablend-chives",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-chives-honey",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 85,
+		"maxTemperature": 100
+	},
+	{
+		"code": "cresshoneytea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:teablend-cress",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-cress-honey",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 75,
+		"maxTemperature": 100
+	},
+	{
+		"code": "whitemustardhoneytea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:teablend-whitemustard",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-whitemustard-honey",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 75,
+		"maxTemperature": 100
+	},
+	{
+		"code": "garlichoneytea",
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:waterportion"
+			},
+			{
+				"type": "item",
+				"code": "deartibusrusticis:teablend-garlic",
+				"quantity": 1
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "deartibusrusticis:teaportion-garlic-honey",
+			"litres": 1
+		},
+		"duration": 2,
+		"minTemperature": 75,
+		"maxTemperature": 100
+	}
+]

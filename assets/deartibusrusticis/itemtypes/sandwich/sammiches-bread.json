@@ -1,0 +1,214 @@
+{
+  "enabled": false,
+  "code": "slicedherbbread",
+  "class": "sandwich.ItemSandwich",
+  "maxstacksize": 64,
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower" ]
+    },
+    {
+      "code": "state",
+      "states": [ "perfect", "toasted", "charred" ]
+    }
+  ],
+  "shapeByType": {
+    "*": {
+      "base": "deartibusrusticis:item/sandwich_ingredients_dar/sammich-slicedherbbread"
+    }
+  },
+  "texturesByType": {
+    "*-perfect": {
+      "herbbread": { "base": "deartibusrusticis:item/food/baked/{type}herbal2" }
+    },
+    "*-toasted": {
+        "herbbread": { "base": "deartibusrusticis:item/food/baked/{type}herbal3" }
+    },
+    "*-charred": {
+      "herbbread": { "base": "deartibusrusticis:item/food/baked/{type}herbal3" }
+    }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "deartibusrusticis": [ "*" ],
+    "sandwich": [ "*" ]
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "placeRemoveSound": "game:sounds/player/build",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "attributes": {
+    "displaycaseable": true,
+    "shelvable": true,
+    "bakingPropertiesByType": {
+      "*-perfect": {
+        "temp": 160,
+        "levelFrom": 0.0,
+        "levelTo": 0.3,
+        "startScaleY": 1.0,
+        "endScaleY": 1.01,
+        "resultCode": "deartibusrusticis:slicedherbbread-{type}-toasted"
+      },
+      "*-toasted": {
+        "temp": 160,
+        "levelFrom": 0.3,
+        "levelTo": 0.6,
+        "startScaleY": 1.01,
+        "endScaleY": 1.05,
+        "resultCode": "deartibusrusticis:slicedherbbread-{type}-charred",
+        "initialCode": "deartibusrusticis:slicedherbbread-{type}-perfect"
+      },
+      "*-charred": {
+        "temp": 160,
+        "levelFrom": 0.6,
+        "levelTo": 1.0,
+        "startScaleY": 1.05,
+        "endScaleY": 1.06,
+        "initialCode": "deartibusrusticis:slicedherbbread-{type}-toasted"
+      }
+    },
+    "groundStorageTransform": {
+      "rotation": {
+        "x": 0,
+        "y": 24,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.25
+      },
+      "scale": 1.2
+    },
+    "sandwich:canPutOnCuttingBoard": true,
+    "sandwich:whenOnSandwich": {
+      "shape": { "base": "deartibusrusticis:item/sandwich_ingredients_dar/sammich-slicedherbbread" },
+      //"shapeLast": { "base": "sandwich:item/sandwich_ingredients_vanilla/slicedbread-top" },
+      "size": 0.0325, // 1/16
+      "rotate": true,
+      "rotation": {
+        "avg": 1,
+        "var": 0.1
+      }
+    }
+  },
+  "satMultByType": {
+    "*-perfect": 1,
+    "*-toasted": 1.25,
+    "*-charred": 0.5
+  },
+  "nutritionPropsByType": {
+    "*-perfect": {
+      "saturation": 75,
+      "foodcategory": "Grain"
+    },
+    "*-toasted": {
+      "saturation": 90,
+      "foodcategory": "Grain"
+    },
+    "*-charred": {
+      "saturation": 30,
+      "foodcategory": "Grain"
+    }
+  },
+  "transitionableProps": [
+    {
+      "type": "Perish",
+      "freshHours": { "avg": 360 },
+      "transitionHours": { "avg": 48 },
+      "transitionedStack": {
+        "type": "item",
+        "code": "game:rot"
+      },
+      "transitionRatio": 1
+    }
+  ],
+  "materialDensity": 200,
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -30,
+      "y": 26,
+      "z": 180
+    },
+    "origin": {
+      "x": 0.47,
+      "y": 0.078,
+      "z": 0.5
+    },
+    "scale": 4.82
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 4.5
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.74,
+      "y": -0.06,
+      "z": -0.5
+    },
+    "rotation": {
+      "x": 87,
+      "y": -180,
+      "z": 90
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.13,
+      "z": 0.5
+    },
+    "scale": 1
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.24,
+      "z": 0.3
+    },
+    "rotation": {
+      "x": 104,
+      "y": 0,
+      "z": 71
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.1,
+      "z": 0.5
+    },
+    "scale": 2.5
+  }
+}

@@ -7,5 +7,14 @@
 		{ type: "item", code: "deartibusrusticis:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["cucumber", "garlic", "lettuce", "leek", "horseradish", "beetroot" ] }
 	],
 	output: { type: "item", code: "deartibusrusticis:pickledvegetable-{vegetable}", stackSize: 1 }
+  },
+  {
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "game:brineportion", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "bdcrop:vegetable-leek" }
+	],
+	output: { type: "item", code: "deartibusrusticis:pickledvegetable-leek", stackSize: 1 }
   }
 ]

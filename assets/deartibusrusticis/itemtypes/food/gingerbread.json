@@ -30,10 +30,14 @@ code: "gingerbread",
 	shape: { base: "item/food/baked/gingerbread" },
 	texture: { base: "item/food/baked/{type}gingerbread" },
     creativeinventory: { "general": ["*"], "deartibusrusticis": ["*"] },
-    	nutritionPropsByType: {
-		"*-flax": { satiety: 100, foodcategory: "Grain" },
-		"*-rice": { satiety: 190, foodcategory: "Grain" },
-		"*": { satiety: 175, foodcategory: "Grain" }
+    nutritionPropsByType: {
+		"*-flax": { satiety: 110, foodcategory: "Grain" },
+		"*-rice": { satiety: 200, foodcategory: "Grain" },
+		"*-spelt": { satiety: 185, foodcategory: "Grain" },
+		"*-rye": { satiety: 185, foodcategory: "Grain" },
+		"*-sunflower": { satiety: 185, foodcategory: "Grain" },
+		"*-cassava": { satiety: 185, foodcategory: "Grain" },
+		"*-amaranth": { satiety: 185, foodcategory: "Grain" }
         },
     transitionablePropsByType: {
 	"*": [ {
@@ -52,9 +56,9 @@ code: "gingerbread",
     scale: 3.3
   	},
   	guiTransform: {
-    translation: { x: 0, y: 12, z: 0 },
+    translation: { x: 0, y: 3, z: 0 },
     rotation: { x: -37, y: 22, z: 180 },
-    origin: { x: 0.5, y: -0.05, z: 0.5 },
+    origin: { x: 0.45, y: -0.07, z: 0.35 },
     scale: 4
   	},
 	tpHandTransform: {

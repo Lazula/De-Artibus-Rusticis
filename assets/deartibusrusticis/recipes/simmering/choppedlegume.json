@@ -1,0 +1,58 @@
+﻿[
+	{
+		"Ingredients": [
+			{ "type": "item", "code": "game:waterportion", "quantity": 50 },
+			{ "type": "item", "code": "deartibusrusticis:choppedlegume-*", "quantity": 1, "name": "legume", "allowedVariants": [ "favabeans", "peas"]}
+		],
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 10,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedchoppedlegume-{legume}-perfect", "quantity": 1 },
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{ "type": "item", "code": "game:waterportion", "quantity": 50 },
+			{ "type": "item", "code": "deartibusrusticis:choppedlegume-pickledpeas", "quantity": 1}
+		],
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 10,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedchoppedlegume-pickledpeas-perfect", "quantity": 1 },
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{ "type": "item", "code": "game:waterportion", "quantity": 50 },
+			{ "type": "item", "code": "deartibusrusticis:choppedlegume-pickledfavabeans", "quantity": 1}
+		],
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 10,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedchoppedlegume-pickledfavabeans-perfect", "quantity": 1 },
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{ "type": "item", "code": "game:waterportion", "quantity": 50 },
+			{ "type": "item", "code": "deartibusrusticis:cookedchoppedlegume-*-partbaked", "quantity": 1, "name": "legume" }
+		],
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 10,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedchoppedlegume-{legume}-perfect", "quantity": 1 },
+			"requiresContainer": false
+		}
+	}
+]

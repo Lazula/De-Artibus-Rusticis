@@ -1,0 +1,65 @@
+[
+    //Poached Lettuce
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+            { "type": "item", "code": "dairyplus:butter-unsalted", "shapeElement": "bowl/sweetener"},
+            { "type": "item", "code": "dairyplus:butter-salted", "shapeElement": "bowl/sweetener"},
+            { "type": "item", "code": "dairyplus:butter-veggie", "shapeElement": "bowl/sweetener"},
+            { "type": "item", "code": "dairyplus:butter-saltedveggie", "shapeElement": "bowl/sweetener"},
+            { "type": "item", "code": "dairyplus:whey", "shapeElement": "bowl/sweetener"}
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "dairyplus" } ]
+	},
+    {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/5/validStacks",
+		"value": [
+            { "type": "item", "code": "dairyplus:tofu", "shapeElement": "bowl/poachedfish/*", "textureMapping": ["scrambledegg", "group1"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "dairyplus" } ]
+	},
+
+    //Mash
+    {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/2/validStacks",
+		"value": [
+            { "type": "item", "code": "dairyplus:butter-unsalted", "shapeElement": "bowl/sweetener"},
+            { "type": "item", "code": "dairyplus:butter-salted", "shapeElement": "bowl/sweetener"},
+            { "type": "item", "code": "dairyplus:butter-veggie", "shapeElement": "bowl/sweetener"},
+            { "type": "item", "code": "dairyplus:butter-saltedveggie", "shapeElement": "bowl/sweetener"}
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "dairyplus" } ]
+	},
+    {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+            { "type": "item", "code": "dairyplus:cream", "shapeElement": "bowl/sweetener"},
+            { "type": "item", "code": "dairyplus:whey", "shapeElement": "bowl/sweetener"}
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "dairyplus" } ]
+	},
+
+    //Sauerkraut
+    {
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		"path": "/ingredients/2/validStacks",
+		"value": [
+            { "type": "item", "code": "dairyplus:tofu", "shapeElement": "bowl/meat/*", "textureMapping": ["scrambledegg", "group1"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "dairyplus" } ]
+	}
+]

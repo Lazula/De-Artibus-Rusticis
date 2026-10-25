@@ -1,0 +1,34 @@
+[
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/gingerbread.json",
+        "path": "/2/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "longtermfood", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/grid/gingerbread.json",
+        "path": "/3/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "longtermfood", "invert": true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "recipes/grid/herbaldough.json",
+        "path": "/1/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "longtermfood", "invert": true}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "recipes/cooking/stocks.json",
+        "path": "/6/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "longtermfood", "invert": true}],
+        "side": "Server"
+    }
+]

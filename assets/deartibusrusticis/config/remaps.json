@@ -1,0 +1,6 @@
+{
+    "deartibusrusticis:v0.9.3":
+    [
+        "/iir remapq deartibusrusticis:blend-simple deartibusrusticis:spice-blend force"
+    ]
+}

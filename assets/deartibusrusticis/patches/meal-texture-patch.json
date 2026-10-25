@@ -120,7 +120,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:favabeans",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/favabeans",
     "value": [
       "vegetable", "favabeans"
     ]
@@ -138,7 +138,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:peas",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/peas",
     "value": [
       "vegetable", "peas"
     ]
@@ -156,7 +156,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:garlic",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/garlic",
     "value": [
       "vegetable", "garlic"
     ]
@@ -174,7 +174,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:horseradish",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/horseradish",
     "value": [
       "vegetable", "horseradish"
     ]
@@ -192,7 +192,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:beetroot",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/beetroot",
     "value": [
       "vegetable", "beetroot"
     ]
@@ -210,7 +210,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:cucumber",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/cucumber",
     "value": [
       "vegetable", "cucumber"
     ]
@@ -228,7 +228,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:leek",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/leek",
     "value": [
       "vegetable", "leek"
     ]
@@ -246,12 +246,12 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:lentils",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/lentils",
     "value": [
       "vegetable", "lentils"
     ]
   },
-    {
+  {
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
@@ -264,7 +264,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:lentils",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/lentils",
     "value": [
       "grain", "lentils"
     ]
@@ -282,7 +282,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:anise",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/anise",
     "value": [
       "dar-seasoning", "anise"
     ]
@@ -300,7 +300,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:bearleek",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/bearleek",
     "value": [
       "dar-seasoning", "bearleek"
     ]
@@ -318,7 +318,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:chervil",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/chervil",
     "value": [
       "dar-seasoning", "chervil"
     ]
@@ -336,7 +336,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:chives",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/chives",
     "value": [
       "dar-seasoning", "chives"
     ]
@@ -354,7 +354,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:cress",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/cress",
     "value": [
       "dar-seasoning", "cress"
     ]
@@ -372,7 +372,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:eruca",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/eruca",
     "value": [
       "dar-seasoning", "eruca"
     ]
@@ -390,7 +390,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:estragon",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/estragon",
     "value": [
       "dar-seasoning", "estragon"
     ]
@@ -408,7 +408,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:garlicleaves",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/garlicleaves",
     "value": [
       "dar-seasoning", "garlicleaves"
     ]
@@ -426,7 +426,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:meum",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/meum",
     "value": [
       "dar-seasoning", "meum"
     ]
@@ -444,7 +444,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:whitemustard",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/whitemustard",
     "value": [
       "dar-seasoning", "whitemustard"
     ]
@@ -462,7 +462,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:spice-anise",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/spice-anise",
     "value": [
       "dar-seasoning", "spice-anise"
     ]
@@ -480,7 +480,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:spice-bearleek",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/spice-bearleek",
     "value": [
       "dar-seasoning", "spice-bearleek"
     ]
@@ -498,7 +498,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:spice-blackcumin",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/spice-blackcumin",
     "value": [
       "dar-seasoning", "spice-blackcumin"
     ]
@@ -516,7 +516,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:spice-chervil",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/spice-chervil",
     "value": [
       "dar-seasoning", "spice-chervil"
     ]
@@ -534,7 +534,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:spice-cress",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/spice-cress",
     "value": [
       "dar-seasoning", "spice-cress"
     ]
@@ -552,7 +552,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:spice-eruca",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/spice-eruca",
     "value": [
       "dar-seasoning", "spice-eruca"
     ]
@@ -570,7 +570,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:spice-meum",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/spice-meum",
     "value": [
       "dar-seasoning", "spice-meum"
     ]
@@ -588,7 +588,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:spice-whitemustard",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/spice-whitemustard",
     "value": [
       "dar-seasoning", "spice-whitemustard"
     ]
@@ -597,18 +597,18 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/textures/spice-blend",
+    "path": "/textures/blend-simple",
     "value": {
-      "base": "deartibusrusticis:block/food/meal/spice-blend"
+      "base": "deartibusrusticis:block/food/meal/blend-simple"
     }
   },
   {
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:spice-blend",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/blend-simple",
     "value": [
-      "dar-seasoning", "spice-blend"
+      "dar-seasoning", "blend-simple"
     ]
   },
   {
@@ -624,7 +624,7 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:sauerkraut",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/sauerkraut",
     "value": [
       "vegetable", "sauerkraut"
     ]
@@ -642,9 +642,384 @@
     "file": "game:blocktypes/clay/fired/pot.json",
     "side": "Server",
     "op": "add",
-    "path": "/attributesByType/claypot-blue-cooked/textureMapping/deartibusrusticis:poachedlettuce",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/poachedlettuce",
     "value": [
       "vegetable", "poachedlettuce"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/lettuce",
+    "value": {
+      "base": "deartibusrusticis:block/food/meal/lettuce"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/lettuce",
+    "value": [
+      "vegetable", "lettuce"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/meummed",
+    "value": {
+      "base": "deartibusrusticis:block/food/meal/meummed"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/meummed",
+    "value": [
+      "vegetable", "meummed"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/blackcuminoil",
+    "value": {
+      "base": "deartibusrusticis:block/food/meal/blackcuminoil"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/blackcuminoil",
+    "value": [
+      "topping", "blackcuminoil"
+    ]
+  },
+  {
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/clarifiedherbbroth",
+    "value": {
+      "base": "deartibusrusticis:item/EF/liquid/clarifiedherbbroth"
+    }
+  },
+  {
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/clarifiedherbbroth",
+    "value": [
+      "water", "clarifiedherbbroth"
+    ]
+  },
+  {
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/beetrootjuice",
+    "value": {
+      "base": "deartibusrusticis:item/EF/liquid/beetroot"
+    }
+  },
+  {
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/beetrootjuice",
+    "value": [
+      "water", "beetrootjuice"
+    ]
+  },
+  {
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/cucumberjuice",
+    "value": {
+      "base": "deartibusrusticis:item/EF/liquid/cucumber"
+    }
+  },
+  {
+    "dependsOn": [{"modid": "expandedfoods"}],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/cucumberjuice",
+    "value": [
+      "water", "cucumberjuice"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/anise",
+    "value": {
+      "base": "deartibusrusticis:block/food/meal/anise"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/anise",
+    "value": [
+      "vegetable", "anise"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/bearleek",
+    "value": {
+      "base": "deartibusrusticis:block/food/meal/bearleek"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/bearleek",
+    "value": [
+      "vegetable", "bearleek"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/chervil",
+    "value": {
+      "base": "deartibusrusticis:block/food/meal/chervil"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/chervil",
+    "value": [
+      "vegetable", "chervil"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/chives",
+    "value": {
+      "base": "deartibusrusticis:block/food/meal/chives"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/chives",
+    "value": [
+      "vegetable", "chives"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/cress",
+    "value": {
+      "base": "deartibusrusticis:block/food/meal/cress"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/cress",
+    "value": [
+      "vegetable", "cress"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/eruca",
+    "value": {
+      "base": "deartibusrusticis:block/food/meal/eruca"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/eruca",
+    "value": [
+      "vegetable", "eruca"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/estragon",
+    "value": {
+      "base": "deartibusrusticis:block/food/meal/estragon"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/estragon",
+    "value": [
+      "vegetable", "estragon"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/garlicleaves",
+    "value": {
+      "base": "deartibusrusticis:block/food/meal/garlicleaves"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/garlicleaves",
+    "value": [
+      "vegetable", "garlicleaves"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/meum",
+    "value": {
+      "base": "deartibusrusticis:block/food/meal/meum"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/meum",
+    "value": [
+      "vegetable", "meum"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/textures/whitemustard",
+    "value": {
+      "base": "deartibusrusticis:block/food/meal/whitemustard"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/whitemustard",
+    "value": [
+      "vegetable", "whitemustard"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledlegume-peas",
+    "value": [
+      "vegetable", "peas"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledlegume-lentils",
+    "value": [
+      "vegetable", "lentils"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledlegume-favabeans",
+    "value": [
+      "vegetable", "favabeans"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledvegetable-leek",
+    "value": [
+      "vegetable", "leek"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledvegetable-lettuce",
+    "value": [
+      "vegetable", "lettuce"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledvegetable-horseradish",
+    "value": [
+      "vegetable", "horseradish"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledvegetable-beetroot",
+    "value": [
+      "vegetable", "beetroot"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledvegetable-cucumber",
+    "value": [
+      "vegetable", "cucumber"
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledvegetable-garlic",
+    "value": [
+      "vegetable", "garlic"
     ]
   }
 ]

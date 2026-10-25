@@ -1,0 +1,33 @@
+{
+	enabled: false,
+	code: "anise-hot",
+	perishableProps: {
+		freshHours: { avg: 480 },
+		transitionHours: { avg: 48 },
+		transitionRatio: 0.005,
+		transitionedStack: { type: "item", code: "game:rot" }
+	},
+	shape: { base: "game:block/food/meal/soup" },
+	cooksInto: { type: "item", code: "deartibusrusticis:tea-anise-hot", quantity: 100 },
+	ingredients: [
+		{
+			code: "water",
+			validStacks: [
+				{ type: "item", code: "game:waterportion", shapeElement: "bowl/water" }
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 1,
+			typeName: "water"
+		},
+		{
+			code: "herb",
+			validStacks: [
+				{ type: "item", code: "deartibusrusticis:spice-anise", shapeElement: "bowl/vegetable base 1/*" }
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			typeName: "herb"
+		}
+	]
+}

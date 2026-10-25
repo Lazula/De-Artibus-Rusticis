@@ -1,0 +1,213 @@
+{
+	"enabled": "false",
+	"code": "cookedlegume",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type", "states": ["peas", "favabeans", "pickledpeas", "pickledfavabeans"] },
+		{ "code": "state", "states": ["partbaked", "perfect", "charred" ] }
+	],
+	"shapeByType": {
+		"*-favabeans-*": { base: "deartibusrusticis:item/food/legume/legume-favabeans"},
+		"*-peas-*": { base: "deartibusrusticis:item/food/legume/legume-peas"},
+		"*-pickledfavabeans-*": { base: "deartibusrusticis:item/food/pickledlegume/pickledlegume-favabeans"},
+		"*-pickledpeas-*": { base: "deartibusrusticis:item/food/pickledlegume/pickledlegume-peas"}
+	},
+	"textures": {
+		"favabean": { "base": "deartibusrusticis:item/EF/baked/{state}/favabean"},
+	    "peas": { "base": "deartibusrusticis:item/EF/baked/{state}/peas"},
+		"pickledpeas": { base: "deartibusrusticis:item/EF/baked/{state}/pickledpeas"},
+		"pickledfavabean": { base: "deartibusrusticis:item/EF/baked/{state}/pickledfavabean"}
+	},
+    "attributes": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": {
+        "groupBy": [ "cookedveggie-*" ],
+        "extraSections": [{ "title": "expandedfoods:item-handbooktitle-cookedveggie", "text": "expandedfoods:item-handbooktext-cookedveggie" }]
+      },
+	  "onDisplayTransform": { translation: { x: 0, y: -0.3, z: 0 }, scale: 0.4 }
+    },
+	"attributesByType": {
+		"*-pickledfavabeans-partbaked": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "deartibusrusticis:cookedlegume-pickledfavabeans-perfect",
+				"initialCode": "deartibusrusticis:pickledlegume-favabeans"
+			}
+		},"*pickledpeas-partbaked": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "deartibusrusticis:cookedlegume-pickledpeas-perfect",
+				"initialCode": "deartibusrusticis:pickledlegume-peas"
+			}
+		},
+		"*-partbaked": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "deartibusrusticis:cookedlegume-{type}-perfect",
+				"initialCode": "deartibusrusticis:legume-{type}"
+			}
+		},
+		"*-perfect": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "deartibusrusticis:cookedlegume-{type}-charred",
+				"initialCode": "deartibusrusticis:cookedlegume-{type}-partbaked"
+			}
+		},
+		"*-charred": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "deartibusrusticis:cookedlegume-{type}-perfect"
+			}
+		}
+	},
+	"combustiblePropsByType": {
+		"@*-(partbaked|perfect)": {
+			"meltingPoint": 150,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "deartibusrusticis:cookedlegume-{type}-charred" },
+			"requiresContainer": false
+		}
+	},
+	"materialDensity": 600,
+	"creativeinventory": { "general": ["*"], "items": ["*"], "deartibusrusticis": ["*"] },
+	"nutritionPropsByType": {
+		"*-favabeans-partbaked": { "satiety": 110, "foodcategory": "Protein" },
+        "*-pickledfavabeans-partbaked": { "satiety": 90, "foodcategory": "Protein" },
+		"*-pickledpeas-partbaked": { "satiety": 90, "foodcategory": "Vegetable" },
+		"*-peas-partbaked": { "satiety": 110, "foodcategory": "Vegetable" },
+
+		"*-favabeans-perfect": { "satiety": 14, "foodcategory": "Protein" },
+        "*-pickledfavabeans-perfect": { "satiety": 120, "foodcategory": "Protein" },
+		"*-pickledpeas-perfect": { "satiety": 120, "foodcategory": "Vegetable" },
+		"*-peas-perfect": { "satiety": 140, "foodcategory": "Vegetable" },
+
+		"*-favabeans-charred": { "satiety": 125, "foodcategory": "Protein" },
+        "*-pickledfavabeans-charred": { "satiety": 100, "foodcategory": "Protein" },
+		"*-pickledpeas-charred": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-peas-charred": { "satiety": 125, "foodcategory": "Vegetable" }
+	},
+    "transitionablePropsByType": {
+        "@*-(pickedfavabeans|pickledpeas)": [{
+      		"type": "Perish",
+      		"freshHours": { "avg": 1800 },
+      		"transitionHours": { "avg": 240 },
+      		"transitionedStack": { "type": "item", "code": "game:rot" },
+      		"transitionRatio": 1
+    	}],
+        "@cookedlegume-.*-(partbaked|perfect)": [{
+          "type": "Perish",
+          "freshHours": { "avg": 504 },
+          "transitionHours": { "avg": 96 },
+          "transitionedStack": { "type": "item", "code": "game:rot" },
+          "transitionRatio": 1
+        }],
+		"@*-(pickedfavabeans|pickledpeas)-charred": [{
+			"type": "Perish",
+			"freshHours": { "avg": 7300 },
+			"transitionHours": { "avg": 400 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"cookedlegume-*-charred": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1764 },
+			"transitionHours": { "avg": 160 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}]
+	},
+	"guiTransformByType": {
+		"*-favabeans-*": {
+    		rotation: { x: -37, y: 0, z: 0 },
+    		origin: { x: 0.5, y: 0.7, z: -0.5 },
+    		scaleXyz: { x: -1.99, y: 1.99, z: 1.99 }
+		},
+		"*-pickledfavabeans-*": {
+    		rotation: { x: -37, y: 0, z: 0 },
+    		origin: { x: 0.5, y: 0.7, z: -0.5 },
+    		scaleXyz: { x: -1.99, y: 1.99, z: 1.99 }
+		},
+		"*-peas-*": {
+			rotation: { x: -45, y: -20, z: 180 },
+    		origin: { x: 0.6, y: -0.1, z: 0.3 },
+    		scale: 1.5
+		},
+		"*-pickledpeas-*": {
+			rotation: { x: -45, y: -20, z: 180 },
+    		origin: { x: 0.6, y: -0.1, z: 0.3 },
+    		scale: 1.5
+		}
+	},
+	groundTransformByType: {
+		"*-favabeans-*": {
+    		translation: { x: 0, y: 0.3, z: 0 },
+   			rotation: { x: 0, y: 0, z: 0 },
+    		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    		scale: 3
+		},
+		"*-pickledfavabeans-*": {
+    		translation: { x: 0, y: 0.3, z: 0 },
+   			rotation: { x: 0, y: 0, z: 0 },
+    		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    		scale: 3
+		},
+		"*-peas-*": {
+			translation: { x: 0, y: 0.2, z: 0 },
+    		rotation: { x: 0, y: 0, z: 0 },
+    		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    		scale: 2.0
+			},
+			"*-pickledpeas-*": {
+			translation: { x: 0, y: 0.2, z: 0 },
+    		rotation: { x: 0, y: 0, z: 0 },
+    		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+    		scale: 2.0
+			}
+	},
+	tpHandTransformByType: {
+		"*-peas-*": {
+			translation: { x: -0.25, y: -1, z: -1 },
+    		rotation: { x: 122, y: 0, z: -82 },
+    		origin: { x: -0.05, y: 0.16, z: 0.46 },
+    		scale: 0.25
+			},
+			"*-pickledpeas-*": {
+			translation: { x: -0.25, y: -1, z: -1 },
+    		rotation: { x: 122, y: 0, z: -82 },
+    		origin: { x: -0.05, y: 0.16, z: 0.46 },
+    		scale: 0.25
+			},
+			"*-favabeans-*": {
+    		translation: { x: -2.2, y: -1.7, z: -1.1 },
+			rotation: { x: -121, y: -10, z: -93 }
+			},
+			"*-pickledfavabeans-*": {
+    		translation: { x: -2.2, y: -1.7, z: -1.1 },
+			rotation: { x: -121, y: -10, z: -93 }
+			}
+	}
+}

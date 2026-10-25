@@ -1,0 +1,44 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "flaxbread 19",
+			"from": [ 6.2, -1.28, 8.0 ],
+			"to": [ 9.7, 1.22, 8.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationX": -90.0,
+			"faces": {
+				"north": { "texture": "#herbbread", "uv": [ 0.0, 10.0, 4.0, 12.5 ], "autoUv": false },
+				"east": { "texture": "#herbbread", "uv": [ 5.5, 12.0, 8.0, 12.5 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#herbbread", "uv": [ 0.0, 10.0, 4.0, 12.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#herbbread", "uv": [ 8.0, 12.0, 5.5, 12.5 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#herbbread", "uv": [ 5.5, 11.0, 9.5, 11.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#herbbread", "uv": [ 5.5, 12.0, 9.5, 12.5 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "flaxbread 1 top20",
+					"from": [ 0.5, 2.5, 0.0 ],
+					"to": [ 3.0, 3.0, 0.5 ],
+					"rotationOrigin": [ 1.75, 2.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#herbbread", "uv": [ 1.0, 10.0, 4.0, 10.5 ], "autoUv": false },
+						"east": { "texture": "#herbbread", "uv": [ 11.5, 8.5, 12.0, 9.0 ], "rotation": 90, "autoUv": false },
+						"south": { "texture": "#herbbread", "uv": [ 1.0, 10.0, 4.0, 10.5 ], "autoUv": false },
+						"west": { "texture": "#herbbread", "uv": [ 11.5, 8.5, 12.0, 9.0 ], "rotation": 90, "autoUv": false },
+						"up": { "texture": "#herbbread", "uv": [ 12.0, 8.5, 15.0, 9.0 ], "autoUv": false },
+						"down": { "texture": "#herbbread", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

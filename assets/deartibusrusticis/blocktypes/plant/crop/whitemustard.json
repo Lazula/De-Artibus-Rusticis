@@ -77,8 +77,8 @@
 		nutrientConsumption: 10,
 		growthStages: 7,
 		totalGrowthMonths: 1.1,
-		heatDamageAbove: 27,
-		coldDamageBelow: -4
+		heatDamageAbove: 32,
+		coldDamageBelow: -5
 	},
 	collisionbox: null,
 	selectionboxByType: {

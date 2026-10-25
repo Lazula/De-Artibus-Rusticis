@@ -1,0 +1,32 @@
+[
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		  "path": "/ingredients/2/validStacks",
+		  "value": [
+            { "type": "item", "code": "deartibusrusticis:chickenbrothportion",  shapeElement: "bowl/base"},
+      			{ "type": "item", "code": "deartibusrusticis:fishbrothportion",  shapeElement: "bowl/base" },
+     			{ "type": "item", "code": "deartibusrusticis:vegetablebrothportion",  shapeElement: "bowl/base" },
+      			{ "type": "item", "code": "deartibusrusticis:meatbrothportion",  shapeElement: "bowl/base" },
+      			{ "type": "item", "code": "deartibusrusticis:marrowbrothportion",  shapeElement: "bowl/base" }
+
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "expandedfoods", "invert": "true" } ]
+	},
+    {
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/poach.json",
+		  "path": "/ingredients/1/validStacks",
+		  "value": [
+            	{ "type": "item", "code": "deartibusrusticis:chickenbrothportion",  shapeElement: "bowl/alcohol"},
+      			{ "type": "item", "code": "deartibusrusticis:fishbrothportion",  shapeElement: "bowl/alcohol" },
+     			{ "type": "item", "code": "deartibusrusticis:vegetablebrothportion",  shapeElement: "bowl/alcohol" },
+      			{ "type": "item", "code": "deartibusrusticis:meatbrothportion",  shapeElement: "bowl/alcohol" },
+      			{ "type": "item", "code": "deartibusrusticis:marrowbrothportion",  shapeElement: "bowl/alcohol" }
+
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "expandedfoods", "invert": "true" } ]
+	}
+]

@@ -1,0 +1,486 @@
+[
+    {
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:spice-anise", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			spice: ["blackcumin", "cress", "whitemustard"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-anise", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:spice-anise", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			herb: ["bearleek", "meum", "chervil", "estragon", "chives", "cress"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-anise", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:spice-blackcumin", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			spice: ["anise", "cress", "whitemustard"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-blackcumin", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:spice-blackcumin", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			herb: ["bearleek", "meum", "chervil", "estragon", "chives", "cress"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-blackcumin", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:herb-bearleek", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			spice: ["anise", "blackcumin", "cress", "whitemustard"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-bearleek", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:herb-bearleek", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			herb: ["meum", "chervil", "estragon", "chives", "cress"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-bearleek", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:herb-meum", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			spice: ["anise", "blackcumin", "cress", "whitemustard"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-meum", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:herb-meum", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			herb: ["bearleek", "chervil", "estragon", "chives", "cress"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-meum", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:herb-chervil", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			spice: ["anise", "blackcumin", "cress", "whitemustard"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-chervil", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:herb-chervil", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			herb: ["bearleek", "meum", "estragon", "chives", "cress"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-chervil", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:herb-estragon", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			spice: ["anise", "blackcumin", "cress", "whitemustard"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-estragon", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:herb-estragon", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			herb: ["bearleek", "meum", "chervil", "chives", "cress"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-estragon", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:herb-chives", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			spice: ["anise", "blackcumin", "cress", "whitemustard"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-chives", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:herb-chives", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			herb: ["bearleek", "meum", "chervil", "estragon", "cress"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-chives", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:herb-cress", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			spice: ["anise", "blackcumin", "cress", "whitemustard"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-cress", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:herb-cress", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			herb: ["bearleek", "meum", "chervil", "estragon", "chives"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-cress", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:spice-cress", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			spice: ["anise", "blackcumin", "cress", "whitemustard"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-cress", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:spice-cress", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			herb: ["bearleek", "meum", "chervil", "estragon", "chives"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-cress", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:spice-whitemustard", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			spice: ["blackcumin", "cress", "anise"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-whitemustard", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:spice-whitemustard", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			herb: ["bearleek", "meum", "chervil", "estragon", "chives", "cress"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-whitemustard", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:vegetable-garlic", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:spice-{spice}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			spice: ["anise", "blackcumin", "cress", "whitemustard"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-garlic", quantity: 8  }
+	},
+	{
+		enabled: false,
+		ingredientPattern: "PHS",
+		ingredients: {
+            "P": { type: "item", code: "deartibusrusticis:vegetable-garlic", quantity: 6 },
+			"S": { type: "item", code: "deartibusrusticis:herb-{herb}", quantity: 2 }, 
+			"H": { type: "block", code: "game:bowl-*-fired" }
+		},
+		allowedVariants: {
+			herb: ["bearleek", "meum", "chervil", "estragon", "chives", "cress"]
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "honeyportion" },
+				requiresLitres: 0.4
+			}
+		},		
+		width: 3,
+		height: 1,
+        shapeless: true,
+		output: { type: "item", code: "deartibusrusticis:teablend-garlic", quantity: 8  }
+	}
+]

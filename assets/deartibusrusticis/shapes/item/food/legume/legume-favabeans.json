@@ -10,7 +10,6 @@
 		"favabean": [8,8]
 	},
 	"textures": {
-		"favabean": "item/food/legume/favabean"
 	},
 	"elements": [
 		{

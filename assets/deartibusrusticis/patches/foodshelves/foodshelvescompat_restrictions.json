@@ -1,0 +1,78 @@
+[
+    {
+        "file": "foodshelves:config/restrictions/baskets/vegetablebasket.json",
+        "op": "addeach",
+        "path": "/GroupingCodes/long/-",
+        "value": [
+            "deartibusrusticis:vegetable-cucumber",
+            "deartibusrusticis:pickledvegetable-cucumber",
+            "deartibusrusticis:vegetable-horseradish",
+            "deartibusrusticis:pickledvegetable-horseradish",
+            "deartibusrusticis:vegetable-leek",
+            "deartibusrusticis:vegetable-lettuce",
+            "deartibusrusticis:pickledvegetable-lettuce",
+            "deartibusrusticis:herb-bearleek",
+            "deartibusrusticis:herb-anise",
+            "deartibusrusticis:herb-estragon",
+            "deartibusrusticis:herb-eruca",
+            "deartibusrusticis:herb-whitemustard",
+            "deartibusrusticis:herb-meum",
+            "deartibusrusticis:herb-cress",
+            "deartibusrusticis:herb-garlic",
+            "deartibusrusticis:herb-chives",
+            "deartibusrusticis:herb-chervil"
+        ],
+        "dependsOn": [{ "modid": "foodshelves"}]
+    },
+    {
+        "file": "foodshelves:config/restrictions/baskets/vegetablebasket.json",
+        "op": "addeach",
+        "path": "/GroupingCodes/standard/-",
+        "value": [
+            "deartibusrusticis:vegetable-garlic",
+            "deartibusrusticis:vegetable-beetroot",
+            "deartibusrusticis:pickledvegetable-beetroot"
+        ],
+        "dependsOn": [{ "modid": "foodshelves"}]
+    },
+    {
+    "file": "foodshelves:config/restrictions/general/liquidystuff.json",
+    "op": "addmerge", "path": "/CollectibleCodes", "side": "server",
+    "value": [
+      "deartibusrusticis:spice-*",
+      "deartibusrusticis:blend-*",
+      "deartibusrusticis:legume-lentils"
+    ],
+    "dependsOn": [ { "modid": "foodshelves" } ]
+    },
+    {
+    "file": "foodshelves:blocktypes/other/floursack.json",
+    "op": "addmerge", "path": "/attributes/variantTextures/seed/-", "side": "server",
+    "value": "deartibusrusticis:item/resource/seeds/{seed}",
+    "dependsOn": [ { "modid": "foodshelves" } ]
+    },
+    {
+    "file": "foodshelves:blocktypes/glassware/seedbins.json",
+    "op": "addmerge", "path": "/attributes/variantTextures/seed0/-", "side": "server",
+    "value": "deartibusrusticis:item/resource/seeds/{seed0}",
+    "dependsOn": [ { "modid": "foodshelves" } ]
+    },
+    {
+    "file": "foodshelves:blocktypes/glassware/seedbins.json",
+    "op": "addmerge", "path": "/attributes/variantTextures/seed1/-", "side": "server",
+    "value": "deartibusrusticis:item/resource/seeds/{seed1}",
+    "dependsOn": [ { "modid": "foodshelves" } ]
+    },
+    {
+    "file": "foodshelves:blocktypes/glassware/seedbins.json",
+    "op": "addmerge", "path": "/attributes/variantTextures/seed2/-", "side": "server",
+    "value": "deartibusrusticis:item/resource/seeds/{seed2}",
+    "dependsOn": [ { "modid": "foodshelves" } ]
+    },
+    {
+    "file": "foodshelves:blocktypes/glassware/seedbins.json",
+    "op": "addmerge", "path": "/attributes/variantTextures/seed3/-", "side": "server",
+    "value": "deartibusrusticis:item/resource/seeds/{seed3}",
+    "dependsOn": [ { "modid": "foodshelves" } ]
+    }
+]

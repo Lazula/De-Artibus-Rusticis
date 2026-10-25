@@ -1,0 +1,63 @@
+{
+	code: "meum_pear_honey",
+	perishableProps: {
+		freshHours: { avg: 168 },
+		transitionHours: { avg: 12 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "game:rot" }
+	},
+	shape: { base: "deartibusrusticis:block/food/meal/meum_pear_honey" },
+	ingredients: [
+		{ 
+			code: "honey", 
+			validStacks: [  { type: "item", code: "game:honeyportion",  shapeElement: "bowl/sweetener", cookedStack: { type: "item", code: "game:jamhoneyportion" }, textureMapping: ["topping", "honey"] } ],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 0.5,
+			typeName: "honey_meum"
+		},
+		{
+			code: "pear", 
+			validStacks: [ { type: "item", code: "game:fruit-pear" } ],
+			minQuantity: 1,
+			maxQuantity: 1,
+			typeName: "poachedpear"
+		},
+       {
+			code: "meumroot", 
+			validStacks: [ 
+				{ type: "item", code: "deartibusrusticis:root-meum",  shapeElement: "bowl/main/*", textureMapping: ["vegetable", "meummed"] }
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			typeName: "meumroot"
+		},
+		{
+			code: "dar-seasoning", 
+			validStacks: [ 
+				{ type: "item", code: "deartibusrusticis:herb-anise",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "anise"] },
+				{ type: "item", code: "deartibusrusticis:herb-bearleek",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "bearleek"] },
+				{ type: "item", code: "deartibusrusticis:herb-chives",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "chives"] },
+				{ type: "item", code: "deartibusrusticis:herb-garlic",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "garlic"] },
+				{ type: "item", code: "deartibusrusticis:herb-cress",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "cress"] },
+				{ type: "item", code: "deartibusrusticis:herb-meum",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "meum"] },
+				{ type: "item", code: "deartibusrusticis:herb-whitemustard",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "whitemustard"] },
+				{ type: "item", code: "deartibusrusticis:herb-eruca",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "eruca"] },
+				{ type: "item", code: "deartibusrusticis:herb-chervil",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "chervil"] },
+				{ type: "item", code: "deartibusrusticis:herb-estragon",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "estragon"] },
+				{ type: "item", code: "deartibusrusticis:spice-anise",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-anise"] },
+				{ type: "item", code: "deartibusrusticis:spice-bearleek",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-bearleek"] },
+				{ type: "item", code: "deartibusrusticis:spice-blackcumin",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-blackcumin"] },
+				{ type: "item", code: "deartibusrusticis:spice-cress",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-cress"] },
+				{ type: "item", code: "deartibusrusticis:spice-meum",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-meum"] },
+				{ type: "item", code: "deartibusrusticis:spice-whitemustard",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-whitemustard"] },
+				{ type: "item", code: "deartibusrusticis:spice-eruca",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-eruca"] },
+				{ type: "item", code: "deartibusrusticis:spice-chervil",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-chervil"] },
+				{ type: "item", code: "deartibusrusticis:blend-simple",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "blend-simple"] },
+			],
+			minQuantity: 0,
+			maxQuantity: 1,
+			typeName: "seasoning"
+		}
+	]
+}

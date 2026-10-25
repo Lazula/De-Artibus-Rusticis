@@ -1,0 +1,10 @@
+{
+  "herbalbread-*-perfect": {
+    "convertTo": {
+      "type": "item",
+      "code": "deartibusrusticis:sliced-herbbread-{type}-{state}",
+      "quantity": 4
+    },
+    "tool": ["Knife", "Sword"]
+  }
+}

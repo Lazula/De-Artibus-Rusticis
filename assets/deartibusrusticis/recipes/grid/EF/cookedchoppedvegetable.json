@@ -1,0 +1,74 @@
+﻿[  
+  {
+    "enabled": false,
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-knife"], "isTool": true  },
+      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-partbaked", "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "deartibusrusticis:cookedchoppedvegetable-{type}-partbaked" }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "KV",
+    "recipeGroup": 2,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
+      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-partbaked", "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+     "output": { "type": "item", "code": "deartibusrusticis:cookedchoppedvegetable-{type}-partbaked" }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-knife"], "isTool": true  },
+      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-perfect", "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+     "output": { "type": "item", "code": "deartibusrusticis:cookedchoppedvegetable-{type}-perfect" }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "KV",
+    "recipeGroup": 2,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
+      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-perfect", "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+     "output": { "type": "item", "code": "deartibusrusticis:cookedchoppedvegetable-{type}-perfect" }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-knife"], "isTool": true  },
+      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-charred", "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+     "output": { "type": "item", "code": "deartibusrusticis:cookedchoppedvegetable-{type}-charred" }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "KV",
+    "recipeGroup": 2,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
+      "V": { "type": "item", "code": "deartibusrusticis:cookedvegetable-*-charred", "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+     "output": { "type": "item", "code": "deartibusrusticis:cookedchoppedvegetable-{type}-charred" }
+  }
+]

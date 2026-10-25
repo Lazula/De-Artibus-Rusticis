@@ -8,7 +8,11 @@
 	],
 	creativeinventory: { "general": [ "*" ], "deartibusrusticis": [ "*" ] },
 	renderpass: "OpaqueNoCull",
-	shape: {base: "block/plant/crop/lentils*"},
+	shapeByType: {
+		"*-1": { base: "block/plant/crop/lentils/stage1to2" },
+		"*-2": { base: "block/plant/crop/lentils/stage1to2" },
+		"*": { base: "block/plant/crop/lentils/stage3to8" }
+	},
 	blockmaterial: "Plant",
 	textures: {
 		"crop": { base: "block/plant/crop/lentils/{stage}" }
@@ -62,7 +66,7 @@
 		nutrientConsumption: 15,
 		growthStages: 8,
 		totalGrowthMonths: 1.5,
-		heatDamageAbove: 32,
+		heatDamageAbove: 35,
 		coldDamageBelow: -7
 	},
 	collisionbox: null,

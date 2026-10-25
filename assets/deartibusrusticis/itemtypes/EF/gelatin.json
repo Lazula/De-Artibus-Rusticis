@@ -1,0 +1,61 @@
+{
+    "enabled": "false",
+	"code": "gelatin",
+	"variantgroups": [
+		{ "code": "type", "states": ["beetroot", "cucumber"] }
+	],
+	"attributes": {
+		"displaycaseable": true,
+		"shelvable": true,
+		"handbook": { 
+          "groupBy": [ "gelatin-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-gelatin", "text": "expandedfoods:item-handbooktext-gelatin" }]
+        },
+    	"inPiePropertiesByType": {
+			"*": { "texture": "deartibusrusticis:item/EF/gelatin/{type}", "partType": "Filling" }
+		}
+	},
+	"transitionableProps": [{
+    		"type": "Perish",
+    		"freshHours": { "avg": 216 },
+    		"transitionHours": { "avg": 108 },
+    		"transitionedStack": { "type": "item", "code": "game:rot" },
+    		"transitionRatio": 0.25
+  	}],
+	"shapeByType": {
+		"*": { "base": "expandedfoods:item/food/gelatinsolid" }
+	},
+	"texturebyType": {
+		"*": { "base": "deartibusrusticis:item/EF/gelatin/{type}" }
+	},
+	"nutritionPropsByType": {
+		"gelatin-*": { "saturation": 200, "health": 3, "foodcategory": "Fruit" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "deartibusrusticis": ["*"] },
+	"maxstacksize": 32,
+	"materialDensity": 200,
+	"guiTransformByType": {
+		"*": {
+			"translation": { "x": 3, "y": 0, "z": 0 },
+			"rotation": { "x": -28, "y": 23, "z": 180 },
+			"origin": { "x": 0.5, "y": 0.07, "z": 0.5 },
+			"scale": 4
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 1 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 4
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.54, "y": -0.16, "z": -0.4 },
+			"rotation": { "x": 44, "y": -69, "z": 2 },
+			"origin": { "x": 0.5, "y": 0.13, "z": 0.5 },
+			"scale": 1
+		}
+	}
+}

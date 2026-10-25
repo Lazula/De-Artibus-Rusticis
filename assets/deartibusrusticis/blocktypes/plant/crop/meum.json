@@ -81,6 +81,7 @@
 		"*-7": [
 		{ type: "item", code: "seeds-meum", quantity: { avg: 1.2}  },
 		{ type: "item", code: "spice-meum", quantity: { avg: 3.0, var: 1  }  },
+		{ type: "item", code: "root-meum", quantity: { avg: 1.0 }  }
 		],
 		"*": [
 			{ type: "item", code: "seeds-meum", quantity: { avg: 0.7 }  },

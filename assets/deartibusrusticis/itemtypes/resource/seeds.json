@@ -26,6 +26,7 @@ attributes: {
 		}
 	},
 creativeinventory: { "general": ["*"], "deartibusrusticis": [ "*" ] },
+storageFlags: 33,
 "materialDensity": 450,
 		guiTransform: {
 		translation: { x: 0, y: 0, z: 0 },

@@ -12,16 +12,28 @@
 			code: "poachedlettuce", 
 			validStacks: [  
 				{ type: "item", code: "deartibusrusticis:vegetable-lettuce",  shapeElement: "bowl/poachedlettuce/*", textureMapping: ["vegetable", "poachedlettuce"] },
-				{ type: "item", code: "deartibusrusticis:pickledvegetable-lettuce",  shapeElement: "bowl/poachedlettuce/*", textureMapping: ["vegetable", "poachedlettuce"] }
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-lettuce",  shapeElement: "bowl/poachedlettuce/*", textureMapping: ["vegetable", "poachedlettuce"] },
+				{ type: "item", code: "deartibusrusticis:herb-anise",  shapeElement: "bowl/poachedlettuce/*", textureMapping: ["vegetable", "anise"] },
+				{ type: "item", code: "deartibusrusticis:herb-bearleek",  shapeElement: "bowl/poachedlettuce/*", textureMapping: ["vegetable", "bearleek"] },
+				{ type: "item", code: "deartibusrusticis:herb-chives",  shapeElement: "bowl/poachedlettuce/*", textureMapping: ["vegetable", "chives"] },
+				{ type: "item", code: "deartibusrusticis:herb-garlic",  shapeElement: "bowl/poachedlettuce/*", textureMapping: ["vegetable", "garlicleaves"] },
+				{ type: "item", code: "deartibusrusticis:herb-cress",  shapeElement: "bowl/poachedlettuce/*", textureMapping: ["vegetable", "cress"] },
+				{ type: "item", code: "deartibusrusticis:herb-meum",  shapeElement: "bowl/poachedlettuce/*", textureMapping: ["vegetable", "meum"] },
+				{ type: "item", code: "deartibusrusticis:herb-whitemustard",  shapeElement: "bowl/poachedlettuce/*", textureMapping: ["vegetable", "whitemustard"] },
+				{ type: "item", code: "deartibusrusticis:herb-eruca",  shapeElement: "bowl/poachedlettuce/*", textureMapping: ["vegetable", "eruca"] },
+				{ type: "item", code: "deartibusrusticis:herb-chervil",  shapeElement: "bowl/poachedlettuce/*", textureMapping: ["vegetable", "chervil"] },
+				{ type: "item", code: "deartibusrusticis:herb-estragon",  shapeElement: "bowl/poachedlettuce/*", textureMapping: ["vegetable", "estragon"] }
 			],
-			minQuantity: 1,
+			minQuantity: 2,
 			maxQuantity: 3,
 			typeName: "poachedlettuce"
 		},
 		{
 			code: "alcohol", 
 			validStacks: [ 
-				{ type: "item", code: "game:ciderportion-*",  shapeElement: "bowl/alcohol" }
+				{ type: "item", code: "game:ciderportion-*",  shapeElement: "bowl/alcohol" },
+				{ type: "item", code: "game:honeyportion",  shapeElement: "bowl/alcohol", cookedStack: { type: "item", code: "game:jamhoneyportion" } },
+				{ type: "item", code: "deartibusrusticis:herbbrothportion",  shapeElement: "bowl/alcohol" }
 			],
 			minQuantity: 1,
 			maxQuantity: 1,
@@ -41,16 +53,6 @@
 				{ type: "item", code: "deartibusrusticis:herb-eruca",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "eruca"] },
 				{ type: "item", code: "deartibusrusticis:herb-chervil",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "chervil"] },
 				{ type: "item", code: "deartibusrusticis:herb-estragon",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "estragon"] },
-				{ type: "item", code: "deartibusrusticis:driedherb-anise",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "anise"] },
-				{ type: "item", code: "deartibusrusticis:driedherb-bearleek",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "bearleek"] },
-				{ type: "item", code: "deartibusrusticis:driedherb-chives",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "chives"] },
-				{ type: "item", code: "deartibusrusticis:driedherb-garlic",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "garlic"] },
-				{ type: "item", code: "deartibusrusticis:driedherb-cress",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "cress"] },
-				{ type: "item", code: "deartibusrusticis:driedherb-meum",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "meum"] },
-				{ type: "item", code: "deartibusrusticis:driedherb-whitemustard",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "whitemustard"] },
-				{ type: "item", code: "deartibusrusticis:driedherb-eruca",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "eruca"] },
-				{ type: "item", code: "deartibusrusticis:driedherb-chervil",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "chervil"] },
-				{ type: "item", code: "deartibusrusticis:driedherb-estragon",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "estragon"] },
 				{ type: "item", code: "deartibusrusticis:spice-anise",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-anise"] },
 				{ type: "item", code: "deartibusrusticis:spice-bearleek",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-bearleek"] },
 				{ type: "item", code: "deartibusrusticis:spice-blackcumin",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-blackcumin"] },
@@ -59,7 +61,7 @@
 				{ type: "item", code: "deartibusrusticis:spice-whitemustard",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-whitemustard"] },
 				{ type: "item", code: "deartibusrusticis:spice-eruca",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-eruca"] },
 				{ type: "item", code: "deartibusrusticis:spice-chervil",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-chervil"] },
-				{ type: "item", code: "deartibusrusticis:spice-blend",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "spice-blend"] },
+				{ type: "item", code: "deartibusrusticis:blend-simple",  shapeElement: "bowl/dar-seasoning/*", textureMapping: ["dar-seasoning", "blend-simple"] },
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
@@ -85,15 +87,57 @@
 			maxQuantity: 1,
 			typeName: "poachedapple"
 		},
-				{ 
-			code: "poachedfish", 
+		{ 
+			code: "meat", 
 			validStacks: [  
 				{ type: "item", code: "game:fish-raw",  shapeElement: "bowl/poachedfish/*", textureMapping: ["meat", "group4"] },
 				{ type: "item", code: "game:fish-cured",  shapeElement: "bowl/poachedfish/*", textureMapping: ["meat", "group4"] },
+				{ type: "item", code: "game:redmeat-raw",  shapeElement: "bowl/poachedredmeat/*", textureMapping: ["meat", "group6"] },
+				{ type: "item", code: "game:redmeat-cured",  shapeElement: "bowl/poachedredmeat/*", textureMapping: ["meat", "group6"] }
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
-			typeName: "poachedfish"
+			typeName: "poachedmeat"
+		},
+		{ 
+			code: "poachedegg", 
+			validStacks: [  
+				{ type: "item", code: "game:egg-chicken-raw",  shapeElement: "bowl/poachedeggs/*", textureMapping: ["vegetable", "group11"] }
+			],
+			minQuantity: 0,
+			maxQuantity: 1,
+			typeName: "poachedegg"
+		},
+		{ 
+			code: "poachedvegetable", 
+			validStacks: [  
+				{ type: "item", code: "game:vegetable-cabbage",  shapeElement: "bowl/poachedvegetable/*" },
+				{ type: "item", code: "game:vegetable-carrot",  shapeElement: "bowl/poachedvegetable/*" },
+				{ type: "item", code: "game:vegetable-onion",  shapeElement: "bowl/poachedvegetable/*" },
+				{ type: "item", code: "game:vegetable-parsnip",  shapeElement: "bowl/poachedvegetable/*" },
+				{ type: "item", code: "game:vegetable-turnip",  shapeElement: "bowl/poachedvegetable/*" },
+				{ type: "item", code: "game:vegetable-pumpkin",  shapeElement: "bowl/poachedvegetable/*" },
+				{ type: "item", code: "game:vegetable-cassava",  shapeElement: "bowl/poachedvegetable/*" },
+				{ type: "item", code: "game:vegetable-bellpepper",  shapeElement: "bowl/poachedvegetable/*" },
+				{ type: "item", code: "game:mushroom-*",  shapeElement: "bowl/poachedvegetable/*" },
+				{ type: "item", code: "game:vegetable-fennel",  shapeElement: "bowl/poachedvegetable/*" },
+				{ type: "item", code: "game:pickledvegetable-*",  shapeElement: "bowl/poachedvegetable/*" },
+				{ type: "item", code: "deartibusrusticis:legume-peas",  shapeElement: "bowl/poachedvegetable/*", textureMapping: ["vegetable", "peas"] },
+				{ type: "item", code: "deartibusrusticis:legume-favabeans",  shapeElement: "bowl/poachedvegetable/*", textureMapping: ["vegetable", "favabeans"] },
+				{ type: "item", code: "deartibusrusticis:vegetable-leek",  shapeElement: "bowl/poachedvegetable/*", textureMapping: ["vegetable", "leek"] },
+				{ type: "item", code: "deartibusrusticis:vegetable-garlic",  shapeElement: "bowl/poachedvegetable/*", textureMapping: ["vegetable", "garlic"] },
+				{ type: "item", code: "deartibusrusticis:vegetable-beetroot",  shapeElement: "bowl/poachedvegetable/*", textureMapping: ["vegetable", "beetroot"] },
+				{ type: "item", code: "deartibusrusticis:vegetable-horseradish",  shapeElement: "bowl/poachedvegetable/*", textureMapping: ["vegetable", "horseradish"] },
+				{ type: "item", code: "deartibusrusticis:pickledlegume-peas",  shapeElement: "bowl/poachedvegetable/*", textureMapping: ["vegetable", "peas"] },
+				{ type: "item", code: "deartibusrusticis:pickledlegume-favabeans",  shapeElement: "bowl/poachedvegetable/*", textureMapping: ["vegetable", "favabeans"] },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-leek",  shapeElement: "bowl/poachedvegetable/*", textureMapping: ["vegetable", "leek"] },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-beetroot",  shapeElement: "bowl/poachedvegetable/*", textureMapping: ["vegetable", "beetroot"] },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-horseradish",  shapeElement: "bowl/poachedvegetable/*", textureMapping: ["vegetable", "horseradish"] },
+				{ type: "item", code: "deartibusrusticis:pickledvegetable-garlic",  shapeElement: "bowl/poachedvegetable/*", textureMapping: ["vegetable", "garlic"] }   
+			],
+			minQuantity: 0,
+			maxQuantity: 1,
+			typeName: "poachedvegetable"
 		}
 	]
 }

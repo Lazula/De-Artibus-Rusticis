@@ -1,0 +1,68 @@
+[
+    {
+        "dependsOn": [ { "modid": "danacancook" } ],
+        "file": "deartibusrusticis:itemtypes/sandwich/danacancook-bread.json",
+        "op": "addmerge", 
+        "path": "/enabled",
+        "value": true,
+        "side": "server"
+    },
+
+    //Long Term Food
+    {
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/sandwich/danacancook-bread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"corn",
+			"potato"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "longtermfood" }, { "modid": "danacancook" } ]
+    },
+    {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-potato-*",
+    "value": {
+		"satiety": 175,
+		"foodcategory": "Vegetable"
+	},
+    "file": "deartibusrusticis:itemtypes/sandwich/danacancook-bread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "longtermfood" }, { "modid": "danacancook" } ]
+  	},
+    {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-corn-*",
+    "value": {
+		"satiety": 110,
+		"foodcategory": "Vegetable"
+	},
+    "file": "deartibusrusticis:itemtypes/sandwich/danacancook-bread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "longtermfood" }, { "modid": "danacancook" } ]
+  	},
+
+    //Biodiversity
+    {
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/sandwich/danacancook-bread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"buckwheat"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "bdcrop" }, { "modid": "danacancook" } ]
+    },
+    {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-buckwheat-*",
+    "value": {
+		"satiety": 120,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/sandwich/danacancook-bread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "bdcrop" }, { "modid": "danacancook" } ]
+  	}
+]

@@ -43,7 +43,7 @@
 			],
 			minQuantity: 1,
 			maxQuantity: 1,
-			typeName: "vegetable"
+			typeName: "pickledvegetable"
 		},
 {
 			code: "vegetable2", 
@@ -65,7 +65,7 @@
 			],
 			minQuantity: 1,
 			maxQuantity: 1,
-			typeName: "vegetable"
+			typeName: "pickledvegetable"
 		}
 	]
 }

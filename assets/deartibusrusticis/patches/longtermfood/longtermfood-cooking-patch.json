@@ -1,0 +1,327 @@
+[
+	//Nutrient Values
+	{
+    "op": "addmerge",
+    "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitreWhenInMeal",
+    "value": {
+      "satietyByType": {
+        "*-mushroomale": 120,
+        "*-forest": 120
+      },
+      "foodcategory": "Vegetable"
+    },
+    "file": "pemmican:itemtypes/liquid/alcohol.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "longtermfood" } ]
+  	},
+	{
+    "op": "addmerge",
+    "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitreWhenInMeal",
+    "value": {
+      "satietyByType": {
+        "*-raw": 120,
+        "*-fine": 120
+      },
+      "foodcategory": "Fruit"
+    },
+    "file": "pemmican:itemtypes/liquid/medbrew.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "longtermfood" } ]
+  	},
+	//Gingerbread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/*-corn",
+    "value": {
+		"satiety": 195,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "longtermfood" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/*-potato",
+    "value": {
+		"satiety": 260,
+		"foodcategory": "Vegetable"
+	},
+    "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "longtermfood" } ]
+  	},
+	//Herbal Bread Sat & Nutrition
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-potato-partbaked",
+    "value": {
+		"satiety": 440,
+		"foodcategory": "Vegetable"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "longtermfood" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-potato-perfect",
+    "value": {
+		"satiety": 690,
+		"foodcategory": "Vegetable"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "longtermfood" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-potato-charred",
+    "value": {
+		"satiety": 670,
+		"foodcategory": "Vegetable"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "longtermfood" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-corn-partbaked",
+    "value": {
+		"satiety": 360,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "longtermfood" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-corn-perfect",
+    "value": {
+		"satiety":410,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "longtermfood" } ]
+  	},
+	{
+    "op": "add",
+    "path": "/nutritionPropsByType/herbalbread-corn-charred",
+    "value": {
+		"satiety": 385,
+		"foodcategory": "Grain"
+	},
+    "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "longtermfood" } ]
+  	},
+	//Herbal Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/herbalbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"corn",
+			"potato"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "longtermfood" } ]
+    },
+	//Ginger Bread
+	{
+		"op": "addmerge", 
+        "file": "deartibusrusticis:itemtypes/food/gingerbread.json",
+        "path": "/variantgroups/0/states" ,
+		"value": [
+			"corn",
+			"potato"
+		],
+	"side": "server",
+	"dependsOn": [ { "modid": "longtermfood" } ]
+    },
+	//Mash
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		  "path": "/ingredients/0/validStacks",
+		  "value": [
+            { "type": "item", "code": "pemmican:vegetable-corn-*", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group4" ] },
+			{ "type": "item", "code": "pemmican:vegetable-potato-*", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:cookedvegetable-corn-*", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group4" ] },
+			{ "type": "item", "code": "pemmican:cookedvegetable-potato-*", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:cookedchoppedvegetable-corn-*", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group4" ] },
+			{ "type": "item", "code": "pemmican:cookedchoppedvegetable-potato-*", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:choppedvegetable-corn-*", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group4" ] },
+			{ "type": "item", "code": "pemmican:choppedvegetable-potato-*", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:choppedvegetable-pickledpotato-*", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:pickledvegetable-pickledpotato", "shapeElement": "bowl/vegetable1/*", "textureMapping": [ "vegetable", "group6" ] }
+
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "longtermfood" } ]
+	},
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/mashmeal.json",
+		  "path": "/ingredients/3/validStacks",
+		  "value": [
+            { "type": "item", "code": "pemmican:flour-corn*", "shapeElement": "bowl/thickener/*" }
+
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "longtermfood" } ]
+	},
+	//Sauerkraut
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		  "path": "/ingredients/1/validStacks",
+		  "value": [
+            { "type": "item", "code": "pemmican:meadbrew-*" },
+			 { "type": "item", "code": "pemmican:beer-*" }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "longtermfood" } ]
+	},
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		  "path": "/ingredients/2/validStacks",
+		  "value": [
+            { "type": "item", "code": "pemmican:pemmican-bar", "shapeElement": "bowl/meat/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:pemmican-cooked", "shapeElement": "bowl/meat/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:pemmican-raw", "shapeElement": "bowl/meat/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:pemmican-salt", "shapeElement": "bowl/meat/*", "textureMapping": [ "vegetable", "group6" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "longtermfood" } ]
+	},
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		  "path": "/ingredients/3/validStacks",
+		  "value": [
+            { "type": "item", "code": "pemmican:vegetable-*", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:cookedvegetable-*", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:cookedchoppedvegetable-*", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:choppedvegetable-*", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:pickledvegetable-*", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:mushroomclean-*", "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:mushroompate-dry",  "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6"] }, 
+			{ "type": "item", "code": "pemmican:mushroompatebar",  "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6"] }, 
+			{ "type": "item", "code": "pemmican:mushroomclean-raw",  "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6"] }, 
+			{ "type": "item", "code": "pemmican:mushroomclean-pickled",  "shapeElement": "bowl/vegetabletop/*", "textureMapping": [ "vegetable", "group6"] } 
+
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "longtermfood" } ]
+	},
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/sauerkraut.json",
+		  "path": "/ingredients/4/validStacks",
+		  "value": [
+            { "type": "item", "code": "pemmican:caramel-dry", "shapeElement": "bowl/fruit/*", "textureMapping": [ "fruit", "group5" ] },
+			{ "type": "item", "code": "pemmican:caramel-raw", "shapeElement": "bowl/fruit/*", "textureMapping": [ "fruit", "group5" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "longtermfood" } ]
+	},
+	//Compost
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/compost.json",
+		"path": "/ingredients/0/validStacks",
+		"value": [
+            { "type": "item", "code": "pemmican:medbrew-*", "shapeElement": "bowl/sweetener", "textureMapping": ["topping", "honey"] },
+			{ "type": "item", "code": "pemmican:beer-*", "shapeElement": "bowl/sweetener", "textureMapping": ["topping", "honey"] },
+			{ "type": "item", "code": "pemmican:syrup-*", "shapeElement": "bowl/sweetener", "textureMapping": ["topping", "honey"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "longtermfood" } ]
+	},
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/compost.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+              { "type": "item", "code": "pemmican:caramel-dry", "shapeElement": "bowl/fruit/*", "textureMapping": [ "fruit", "group5" ] },
+			  { "type": "item", "code": "pemmican:caramel-raw", "shapeElement": "bowl/fruit/*", "textureMapping": [ "fruit", "group5" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "longtermfood" } ]
+	},
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/compost.json",
+		"path": "/ingredients/2/validStacks",
+		"value": [
+            { "type": "item", "code": "pemmican:mushroomclean-pickled",  "shapeElement": "bowl/vegetable/*", "textureMapping": ["vegetable", "group6"] },
+			{ "type": "item", "code": "pemmican:algae-grind-salt",  "shapeElement": "bowl/vegetable/*", "textureMapping": ["vegetable", "group10"] },
+			{ "type": "item", "code": "pemmican:pickledvegetable-*",  "shapeElement": "bowl/vegetable/*", "textureMapping": ["vegetable", "group6"] },
+			{ "type": "item", "code": "pemmican:choppedvegetable-pickled*",  "shapeElement": "bowl/vegetable/*", "textureMapping": ["vegetable", "group6"] },
+			{ "type": "item", "code": "pemmican:cookedchoppedvegetable-pickled*",  "shapeElement": "bowl/vegetable/*", "textureMapping": ["vegetable", "group6"] },
+			{ "type": "item", "code": "pemmican:cookedvegetable-pickled*",  "shapeElement": "bowl/vegetable/*", "textureMapping": ["vegetable", "group6"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "longtermfood" } ]
+	},
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/compost.json",
+		"path": "/ingredients/3/validStacks",
+		"value": [
+            { "type": "item", "code": "pemmican:mushroomclean-pickled",  "shapeElement": "bowl/vegetable/*", "textureMapping": ["vegetable", "group6"] },
+			{ "type": "item", "code": "pemmican:algae-grind-salt",  "shapeElement": "bowl/vegetable/*", "textureMapping": ["vegetable", "group10"] },
+			{ "type": "item", "code": "pemmican:pickledvegetable-*",  "shapeElement": "bowl/vegetable/*", "textureMapping": ["vegetable", "group6"] },
+			{ "type": "item", "code": "pemmican:choppedvegetable-pickled*",  "shapeElement": "bowl/vegetable/*", "textureMapping": ["vegetable", "group6"] },
+			{ "type": "item", "code": "pemmican:cookedchoppedvegetable-pickled*",  "shapeElement": "bowl/vegetable/*", "textureMapping": ["vegetable", "group6"] },
+			{ "type": "item", "code": "pemmican:cookedvegetable-pickled*",  "shapeElement": "bowl/vegetable/*", "textureMapping": ["vegetable", "group6"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "longtermfood" } ]
+	},
+	//Poached Lettuce
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/1/validStacks",
+		"value": [
+            { "type": "item", "code": "pemmican:medbrew-*", "shapeElement": "bowl/sweetener", "textureMapping": ["topping", "honey"] },
+			{ "type": "item", "code": "pemmican:beer-*", "shapeElement": "bowl/sweetener", "textureMapping": ["topping", "honey"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "longtermfood" } ]
+	},
+	{
+		  "op": "addmerge",
+		  "file": "deartibusrusticis:recipes/cooking/poach.json",
+		  "path": "/ingredients/5/validStacks",
+		  "value": [
+            { "type": "item", "code": "pemmican:pemmican-bar", "shapeElement": "bowl/poachedredmeat/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:pemmican-cooked", "shapeElement": "bowl/poachedredmeat/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:pemmican-raw", "shapeElement": "bowl/poachedredmeat/*", "textureMapping": [ "vegetable", "group6" ] },
+			{ "type": "item", "code": "pemmican:pemmican-salt", "shapeElement": "bowl/poachedredmeat/*", "textureMapping": [ "vegetable", "group6" ] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "longtermfood" } ]
+	},
+	{
+		"op": "addmerge",
+		"file": "deartibusrusticis:recipes/cooking/poach.json",
+		"path": "/ingredients/7/validStacks",
+		"value": [
+            { "type": "item", "code": "pemmican:mushroomclean-pickled",  "shapeElement": "bowl/poachedvegetable/*", "textureMapping": ["vegetable", "group6"] },
+			{ "type": "item", "code": "pemmican:algae-grind-salt",  "shapeElement": "bowl/poachedvegetable/*", "textureMapping": ["vegetable", "group10"] },
+			{ "type": "item", "code": "pemmican:pickledvegetable-*",  "shapeElement": "bowl/poachedvegetable/*", "textureMapping": ["vegetable", "group6"] },
+			{ "type": "item", "code": "pemmican:choppedvegetable-pickled*",  "shapeElement": "bowl/poachedvegetable/*", "textureMapping": ["vegetable", "group6"] },
+			{ "type": "item", "code": "pemmican:cookedchoppedvegetable-pickled*",  "shapeElement": "bowl/poachedvegetable/*", "textureMapping": ["vegetable", "group6"] },
+			{ "type": "item", "code": "pemmican:cookedvegetable-pickled*",  "shapeElement": "bowl/poachedvegetable/*", "textureMapping": ["vegetable", "group6"] }
+		],
+    "side": "server",
+    "dependsOn": [ { "modid": "longtermfood" } ]
+	}
+]
