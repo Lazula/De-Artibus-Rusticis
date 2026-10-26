@@ -1,6 +1,5 @@
 {
 	code: "herb",
-	tags: ["dar-dryable"],
 	maxstacksize: 64,
 	materialDensity: 600,
 	behaviors: [
@@ -20,7 +19,7 @@
 		"*-anise": { base: "deartibusrusticis:item/food/herb/herb-long"},
 		"*-chervil": { base: "deartibusrusticis:item/food/herb/herb-long"},
 		"*-estragon": { base: "deartibusrusticis:item/food/herb/herb-long-bushy"}
-		},
+	},
 	texture: { base: "item/food/herb/{type}" },
 	attributes: {
 		shelvable: true,
@@ -33,57 +32,43 @@
 		onshelfTransform: { translation: { x: 0, y: -0.1, z: 0 }, scale: 0.75 },
 		inTrapTransform: { translation: { x: -0.15, y: -0.125, z: 0 }, rotation: { x: 0, y: 90, z: 0 }, scale: 0.61 },
 		handbook: { include: true, extraSections: [ { title: "herbs-handbook-help-title", text: "herbs-handbook-help-text"}]},
-		herbRackTransformByType: {
-			"*-chives": { translation: { x: -0.5, y: -0.21, z: -0.46 }, rotation: { x: 0, y: 0, z: 0 }, scale: 0.66 },
-			"*-bearleek": { translation: { x: -0.55, y: -0.21, z: -0.46 }, rotation: { x: 0, y: 0, z: 0 }, scale: 0.66 }, 
-			"*-cress": { translation: { x: -0.55, y: -0.21, z: -0.46 }, rotation: { x: 0, y: 0, z: 0 }, scale: 0.66 }, 
-			"*-meum": { translation: { x: -0.55, y: -0.21, z: -0.46 }, rotation: { x: 0, y: 0, z: 0 }, scale: 0.66 },  
-			"*": { translation: { x: -0.45, y: -0.21, z: -0.46 }, rotation: { x: 0, y: 0, z: 0 }, scale: 0.66 }
-		}
+		herbrackable: true,
+		herbRackStackSize: 4,
+		herbRackBulkMoveCount: 4,
+		herbRackShapeLoc: "deartibusrusticis:shapes/item/food/herb/rack/herb-short-bushy.json",
+		herbRackTransform: {
+      		translation: { x: -0.53, y: -0.19, z: -0.53 },
+      		rotation: { x: 0, y: 12, z: 0 },
+      		scale: 0.66
+      	}
 	},
-	creativeinventory: { "general": ["*"], "deartibusrusticis": [ "*" ] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "deartibusrusticis": [ "*" ] },
 	storageFlags: 33,
 	nutritionPropsByType: {
 		"*-eruca": { satiety: 100, foodcategory: "Vegetable" },
 		"*": { satiety: 80, foodcategory: "Vegetable" }
 	},
-	transitionablePropsByType: {
-		"*anise": [{
+	transitionableProps: [
+		{
 			type: "Perish",
-			freshHours: { avg: 504 },
+			freshHoursByType: {
+				"*-anise": { avg: 504 },
+				"*-chives": { avg: 504 },
+				"*-eruca": { avg: 504 },
+				"*-estragon": { avg: 504 },
+				"*": { avg: 336 }
+			},
 			transitionHours: { avg: 96 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
-		} ],
-		"*chives": [{
-			type: "Perish",
-			freshHours: { avg:  504 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-		"*eruca": [{
-			type: "Perish",
-			freshHours: { avg: 504 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		} ],
-		"*estragon": [{
-			type: "Perish",
-			freshHours: { avg: 504 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-			} ],		
-		"*": [{
-			type: "Perish",
-			freshHours: { avg:  336 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-	},
+		},
+		{
+			type: "Dry",
+			freshHours: { avg: 240 },
+			transitionHours: { avg: 96.0 },
+			transitionedStack: { type: "item", code: "deartibusrusticis:driedherb-{type}" }
+		}
+	],
 	guiTransformByType: {
 		"*-chives": {
     		translation: { x: -10, y: 6, z: 0 },

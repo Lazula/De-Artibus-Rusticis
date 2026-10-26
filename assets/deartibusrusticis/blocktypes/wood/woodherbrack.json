@@ -1,36 +1,13 @@
 {
     code: "woodherbrack",
-    class: "DAR.MultiSelection",
-    entityclass: "DAR.GenericContainerNoGui",
+    class: "BlockHerbRack",
+    entityclass: "HerbRack",
 	behaviors: [ 
         { name: "Lockable" },
-        { name: "HorizontalAttachable"},
-		{
-			name: "DAR.ContainerNoGui",
-			properties: {
-				allowedCollectibleTags: [ "dar-dryable" ],
-				selectionSlots: [0, 1]
-			}
-		} 
+        { name: "HorizontalAttachable"}
     ],
-	entityBehaviors: [
-		{
-			name:  "DAR.DisplayContainerContents",
-			properties: {
-				renderedSlots: [
-					{ slotIdx: 0, attachmentPoint: "Herb2" },
-					{ slotIdx: 1, attachmentPoint: "Herb1" }
-				],
-				transformToUse: "herbRackTransform"
-			}
-		}
-	],
-	attributes: {  
-        inventoryClassName: "woodherbrack",  
-        quantitySlots: 2,
-		stackSizeLimit: 1,
-		transitionSpeedMul: { dry: 8 },
-		selectionboxes: ["selection1", "selection2", "@0"],
+	attributes: {
+		dryRate: 8,
 		handbook: {
 			groupBy: ["woodherbrack-*"]
 		}
@@ -60,16 +37,23 @@
 	},
 	replaceable: 999,
 	resistance: 1.5,
-    collisionbox: null,
-	selectionbox: {
-		x1: 0, y1: 0.65, z1: 0,
-		x2: 1, y2: 1, z2: 0.125,
-		rotateYByType: {
-			"*-east": 270,
-			"*-south": 180,
-			"*-west": 90,
-			"*-north": 0
-		}
+	collisionSelectionBoxesByType:{
+		"*-north": [
+			{ x1: 0, y1: 0.625, z1: 0.9375, x2: 0.5, y2: 0.775, z2: 1, rotateY: 180 },
+			{ x1: 0.5, y1: 0.625, z1: 0.9375, x2: 1, y2: 0.775, z2: 1, rotateY: 180 }
+		],
+		"*-east": [
+			{ x1: 0, y1: 0.625, z1: 0.9375, x2: 0.5, y2: 0.775, z2: 1, rotateY: 90 },
+			{ x1: 0.5, y1: 0.625, z1: 0.9375, x2: 1, y2: 0.775, z2: 1, rotateY: 90 }
+		],
+		"*-south": [
+			{ x1: 0, y1: 0.625, z1: 0.9375, x2: 0.5, y2: 0.775, z2: 1 },
+			{ x1: 0.5, y1: 0.625, z1: 0.9375, x2: 1, y2: 0.775, z2: 1 }
+		],
+		"*-west": [
+			{ x1: 0, y1: 0.625, z1: 0.9375, x2: 0.5, y2: 0.775, z2: 1, rotateY: 270 },
+			{ x1: 0.5, y1: 0.625, z1: 0.9375, x2: 1, y2: 0.775, z2: 1, rotateY: 270 }
+		]
 	},
 	combustibleProps: {
 		burnTemperature: 600,

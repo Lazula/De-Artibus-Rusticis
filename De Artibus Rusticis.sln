@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "CakeBuild\CakeBuild.csproj", "{493EA982-18C4-4BD7-A323-9158AFAFF76F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeArtibusRusticis", "CodeSrc\DeArtibusRusticis.csproj", "{2E88A643-72E7-4552-B939-B959D925251E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeArtibusRusticis", "DeArtibusRusticis\DeArtibusRusticis.csproj", "{2E88A643-72E7-4552-B939-B959D925251E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
