@@ -1,0 +1,29 @@
+{
+	code: "herbcheese",
+	behaviors: [{name: "UnstableFalling"} ],
+	class: "DAR.BlockExpandedCheese",
+	entityClass: "DAR.ExpandedCheese",
+	creativeinventory: { general: [""], decorative: [""] },
+	attributes: {
+		mapColorCode: "settlement"
+	},
+	blockmaterial: "Soil",
+	drawtype: "json",
+	textures: {
+		"waxedblue": { base: "game:block/food/dairy/waxedblue" },
+		"cheddarjackwaxed": { base: "game:block/food/dairy/waxedblue" },
+		"cheddarjack": { base: "game:block/food/dairy/cheddarjack" },
+		"rawsalted": { base: "game:block/food/dairy/rawsalted" },
+		
+		"rot": { base: "game:item/resource/rot/rot-solids" },
+		"base": { base: "game:item/resource/rot/rot-spill" }
+	},
+	lightAbsorption: 0,
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	replaceable: 100,
+	resistance: 0.25,
+	collisionSelectionBox: { x1: 0.1875, y1: 0, z1: 0.1875, x2: 0.8125, y2: 0.25, z2: 0.8125 },
+	drops: [],
+	materialDensity: 1100
+}

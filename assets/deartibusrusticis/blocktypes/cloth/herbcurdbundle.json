@@ -1,0 +1,47 @@
+{
+	code: "herbcurdbundle",
+	class: "BlockCheeseCurdsBundle",
+	entityClass: "CheeseCurdsBundle",
+	entityBehaviors: [{ name: "Animatable" }],
+	shape: { base: "game:block/food/curdbundle-plain" },
+	blockmaterial: "Cloth",
+	textures: {
+		"wood-generic": { base: "game:block/wood-generic" },
+		"rawsalted": { base: "game:block/food/dairy/rawsalted" },
+		"normal1": { base: "game:block/cloth/linen/normal1" }
+	},
+	creativeinventory: { "general": [""], "decorative": [""] },
+	replaceable: 700,
+	resistance: 1,
+	lightAbsorption: 1,
+	emitSideAo: {
+		all: false
+	},
+	sideopaque: { all: false },
+	sidesolid: { all: false },
+	drops: [],
+	sounds: {
+		place: "game:block/cloth",
+		break: "game:block/cloth",
+		hit: "game:block/cloth",
+		walk: "game:walk/cloth"
+	},
+	materialDensity: 300,
+	guiTransform: {
+		origin: { x: 0.5, y: 0.33, z: 0.5 },
+		scale: 1.86
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: -45, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.5
+	},
+	tpHandTransform: {
+		translation: { x: -1.1, y: -0.4, z: -0.9 },
+		rotation: { x: 21, y: -14, z: -83 },
+		origin: { x: 0.5, y: 0.33, z: 0.5 },
+		scale: 0.53
+	},
+	collisionSelectionBox: { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.8, z2: 0.75 }
+}

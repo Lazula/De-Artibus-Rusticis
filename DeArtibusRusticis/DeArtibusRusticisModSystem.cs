@@ -10,6 +10,11 @@ public class DeArtibusRusticisModSystem : ModSystem
     {
         api.RegisterBlockClass("BlockHerbRack", typeof(BlockHerbRack));
         api.RegisterBlockEntityClass("HerbRack", typeof(BlockEntityHerbRack));
+
+        // Namespaced for ACA compatibility
+        api.RegisterItemClass("DAR.ExpandedCheese", typeof(ItemExpandedCheese));
+        api.RegisterBlockClass("DAR.BlockExpandedCheese", typeof(BlockExpandedCheese));
+        api.RegisterBlockEntityClass("DAR.ExpandedCheese", typeof(BlockEntityExpandedCheese));
     }
 
     public override void StartClientSide(ICoreClientAPI api)
