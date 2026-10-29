@@ -207,6 +207,8 @@
 	"game:meal-hefty-sauerkrautmeal": "Hefty sauerkraut {1}",
 	"game:meal-hefty-meum_pear_honey": "Hefty meum pear honey {1}",
 
+	"meal-seasoned": "<font color=\"#84ff84\">Seasoned with {0}</font>",
+
 	"game:recipeingredient-item-honeyportion": "honey",
 
 	"item-legume-favabeans-insturmentalcase": "fava beans",

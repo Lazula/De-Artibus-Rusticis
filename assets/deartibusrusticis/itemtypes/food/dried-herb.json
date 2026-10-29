@@ -38,7 +38,9 @@ herbRackTransform: {
 	translation: { x: -0.45, y: -0.21, z: -0.515 },
 	rotation: { x: 0, y: 12, z: 0 },
 	scale: 0.66
-}
+},
+isSeasoning: true,
+seasoningSound: "game:sounds/block/plant"
 },
 creativeinventory: { "general": ["*"], "deartibusrusticis": [ "*" ] },
 nutritionPropsByType: {
