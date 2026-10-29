@@ -34,7 +34,7 @@
 		type: "Perish",
 		freshHours: { avg: 240 },
 		transitionHours: { avg: 96 },
-		transitionedStack: { type: "item", code: "rot" },
+		transitionedStack: { type: "item", code: "game:rot" },
 		transitionRatio: 0.002
 	}],
 	guiTransform: {

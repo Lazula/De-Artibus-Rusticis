@@ -17,7 +17,6 @@ public class DeArtibusRusticis : ModSystem
         api.RegisterBlockClass("BlockHerbRack", typeof(BlockHerbRack));
         api.RegisterBlockEntityClass("HerbRack", typeof(BlockEntityHerbRack));
 
-        // Namespaced for ACA compatibility
         api.RegisterItemClass("DAR.ExpandedCheese", typeof(ItemExpandedCheese));
         api.RegisterBlockClass("DAR.BlockExpandedCheese", typeof(BlockExpandedCheese));
         api.RegisterBlockEntityClass("DAR.ExpandedCheese", typeof(BlockEntityExpandedCheese));
@@ -29,7 +28,10 @@ public class DeArtibusRusticis : ModSystem
         if (harmony is null)
         {
             harmony = new Harmony("deartibusrusticis");
-            harmony.PatchAll(Assembly.GetExecutingAssembly());
+            if (!api.ModLoader.IsModEnabled("aculinaryartillery"))
+            {
+                harmony.PatchCategory("seasoning");
+            }
         }
     }
 
