@@ -494,6 +494,11 @@
 	"itemdesc-herb-driedchervil": "Culinary herb",
 	"itemdesc-herb-driedestragon": "Culinary herb",
 
+	"blockhelp-herbrack-add-one": "Add one",
+	"blockhelp-herbrack-add-bulk": "Add many",
+	"blockhelp-herbrack-remove-one": "Remove one",
+	"blockhelp-herbrack-remove-bulk": "Remove many",
+
 	"itemdesc-root-meum": "While it cannot be planted again, it has culinary uses.",
 
 	"itemdesc-spice-blackcumin": "Spice",
