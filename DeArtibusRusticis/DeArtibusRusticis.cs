@@ -16,6 +16,7 @@ public class DeArtibusRusticis : ModSystem
     {
         api.RegisterBlockClass("BlockHerbRack", typeof(BlockHerbRack));
         api.RegisterBlockEntityClass("HerbRack", typeof(BlockEntityHerbRack));
+        api.RegisterBlockEntityClass("DAR.ExpandedCheeseCurdsBundle", typeof(BlockEntityExpandedCheeseCurdsBundle));
 
         // Namespaced for ACA compatibility
         api.RegisterItemClass("DAR.ExpandedCheese", typeof(ItemExpandedCheese));
