@@ -28,6 +28,7 @@
 			portionSizeLitres: 1.0,
 			typeName: "alcohol"
 		},
+<<<<<<< Updated upstream
         {
 			code: "dar-seasoning", 
 			validStacks: [ 
@@ -65,6 +66,8 @@
 			maxQuantity: 1,
 			typeName: "seasoning"
 		},
+=======
+>>>>>>> Stashed changes
 		{ 
 			code: "poachedpear", 
 			validStacks: [  
