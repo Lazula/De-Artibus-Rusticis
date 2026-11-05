@@ -1,0 +1,91 @@
+{
+    code: "crudeherbrack",
+    class: "BlockHerbRack",
+    entityclass: "HerbRack",
+	behaviors: [ 
+        { name: "Lockable" },
+		{
+      "name": "HorizontalAttachable"
+    }
+    ],
+	attributes: {
+		dryRate: 8,
+		handbook: {
+			groupBy: ["woodherbrack-*"]
+		}
+    },
+	variantgroups: [
+		{
+      "code": "side",
+      "loadFromProperties": "abstract/horizontalorientation"
+    	}
+  	],
+	shapebytype: {
+		"*-north": { base: "block/wood/crudeherbrack", rotateY: 180 },
+		"*-east": { base: "block/wood/crudeherbrack", rotateY: 90 },
+		"*-south": { base: "block/wood/crudeherbrack", rotateY: 0 },
+		"*-west": { base: "block/wood/crudeherbrack", rotateY: 270}
+    },
+	creativeinventory: { "general": ["crudeherbrack-north"], "deartibusrusticis": ["crudeherbrack-north"] },
+    blockmaterial: "Wood",
+	lightAbsorption: 0,
+	faceCullMode: "NeverCull",
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	replaceable: 999,
+	resistance: 1.5,
+	collisionSelectionBoxesByType:{
+		"*-north": [
+			{ x1: 0, y1: 0.625, z1: 0.66, x2: 0.125, y2: 0.775, z2: 0.9375, rotateY: 270 },
+    		{ x1: 0, y1: 0.5625, z1: 0.33, x2: 0.125, y2: 0.7125, z2: 0.66, rotateY: 270 },
+    		{ x1: 0, y1: 0.625, z1: 0.0625, x2: 0.125, y2: 0.775, z2: 0.33, rotateY: 270 },
+		],
+		"*-east": [
+			{ x1: 0, y1: 0.625, z1: 0.66, x2: 0.125, y2: 0.775, z2: 0.9375, rotateY: 180 },
+    		{ x1: 0, y1: 0.5625, z1: 0.33, x2: 0.125, y2: 0.7125, z2: 0.66, rotateY: 180 },
+    		{ x1: 0, y1: 0.625, z1: 0.0625, x2: 0.125, y2: 0.775, z2: 0.33, rotateY: 180 },
+		],
+		"*-south": [
+			{ x1: 0, y1: 0.625, z1: 0.66, x2: 0.125, y2: 0.775, z2: 0.9375, rotateY: 90 },
+    		{ x1: 0, y1: 0.5625, z1: 0.33, x2: 0.125, y2: 0.7125, z2: 0.66, rotateY: 90 },
+    		{ x1: 0, y1: 0.625, z1: 0.0625, x2: 0.125, y2: 0.775, z2: 0.33, rotateY: 90 },
+		],
+		"*-west": [
+			{ x1: 0, y1: 0.625, z1: 0.66, x2: 0.125, y2: 0.775, z2: 0.9375 },
+    		{ x1: 0, y1: 0.5625, z1: 0.33, x2: 0.125, y2: 0.7125, z2: 0.66 },
+    		{ x1: 0, y1: 0.625, z1: 0.0625, x2: 0.125, y2: 0.775, z2: 0.33 },
+		]
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"break": "game:block/planks",
+		"hit": "game:block/planks"
+	},
+	rainPermeable: true,
+	materialDensity: 600,
+  	guiTransform: {
+    	translation: { x: 0, y: 9, z: 0 },
+    	rotation: { x: -22.6, y: -135, z: 0 },
+    	origin: { x: 0.5, y: 0.65, z: 0 },
+    	scale: 2.5
+  	},
+  	groundTransform: {
+    	translation: { x: 0, y: -0.375, z: 0 },
+    	rotation: { x: 0, y: -45, z: 0 },
+    	origin: { x: 0.5, y: 0, z: 0.5 },
+    	scale: 3
+  	},
+  	tpHandTransform: {
+    	translation: { x: -0.8, y: -1, z: -1.25 },
+    	rotation: { x: 0, y: 0, z: -45 },
+    	scale: 0.6
+  }
+}

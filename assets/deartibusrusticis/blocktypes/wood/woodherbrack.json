@@ -4,7 +4,9 @@
     entityclass: "HerbRack",
 	behaviors: [ 
         { name: "Lockable" },
-        { name: "HorizontalAttachable"}
+		{
+      "name": "HorizontalOrientable"
+    }
     ],
 	attributes: {
 		dryRate: 8,
@@ -14,8 +16,11 @@
     },
 	variantgroups: [
 		{ code: "wood", states: ["aged"], loadFromProperties: "block/wood" },
-		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
-    ], 
+		{
+      "code": "side",
+      "loadFromProperties": "abstract/horizontalorientation"
+    }
+  	],
 	shapebytype: {
 		"*-north": { base: "block/wood/woodherbrack", rotateY: 180 },
 		"*-east": { base: "block/wood/woodherbrack", rotateY: 90 },
@@ -23,7 +28,7 @@
 		"*-west": { base: "block/wood/woodherbrack", rotateY: 270}
     },
     textures: {
-        "wood": { base: "game:block/wood/debarked/{wood}"},
+        "wood": { base: "game:block/wood/cabinet/1block/wood/side/{wood}"}
     },
 	creativeinventory: { "general": ["woodherbrack-*-north"], "deartibusrusticis": ["woodherbrack-*-north"] },
     blockmaterial: "Wood",
@@ -39,20 +44,36 @@
 	resistance: 1.5,
 	collisionSelectionBoxesByType:{
 		"*-north": [
-			{ x1: 0, y1: 0.625, z1: 0.9375, x2: 0.5, y2: 0.775, z2: 1, rotateY: 180 },
-			{ x1: 0.5, y1: 0.625, z1: 0.9375, x2: 1, y2: 0.775, z2: 1, rotateY: 180 }
+			{ x1: 0.0625, y1: 0.9375, z1: 0.125, x2: 0.34, y2: 1.025, z2: 0.25 },
+    		{ x1: 0.34, y1: 0.9375, z1: 0.125, x2: 0.67, y2: 1.025, z2: 0.25 },
+    		{ x1: 0.67, y1: 0.9375, z1: 0.125, x2: 0.9375, y2: 1.025, z2: 0.25 },
+    		{ x1: 0.0625, y1: 0.4375, z1: 0.125, x2: 0.34, y2: 0.525, z2: 0.25 },
+    		{ x1: 0.34, y1: 0.4375, z1: 0.125, x2: 0.67, y2: 0.525, z2: 0.25 },
+    		{ x1: 0.67, y1: 0.4375, z1: 0.125, x2: 0.9375, y2: 0.525, z2: 0.25 }
 		],
 		"*-east": [
-			{ x1: 0, y1: 0.625, z1: 0.9375, x2: 0.5, y2: 0.775, z2: 1, rotateY: 90 },
-			{ x1: 0.5, y1: 0.625, z1: 0.9375, x2: 1, y2: 0.775, z2: 1, rotateY: 90 }
+			{ x1: 0.0625, y1: 0.9375, z1: 0.125, x2: 0.34, y2: 1.025, z2: 0.25, rotateY: 270 },
+    		{ x1: 0.34, y1: 0.9375, z1: 0.125, x2: 0.67, y2: 1.025, z2: 0.25, rotateY: 270 },
+    		{ x1: 0.67, y1: 0.9375, z1: 0.125, x2: 0.9375, y2: 1.025, z2: 0.25, rotateY: 270 },
+    		{ x1: 0.0625, y1: 0.4375, z1: 0.125, x2: 0.34, y2: 0.525, z2: 0.25, rotateY: 270 },
+    		{ x1: 0.34, y1: 0.4375, z1: 0.125, x2: 0.67, y2: 0.525, z2: 0.25, rotateY: 270 },
+    		{ x1: 0.67, y1: 0.4375, z1: 0.125, x2: 0.9375, y2: 0.525, z2: 0.25, rotateY: 270 }
 		],
 		"*-south": [
-			{ x1: 0, y1: 0.625, z1: 0.9375, x2: 0.5, y2: 0.775, z2: 1 },
-			{ x1: 0.5, y1: 0.625, z1: 0.9375, x2: 1, y2: 0.775, z2: 1 }
+			{ x1: 0.0625, y1: 0.9375, z1: 0.125, x2: 0.34, y2: 1.025, z2: 0.25, rotateY: 180 },
+    		{ x1: 0.34, y1: 0.9375, z1: 0.125, x2: 0.67, y2: 1.025, z2: 0.25, rotateY: 180 },
+    		{ x1: 0.67, y1: 0.9375, z1: 0.125, x2: 0.9375, y2: 1.025, z2: 0.25, rotateY: 180 },
+    		{ x1: 0.0625, y1: 0.4375, z1: 0.125, x2: 0.34, y2: 0.525, z2: 0.25, rotateY: 180 },
+    		{ x1: 0.34, y1: 0.4375, z1: 0.125, x2: 0.67, y2: 0.525, z2: 0.25, rotateY: 180 },
+    		{ x1: 0.67, y1: 0.4375, z1: 0.125, x2: 0.9375, y2: 0.525, z2: 0.25, rotateY: 180 }
 		],
 		"*-west": [
-			{ x1: 0, y1: 0.625, z1: 0.9375, x2: 0.5, y2: 0.775, z2: 1, rotateY: 270 },
-			{ x1: 0.5, y1: 0.625, z1: 0.9375, x2: 1, y2: 0.775, z2: 1, rotateY: 270 }
+			{ x1: 0.0625, y1: 0.9375, z1: 0.125, x2: 0.34, y2: 1.025, z2: 0.25, rotateY: 90 },
+    		{ x1: 0.34, y1: 0.9375, z1: 0.125, x2: 0.67, y2: 1.025, z2: 0.25, rotateY: 90 },
+    		{ x1: 0.67, y1: 0.9375, z1: 0.125, x2: 0.9375, y2: 1.025, z2: 0.25, rotateY: 90 },
+    		{ x1: 0.0625, y1: 0.4375, z1: 0.125, x2: 0.34, y2: 0.525, z2: 0.25, rotateY: 90 },
+    		{ x1: 0.34, y1: 0.4375, z1: 0.125, x2: 0.67, y2: 0.525, z2: 0.25, rotateY: 90 },
+    		{ x1: 0.67, y1: 0.4375, z1: 0.125, x2: 0.9375, y2: 0.525, z2: 0.25, rotateY: 90 }
 		]
 	},
 	combustibleProps: {
@@ -67,20 +88,19 @@
 	rainPermeable: true,
 	materialDensity: 600,
   	guiTransform: {
-    	translation: { x: 0, y: 9, z: 0 },
     	rotation: { x: -22.6, y: -135, z: 0 },
-    	origin: { x: 0.5, y: 0.65, z: 0 },
-    	scale: 2.5
+    	origin: { x: 0.4, y: 0.6, z: 0.3 },
+    	scale: 1.5
   	},
   	groundTransform: {
-    	translation: { x: 0, y: -0.375, z: 0 },
-    	rotation: { x: 0, y: -45, z: 0 },
+    	translation: { x: 0, y: -0.1, z: 0 },
+    	rotation: { x: 90, y: -45, z: 0 },
     	origin: { x: 0.5, y: 0, z: 0.5 },
-    	scale: 3
+    	scale: 2.5
   	},
   	tpHandTransform: {
-    	translation: { x: -0.8, y: -1, z: -1.25 },
-    	rotation: { x: 0, y: 0, z: -45 },
-    	scale: 0.6
+    	translation: { x: -1.2, y: -1.4, z: -1.5 },
+    	rotation: { x: 0, y: 0, z: 0 },
+    	scale: 0.45
   }
 }
