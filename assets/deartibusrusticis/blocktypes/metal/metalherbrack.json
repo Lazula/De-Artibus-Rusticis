@@ -1,0 +1,77 @@
+{
+    code: "metalherbrack",
+    class: "BlockHerbRack",
+    entityclass: "HerbRack",
+	behaviors: [
+        { name: "Lockable" },
+		{ name: "UnstableFalling", properties: {
+		attachableFaces: ["up"],
+		impactDamageMul: 5,
+		attachmentAreas: {
+			"up": { x1: 7, y1: 0, z1: 7, x2: 8, y2: 0, z2: 8 }
+		}
+	 }}
+    ],
+	attributes: {
+		dryRate: 8
+    },
+	variantgroups: [
+		{ code:"material", loadFromProperties: "block/toolmetal" }
+	],
+	shape: { base: "block/metal/metalherbrack"},
+    textures: {
+        "metal": { base: "game:block/metal/plate/{material}"}
+    },
+	creativeinventory: { "general": ["metalherbrack-*"], "deartibusrusticis": ["metalherbrack-*"] },
+    blockmaterial: "Metal",
+	lightAbsorption: 0,
+	faceCullMode: "NeverCull",
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	replaceable: 999,
+	resistance: 1.5,
+	collisionSelectionBoxes: [
+		{ x1: 0.6225, y1: 0.625, z1: 0.125, x2: 0.8375, y2: 0.775, z2: 0.1875 },
+		{ x1: 0.375, y1: 0.625, z1: 0.125, x2: 0.6225, y2: 0.775, z2: 0.1875 },
+		{ x1: 0.1625, y1: 0.625, z1: 0.125, x2: 0.375, y2: 0.775, z2: 0.1875 },
+
+		{ x1: 0.0975, y1: 0.625, z1: 0.6225, x2: 0.1875, y2: 0.775, z2: 0.8375 },
+		{ x1: 0.0975, y1: 0.625, z1: 0.375, x2: 0.1875, y2: 0.775, z2: 0.6225 },
+		{ x1: 0.0975, y1: 0.625, z1: 0.1625, x2: 0.1875, y2: 0.775, z2: 0.375 },
+
+		{ x1: 0.6225, y1: 0.625, z1: 0.8125, x2: 0.8375, y2: 0.775, z2: 0.875 },
+		{ x1: 0.375, y1: 0.625, z1: 0.8125, x2: 0.6225, y2: 0.775, z2: 0.875 },
+		{ x1: 0.1625, y1: 0.625, z1: 0.8125, x2: 0.375, y2: 0.775, z2: 0.875 },
+
+		{ x1: 0.785, y1: 0.625, z1: 0.6225, x2: 0.875, y2: 0.775, z2: 0.8375 },
+		{ x1: 0.785, y1: 0.625, z1: 0.375, x2: 0.875, y2: 0.775, z2: 0.6225 },
+		{ x1: 0.785, y1: 0.625, z1: 0.1625, x2: 0.875, y2: 0.775, z2: 0.375 }
+	],
+	sounds: {
+		"place": "game:block/ingot",
+		"break": "game:block/ingot",
+		"hit": "game:block/ingot"
+	},
+	rainPermeable: true,
+	materialDensity: 600,
+  	guiTransform: {
+    	rotation: { x: -22.6, y: -135, z: 0 },
+    	origin: { x: 0.5, y: 0.75, z: 0.5 },
+    	scale: 2.0
+  	},
+  	groundTransform: {
+    	translation: { x: 0, y: -0.375, z: 0 },
+    	rotation: { x: 0, y: -45, z: 0 },
+    	origin: { x: 0.5, y: 0, z: 0.5 },
+    	scale: 3
+  	},
+  	tpHandTransform: {
+    	translation: { x: -1.2, y: -1.2, z: -0.8 },
+    	rotation: { x: -90, y: 0, z: 0 },
+    	scale: 0.5
+	}
+}

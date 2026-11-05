@@ -212,19 +212,10 @@ public class BlockEntityHerbRack : BlockEntityDisplay, ITexPositionSource
     {
         float[][] tfMatrices = new float[DisplayedItems][];
 
-        for (int index = 0; index < 2; index++)
+        for (int index = 0; index < Block.SelectionBoxes.Length; index++)
         {
             int rnd = 0;
             Cuboidf selectionBox = Block.SelectionBoxes[index];
-
-            int rotateZ = Block.LastCodePart() switch
-            {
-                "north" => 180,
-                "east" => 90,
-                "south" => 0,
-                "west" => 270,
-                _ => 0
-            };
 
             tfMatrices[index] =
                 new Matrixf()
@@ -232,11 +223,29 @@ public class BlockEntityHerbRack : BlockEntityDisplay, ITexPositionSource
                 .RotateDeg(Block.Shape.RotateXYZCopy)
                 .RotateXDeg(-90)
                 .RotateYDeg(90 + rnd)
+                .RotateXDeg(RackRotationBySlotIndex(index))
                 .Values
             ;
         }
 
         return tfMatrices;
+    }
+
+    public int RackRotationBySlotIndex(int index)
+    {
+        if (Block.FirstCodePart() == "metalherbrack")
+        {
+            // Rotate around the center
+            return index switch
+            {
+                < 3 => 0,
+                < 6 => 270,
+                < 9 => 180,
+                _ => 90
+            };
+        }
+
+        return 0;
     }
 
     public string PerishableInfoCompact(ICoreAPI Api, ItemSlot contentSlot, float ripenRate, bool withStackName = true)
